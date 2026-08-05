@@ -1,57 +1,57 @@
 ---
-title: "Shadow Chain: the Republican Party → Ho Chi Minh (4° Link)"
-teaser: "A 4-step chain linking the Republican Party to Ho Chi Minh"
-scores: {"novelty": 8, "evidence_strength": 7, "narrative_potential": 8}
+title: "Shadow Chain: Reconstruction → James B. (4° Link)"
+teaser: "A 4-step chain linking Reconstruction to James B."
+scores: {"novelty": 9, "evidence_strength": 4, "narrative_potential": 10}
 total_score: 23
 degrees_of_separation: 4
-entities: ["the Republican Party", "Harriet Tubman", "Army", "Allen Dulles", "Ho Chi Minh"]
+entities: ["Reconstruction", "John Bingham", "Benjamin Butler", "the Select Committee", "James B."]
 evidence_type: "mixed"
 date_generated: 2026-08-05
 ---
 
-# Shadow Chain: the Republican Party → Ho Chi Minh (4° Link)
+# Shadow Chain: Reconstruction → James B. (4° Link)
 
-**Teaser:** A 4-step chain linking the Republican Party to Ho Chi Minh
+**Teaser:** A 4-step chain linking Reconstruction to James B.
 
 ## Hidden Chain
 
-1. [[the Republican Party]] —[**cooccurrence**]→ [[Harriet Tubman]]
+1. [[Reconstruction]] —[**cooccurrence**]→ [[John Bingham]]
    > Co-occurrence in Wikipedia article covering both entities
-   [Link](https://en.wikipedia.org/wiki/the_Republican_Party)
+   [Link](https://en.wikipedia.org/wiki/Reconstruction)
 
-2. [[Harriet Tubman]] —[**cooccurrence**]→ [[Army]]
+2. [[John Bingham]] —[**cooccurrence**]→ [[Benjamin Butler]]
    > Co-occurrence in Wikipedia article covering both entities
-   [Link](https://en.wikipedia.org/wiki/the_Republican_Party)
+   [Link](https://en.wikipedia.org/wiki/Reconstruction)
 
-3. [[Army]] —[**cooccurrence**]→ [[Allen Dulles]]
+3. [[Benjamin Butler]] —[**cooccurrence**]→ [[the Select Committee]]
    > Co-occurrence in Wikipedia article covering both entities
-   [Link](https://en.wikipedia.org/wiki/the_Republican_Party)
+   [Link](https://en.wikipedia.org/wiki/Reconstruction)
 
-4. [[Allen Dulles]] —[**cooccurrence**]→ [[Ho Chi Minh]]
+4. [[the Select Committee]] —[**cooccurrence**]→ [[James B.]]
    > Co-occurrence in Wikipedia article covering both entities
-   [Link](https://en.wikipedia.org/wiki/the_Republican_Party)
+   [Link](https://en.wikipedia.org/wiki/Reconstruction)
 
 ## Source Trail
 
-Hop 1: the Republican Party → Harriet Tubman
+Hop 1: Reconstruction → John Bingham
   - Edge type: cooccurrence
   - Source: Wikipedia co-occurrence
-  - URL: https://en.wikipedia.org/wiki/the_Republican_Party
+  - URL: https://en.wikipedia.org/wiki/Reconstruction
 
-Hop 2: Harriet Tubman → Army
+Hop 2: John Bingham → Benjamin Butler
   - Edge type: cooccurrence
   - Source: Wikipedia co-occurrence
-  - URL: https://en.wikipedia.org/wiki/the_Republican_Party
+  - URL: https://en.wikipedia.org/wiki/Reconstruction
 
-Hop 3: Army → Allen Dulles
+Hop 3: Benjamin Butler → the Select Committee
   - Edge type: cooccurrence
   - Source: Wikipedia co-occurrence
-  - URL: https://en.wikipedia.org/wiki/the_Republican_Party
+  - URL: https://en.wikipedia.org/wiki/Reconstruction
 
-Hop 4: Allen Dulles → Ho Chi Minh
+Hop 4: the Select Committee → James B.
   - Edge type: cooccurrence
   - Source: Wikipedia co-occurrence
-  - URL: https://en.wikipedia.org/wiki/the_Republican_Party
+  - URL: https://en.wikipedia.org/wiki/Reconstruction
 
 
 ## Inference Layer

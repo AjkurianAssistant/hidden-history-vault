@@ -1,57 +1,57 @@
 ---
-title: "Shadow Chain: Edward L. Pierce → John H. Reagan (4° Link)"
-teaser: "A 4-step chain linking Edward L. Pierce to John H. Reagan"
-scores: {"novelty": 7, "evidence_strength": 4, "narrative_potential": 8}
+title: "Shadow Chain: Robert F. Wagner → Elliot Richardson (4° Link)"
+teaser: "A 4-step chain linking Robert F. Wagner to Elliot Richardson"
+scores: {"novelty": 5, "evidence_strength": 8, "narrative_potential": 6}
 total_score: 19
 degrees_of_separation: 4
-entities: ["Edward L. Pierce", "The Operation of the Freedmen's Bureau", "Daniel Sickles", "Union", "John H. Reagan"]
+entities: ["Robert F. Wagner", "NWLB", "Franklin Roosevelt", "the White House", "Elliot Richardson"]
 evidence_type: "mixed"
 date_generated: 2026-08-05
 ---
 
-# Shadow Chain: Edward L. Pierce → John H. Reagan (4° Link)
+# Shadow Chain: Robert F. Wagner → Elliot Richardson (4° Link)
 
-**Teaser:** A 4-step chain linking Edward L. Pierce to John H. Reagan
+**Teaser:** A 4-step chain linking Robert F. Wagner to Elliot Richardson
 
 ## Hidden Chain
 
-1. [[Edward L. Pierce]] —[**cooccurrence**]→ [[The Operation of the Freedmen's Bureau]]
+1. [[Robert F. Wagner]] —[**cooccurrence**]→ [[NWLB]]
    > Co-occurrence in Wikipedia article covering both entities
-   [Link](https://en.wikipedia.org/wiki/Edward_L._Pierce)
+   [Link](https://en.wikipedia.org/wiki/Robert_F._Wagner)
 
-2. [[The Operation of the Freedmen's Bureau]] —[**cooccurrence**]→ [[Daniel Sickles]]
+2. [[NWLB]] —[**cooccurrence**]→ [[Franklin Roosevelt]]
    > Co-occurrence in Wikipedia article covering both entities
-   [Link](https://en.wikipedia.org/wiki/Edward_L._Pierce)
+   [Link](https://en.wikipedia.org/wiki/Robert_F._Wagner)
 
-3. [[Daniel Sickles]] —[**cooccurrence**]→ [[Union]]
+3. [[Franklin Roosevelt]] —[**cooccurrence**]→ [[the White House]]
    > Co-occurrence in Wikipedia article covering both entities
-   [Link](https://en.wikipedia.org/wiki/Edward_L._Pierce)
+   [Link](https://en.wikipedia.org/wiki/Robert_F._Wagner)
 
-4. [[Union]] —[**cooccurrence**]→ [[John H. Reagan]]
+4. [[the White House]] —[**cooccurrence**]→ [[Elliot Richardson]]
    > Co-occurrence in Wikipedia article covering both entities
-   [Link](https://en.wikipedia.org/wiki/Edward_L._Pierce)
+   [Link](https://en.wikipedia.org/wiki/Robert_F._Wagner)
 
 ## Source Trail
 
-Hop 1: Edward L. Pierce → The Operation of the Freedmen's Bureau
+Hop 1: Robert F. Wagner → NWLB
   - Edge type: cooccurrence
   - Source: Wikipedia co-occurrence
-  - URL: https://en.wikipedia.org/wiki/Edward_L._Pierce
+  - URL: https://en.wikipedia.org/wiki/Robert_F._Wagner
 
-Hop 2: The Operation of the Freedmen's Bureau → Daniel Sickles
+Hop 2: NWLB → Franklin Roosevelt
   - Edge type: cooccurrence
   - Source: Wikipedia co-occurrence
-  - URL: https://en.wikipedia.org/wiki/Edward_L._Pierce
+  - URL: https://en.wikipedia.org/wiki/Robert_F._Wagner
 
-Hop 3: Daniel Sickles → Union
+Hop 3: Franklin Roosevelt → the White House
   - Edge type: cooccurrence
   - Source: Wikipedia co-occurrence
-  - URL: https://en.wikipedia.org/wiki/Edward_L._Pierce
+  - URL: https://en.wikipedia.org/wiki/Robert_F._Wagner
 
-Hop 4: Union → John H. Reagan
+Hop 4: the White House → Elliot Richardson
   - Edge type: cooccurrence
   - Source: Wikipedia co-occurrence
-  - URL: https://en.wikipedia.org/wiki/Edward_L._Pierce
+  - URL: https://en.wikipedia.org/wiki/Robert_F._Wagner
 
 
 ## Inference Layer

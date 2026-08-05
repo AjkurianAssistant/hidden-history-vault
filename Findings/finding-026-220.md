@@ -1,48 +1,48 @@
 ---
-title: "Hidden Nexus: the Confederate Army → Augusto Pinochet (3° Link)"
-teaser: "A 3-step chain linking the Confederate Army to Augusto Pinochet"
-scores: {"novelty": 9, "evidence_strength": 7, "narrative_potential": 6}
+title: "Hidden Nexus: Martin Luther King's → John Dean (3° Link)"
+teaser: "A 3-step chain linking Martin Luther King's to John Dean"
+scores: {"novelty": 5, "evidence_strength": 8, "narrative_potential": 9}
 total_score: 22
 degrees_of_separation: 3
-entities: ["the Confederate Army", "Harriet Tubman", "Army", "Augusto Pinochet"]
+entities: ["Martin Luther King's", "FBI", "Archibald Cox", "John Dean"]
 evidence_type: "mixed"
 date_generated: 2026-08-05
 ---
 
-# Hidden Nexus: the Confederate Army → Augusto Pinochet (3° Link)
+# Hidden Nexus: Martin Luther King's → John Dean (3° Link)
 
-**Teaser:** A 3-step chain linking the Confederate Army to Augusto Pinochet
+**Teaser:** A 3-step chain linking Martin Luther King's to John Dean
 
 ## Hidden Chain
 
-1. [[the Confederate Army]] —[**cooccurrence**]→ [[Harriet Tubman]]
+1. [[Martin Luther King's]] —[**cooccurrence**]→ [[FBI]]
    > Co-occurrence in Wikipedia article covering both entities
-   [Link](https://en.wikipedia.org/wiki/the_Confederate_Army)
+   [Link](https://en.wikipedia.org/wiki/Martin_Luther_King's)
 
-2. [[Harriet Tubman]] —[**cooccurrence**]→ [[Army]]
+2. [[FBI]] —[**cooccurrence**]→ [[Archibald Cox]]
    > Co-occurrence in Wikipedia article covering both entities
-   [Link](https://en.wikipedia.org/wiki/the_Confederate_Army)
+   [Link](https://en.wikipedia.org/wiki/Martin_Luther_King's)
 
-3. [[Army]] —[**cooccurrence**]→ [[Augusto Pinochet]]
+3. [[Archibald Cox]] —[**cooccurrence**]→ [[John Dean]]
    > Co-occurrence in Wikipedia article covering both entities
-   [Link](https://en.wikipedia.org/wiki/the_Confederate_Army)
+   [Link](https://en.wikipedia.org/wiki/Martin_Luther_King's)
 
 ## Source Trail
 
-Hop 1: the Confederate Army → Harriet Tubman
+Hop 1: Martin Luther King's → FBI
   - Edge type: cooccurrence
   - Source: Wikipedia co-occurrence
-  - URL: https://en.wikipedia.org/wiki/the_Confederate_Army
+  - URL: https://en.wikipedia.org/wiki/Martin_Luther_King's
 
-Hop 2: Harriet Tubman → Army
+Hop 2: FBI → Archibald Cox
   - Edge type: cooccurrence
   - Source: Wikipedia co-occurrence
-  - URL: https://en.wikipedia.org/wiki/the_Confederate_Army
+  - URL: https://en.wikipedia.org/wiki/Martin_Luther_King's
 
-Hop 3: Army → Augusto Pinochet
+Hop 3: Archibald Cox → John Dean
   - Edge type: cooccurrence
   - Source: Wikipedia co-occurrence
-  - URL: https://en.wikipedia.org/wiki/the_Confederate_Army
+  - URL: https://en.wikipedia.org/wiki/Martin_Luther_King's
 
 
 ## Inference Layer

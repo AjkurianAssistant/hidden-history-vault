@@ -4,4 +4,4 @@ Type: org
 
 Wikipedia: [the University of Pennsylvania](https://en.wikipedia.org/w/index.php?search=the+University+of+Pennsylvania)
 
-Appears in 7 Wikipedia articles.
+Appears in 3 Wikipedia articles.

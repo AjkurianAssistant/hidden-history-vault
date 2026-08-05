@@ -4,63 +4,63 @@ Sorted by total score (highest first).
 
 | Title | Teaser | Evidence | Score | Go to |
 |-------|--------|----------|-------|-------|
-| Hidden Nexus: the Wayback Machine → Jonas Savimbi (3° Link) | A 3-step chain linking the Wayback Machine to Jonas Savimbi | mixed | 25 | [[Findings/finding-024-250]] |
-| Shadow Chain: the Supreme Court → Thomas E. Dewey (4° Link) | A 4-step chain linking the Supreme Court to Thomas E. Dewey | mixed | 25 | [[Findings/finding-045-250]] |
-| Secret Loom: the Union Army → Benjamin F. Butler (5° Link) | A 5-step chain linking the Union Army to Benjamin F. Butler | mixed | 25 | [[Findings/finding-057-250]] |
-| Secret Loom: Port Hudson → Paul Finkelman (5° Link) | A 5-step chain linking Port Hudson to Paul Finkelman | mixed | 24 | [[Findings/finding-022-240]] |
-| Hidden Nexus: Ford → Sam Houston (3° Link) | A 3-step chain linking Ford to Sam Houston | mixed | 23 | [[Findings/finding-006-230]] |
-| Hidden Nexus: the Ku Klux Klan → Schuyler Colfax (3° Link) | A 3-step chain linking the Ku Klux Klan to Schuyler Colfax | mixed | 23 | [[Findings/finding-013-230]] |
-| Secret Loom: marijuana → LibriVox (5° Link) | A 5-step chain linking marijuana to LibriVox | mixed | 23 | [[Findings/finding-015-230]] |
-| Secret Loom: Manuscript Library → Garrison Frazier (5° Link) | A 5-step chain linking Manuscript Library to Garrison Frazier | mixed | 23 | [[Findings/finding-016-230]] |
-| Secret Loom: Samuel C. Pomeroy → James Speed (5° Link) | A 5-step chain linking Samuel C. Pomeroy to James Speed | mixed | 23 | [[Findings/finding-036-230]] |
-| Shadow Chain: Lee Highway → Eastern (4° Link) | A 4-step chain linking Lee Highway to Eastern | mixed | 23 | [[Findings/finding-048-230]] |
-| Shadow Chain: Bugs Moran → George Henry Williams (4° Link) | A 4-step chain linking Bugs Moran to George Henry Williams | mixed | 23 | [[Findings/finding-052-230]] |
-| Shadow Chain: the Republican Party → Ho Chi Minh (4° Link) | A 4-step chain linking the Republican Party to Ho Chi Minh | mixed | 23 | [[Findings/finding-053-230]] |
-| Secret Loom: James M. Cox → Richard Taylor (5° Link) | A 5-step chain linking James M. Cox to Richard Taylor | mixed | 23 | [[Findings/finding-055-230]] |
-| Secret Loom: James Lawrence Orr → Zed Books (5° Link) | A 5-step chain linking James Lawrence Orr to Zed Books | mixed | 22 | [[Findings/finding-014-220]] |
-| Secret Loom: CIA → Methodist (5° Link) | A 5-step chain linking CIA to Methodist | mixed | 22 | [[Findings/finding-021-220]] |
-| Hidden Nexus: the Confederate Army → Augusto Pinochet (3° Link) | A 3-step chain linking the Confederate Army to Augusto Pinochet | mixed | 22 | [[Findings/finding-026-220]] |
-| Hidden Nexus: Charles Scribner's → Benjamin Bristow (3° Link) | A 3-step chain linking Charles Scribner's to Benjamin Bristow | mixed | 22 | [[Findings/finding-028-220]] |
-| Secret Loom: Queen Victoria → Interior (5° Link) | A 5-step chain linking Queen Victoria to Interior | mixed | 22 | [[Findings/finding-037-220]] |
-| Secret Loom: John Bingham → the Emancipation Proclamation (5° Link) | A 5-step chain linking John Bingham to the Emancipation Proclamation | mixed | 22 | [[Findings/finding-038-220]] |
-| Hidden Nexus: FBI → Edward L. Pierce (3° Link) | A 3-step chain linking FBI to Edward L. Pierce | mixed | 22 | [[Findings/finding-042-220]] |
-| Hidden Nexus: Gerald Templer → the Vietnam War (3° Link) | A 3-step chain linking Gerald Templer to the Vietnam War | mixed | 22 | [[Findings/finding-044-220]] |
-| Shadow Chain: Benjamin Harrison → Samuel J. Tilden (4° Link) | A 4-step chain linking Benjamin Harrison to Samuel J. Tilden | mixed | 22 | [[Findings/finding-046-220]] |
-| Shadow Chain: Lyndon Johnson → Martin (4° Link) | A 4-step chain linking Lyndon Johnson to Martin | mixed | 22 | [[Findings/finding-051-220]] |
-| Secret Loom: Winfield Scott → George Atzerodt (5° Link) | A 5-step chain linking Winfield Scott to George Atzerodt | mixed | 22 | [[Findings/finding-059-220]] |
-| Hidden Nexus: Henry Halleck → Alfred A. Knopf (3° Link) | A 3-step chain linking Henry Halleck to Alfred A. Knopf | mixed | 21 | [[Findings/finding-004-210]] |
-| Hidden Nexus: Franz Sigel → James K. Polk (3° Link) | A 3-step chain linking Franz Sigel to James K. Polk | mixed | 21 | [[Findings/finding-007-210]] |
-| Shadow Chain: Butler → Elizabeth Cady Stanton (4° Link) | A 4-step chain linking Butler to Elizabeth Cady Stanton | mixed | 21 | [[Findings/finding-010-210]] |
-| Hidden Nexus: Judah P. Benjamin → William L. (3° Link) | A 3-step chain linking Judah P. Benjamin to William L. | mixed | 21 | [[Findings/finding-023-210]] |
-| Shadow Chain: Supreme Court → Xi Jinping (4° Link) | A 4-step chain linking Supreme Court to Xi Jinping | mixed | 21 | [[Findings/finding-054-210]] |
-| Hidden Nexus: Historic Site → the Republican Party (3° Link) | A 3-step chain linking Historic Site to the Republican Party | mixed | 20 | [[Findings/finding-003-200]] |
-| Secret Loom: FBI → Leó Szilárd (5° Link) | A 5-step chain linking FBI to Leó Szilárd | mixed | 20 | [[Findings/finding-008-200]] |
-| Secret Loom: David Farragut → William Colby (5° Link) | A 5-step chain linking David Farragut to William Colby | mixed | 20 | [[Findings/finding-009-200]] |
-| Hidden Nexus: Margaret Thatcher → Robert Anderson (3° Link) | A 3-step chain linking Margaret Thatcher to Robert Anderson | mixed | 20 | [[Findings/finding-011-200]] |
-| Hidden Nexus: Military History → Sidney Lanier (3° Link) | A 3-step chain linking Military History to Sidney Lanier | mixed | 20 | [[Findings/finding-012-200]] |
-| Secret Loom: Reverdy Johnson → Alfred A. Knopf (5° Link) | A 5-step chain linking Reverdy Johnson to Alfred A. Knopf | mixed | 20 | [[Findings/finding-020-200]] |
-| Hidden Nexus: CIA → Orson Welles (3° Link) | A 3-step chain linking CIA to Orson Welles | mixed | 20 | [[Findings/finding-025-200]] |
-| Secret Loom: Uncle Tom's Cabin → Harry Truman (5° Link) | A 5-step chain linking Uncle Tom's Cabin to Harry Truman | mixed | 20 | [[Findings/finding-032-200]] |
-| Shadow Chain: John Dillinger → Columbia (4° Link) | A 4-step chain linking John Dillinger to Columbia | mixed | 20 | [[Findings/finding-049-200]] |
-| Secret Loom: Jesus Christ → Palgrave Macmillan (5° Link) | A 5-step chain linking Jesus Christ to Palgrave Macmillan | mixed | 20 | [[Findings/finding-060-200]] |
-| Hidden Nexus: Carl Van Vechten → Fox (3° Link) | A 3-step chain linking Carl Van Vechten to Fox | mixed | 19 | [[Findings/finding-001-190]] |
-| Hidden Nexus: Allen Dulles → Confederacy (3° Link) | A 3-step chain linking Allen Dulles to Confederacy | mixed | 19 | [[Findings/finding-005-190]] |
-| Shadow Chain: Edward L. Pierce → John H. Reagan (4° Link) | A 4-step chain linking Edward L. Pierce to John H. Reagan | mixed | 19 | [[Findings/finding-030-190]] |
-| Secret Loom: Andrew Johnson's → W. E. B. (5° Link) | A 5-step chain linking Andrew Johnson's to W. E. B. | mixed | 19 | [[Findings/finding-031-190]] |
-| Hidden Nexus: James McPherson → Lilacs Last (3° Link) | A 3-step chain linking James McPherson to Lilacs Last | mixed | 19 | [[Findings/finding-039-190]] |
-| Hidden Nexus: Sidney Lanier → James G. Blaine (3° Link) | A 3-step chain linking Sidney Lanier to James G. Blaine | mixed | 19 | [[Findings/finding-040-190]] |
-| Hidden Nexus: Robert E. → Simon & Schuster (3° Link) | A 3-step chain linking Robert E. to Simon & Schuster | mixed | 19 | [[Findings/finding-043-190]] |
-| Secret Loom: Charles "Lucky" Luciano → the Cold War (5° Link) | A 5-step chain linking Charles "Lucky" Luciano to the Cold War | mixed | 19 | [[Findings/finding-056-190]] |
-| Hidden Nexus: Franklin → John M. (3° Link) | A 3-step chain linking Franklin to John M. | mixed | 18 | [[Findings/finding-002-180]] |
-| Shadow Chain: Elizabeth Cady Stanton → Cole Porter (4° Link) | A 4-step chain linking Elizabeth Cady Stanton to Cole Porter | mixed | 18 | [[Findings/finding-018-180]] |
-| Hidden Nexus: Lee Highway → the War Department (3° Link) | A 3-step chain linking Lee Highway to the War Department | mixed | 18 | [[Findings/finding-027-180]] |
-| Secret Loom: Henry Halleck → Desert Storm (5° Link) | A 5-step chain linking Henry Halleck to Desert Storm | mixed | 18 | [[Findings/finding-034-180]] |
-| Secret Loom: Xi Jinping → Henry Tizard (5° Link) | A 5-step chain linking Xi Jinping to Henry Tizard | mixed | 18 | [[Findings/finding-035-180]] |
-| Hidden Nexus: Margaret Thatcher → Henry Louis Gates Jr. (3° Link) | A 3-step chain linking Margaret Thatcher to Henry Louis Gates Jr. | mixed | 18 | [[Findings/finding-041-180]] |
-| Shadow Chain: Negro → John Nance Garner (4° Link) | A 4-step chain linking Negro to John Nance Garner | mixed | 18 | [[Findings/finding-047-180]] |
-| Shadow Chain: Lee Elementary School → the War Department (4° Link) | A 4-step chain linking Lee Elementary School to the War Department | mixed | 18 | [[Findings/finding-050-180]] |
-| Secret Loom: Robert K. Scott → the Union Army (5° Link) | A 5-step chain linking Robert K. Scott to the Union Army | mixed | 18 | [[Findings/finding-058-180]] |
-| Secret Loom: Anwar Sadat → Cambridge University Press (5° Link) | A 5-step chain linking Anwar Sadat to Cambridge University Press | mixed | 17 | [[Findings/finding-017-170]] |
-| Shadow Chain: Noam Chomsky → CIA (4° Link) | A 4-step chain linking Noam Chomsky to CIA | mixed | 17 | [[Findings/finding-019-170]] |
-| Shadow Chain: Isaac Murphy → Sam Houston (4° Link) | A 4-step chain linking Isaac Murphy to Sam Houston | mixed | 17 | [[Findings/finding-029-170]] |
-| Secret Loom: Viet Cong → the Confederate Army (5° Link) | A 5-step chain linking Viet Cong to the Confederate Army | mixed | 17 | [[Findings/finding-033-170]] |
+| Secret Loom: the Oval Office → Frances E. Willard (5° Link) | A 5-step chain linking the Oval Office to Frances E. Willard | mixed | 26 | [[Findings/finding-022-260]] |
+| Hidden Nexus: the Great Depression → Confederacy (3° Link) | A 3-step chain linking the Great Depression to Confederacy | mixed | 26 | [[Findings/finding-028-260]] |
+| Secret Loom: the Watergate scandal → Fisk University (5° Link) | A 5-step chain linking the Watergate scandal to Fisk University | mixed | 26 | [[Findings/finding-035-260]] |
+| Secret Loom: Times → Republican National Convention (5° Link) | A 5-step chain linking Times to Republican National Convention | mixed | 26 | [[Findings/finding-046-260]] |
+| Secret Loom: Salvatore D'Aquila → the House of Representatives (5° Link) | A 5-step chain linking Salvatore D'Aquila to the House of Representatives | mixed | 25 | [[Findings/finding-011-250]] |
+| Shadow Chain: Jack Ruby → the American Civil War (4° Link) | A 4-step chain linking Jack Ruby to the American Civil War | mixed | 25 | [[Findings/finding-019-250]] |
+| Secret Loom: Montgomery → Historic Site (5° Link) | A 5-step chain linking Montgomery to Historic Site | mixed | 25 | [[Findings/finding-023-250]] |
+| Secret Loom: PBS → American War (2° Link) | A 2-step chain linking PBS to American War | mixed | 25 | [[Findings/finding-039-250]] |
+| Shadow Chain: pro-Confederate → the September 2 Battle of (4° Link) | A 4-step chain linking pro-Confederate to the September 2 Battle of | mixed | 24 | [[Findings/finding-003-240]] |
+| Hidden Nexus: Pretty Boy Floyd → Pentagon (3° Link) | A 3-step chain linking Pretty Boy Floyd to Pentagon | mixed | 23 | [[Findings/finding-001-230]] |
+| Secret Loom: Disney → the Harlem Renaissance (5° Link) | A 5-step chain linking Disney to the Harlem Renaissance | mixed | 23 | [[Findings/finding-036-230]] |
+| Shadow Chain: Democratic National Convention → University of North Carolina Press (4° Link) | A 4-step chain linking Democratic National Convention to University of North Carolina Press | mixed | 23 | [[Findings/finding-050-230]] |
+| Shadow Chain: Ho Chi Minh → Augusto Pinochet (4° Link) | A 4-step chain linking Ho Chi Minh to Augusto Pinochet | mixed | 23 | [[Findings/finding-051-230]] |
+| Shadow Chain: Reconstruction → James B. (4° Link) | A 4-step chain linking Reconstruction to James B. | mixed | 23 | [[Findings/finding-053-230]] |
+| Hidden Nexus: E. Howard Hunt → Army (3° Link) | A 3-step chain linking E. Howard Hunt to Army | mixed | 22 | [[Findings/finding-002-220]] |
+| Hidden Nexus: the United States Constitution → Historic Site (3° Link) | A 3-step chain linking the United States Constitution to Historic Site | mixed | 22 | [[Findings/finding-005-220]] |
+| Secret Loom: Steven Spielberg → Confederate (5° Link) | A 5-step chain linking Steven Spielberg to Confederate | mixed | 22 | [[Findings/finding-006-220]] |
+| Hidden Nexus: Hugh McCulloch → George S. Boutwell (3° Link) | A 3-step chain linking Hugh McCulloch to George S. Boutwell | mixed | 22 | [[Findings/finding-017-220]] |
+| Hidden Nexus: Best Picture → Giuseppe Morello (3° Link) | A 3-step chain linking Best Picture to Giuseppe Morello | mixed | 22 | [[Findings/finding-025-220]] |
+| Hidden Nexus: Martin Luther King's → John Dean (3° Link) | A 3-step chain linking Martin Luther King's to John Dean | mixed | 22 | [[Findings/finding-026-220]] |
+| Hidden Nexus: the Central Intelligence Agency → the Civil War (3° Link) | A 3-step chain linking the Central Intelligence Agency to the Civil War | mixed | 22 | [[Findings/finding-027-220]] |
+| Shadow Chain: Mercer University Press → Post (4° Link) | A 4-step chain linking Mercer University Press to Post | mixed | 22 | [[Findings/finding-031-220]] |
+| Secret Loom: the Navy Department → American War (2° Link) | A 2-step chain linking the Navy Department to American War | mixed | 22 | [[Findings/finding-034-220]] |
+| Secret Loom: Central Intelligence → Bell (5° Link) | A 5-step chain linking Central Intelligence to Bell | mixed | 22 | [[Findings/finding-041-220]] |
+| Secret Loom: Harvard University → the U.S. Senate (5° Link) | A 5-step chain linking Harvard University to the U.S. Senate | mixed | 22 | [[Findings/finding-043-220]] |
+| Shadow Chain: Navy → the Cold War (4° Link) | A 4-step chain linking Navy to the Cold War | mixed | 22 | [[Findings/finding-048-220]] |
+| Shadow Chain: Foreign Affairs → the Internal Revenue Service (4° Link) | A 4-step chain linking Foreign Affairs to the Internal Revenue Service | mixed | 22 | [[Findings/finding-049-220]] |
+| Hidden Nexus: the Cold War → Humphrey Bogart (3° Link) | A 3-step chain linking the Cold War to Humphrey Bogart | mixed | 22 | [[Findings/finding-057-220]] |
+| Shadow Chain: the Non-Proliferation of Nuclear Weapons → the Federal Power Commission (4° Link) | A 4-step chain linking the Non-Proliferation of Nuclear Weapons to the Federal Power Commission | mixed | 21 | [[Findings/finding-013-210]] |
+| Secret Loom: Harper's Ferry → Federal (5° Link) | A 5-step chain linking Harper's Ferry to Federal | mixed | 21 | [[Findings/finding-015-210]] |
+| Secret Loom: Fulgencio Batista → State Department (5° Link) | A 5-step chain linking Fulgencio Batista to State Department | mixed | 21 | [[Findings/finding-016-210]] |
+| Shadow Chain: the Coast Guard → the Department of Housing and Urban Development (4° Link) | A 4-step chain linking the Coast Guard to the Department of Housing and Urban Development | mixed | 21 | [[Findings/finding-032-210]] |
+| Secret Loom: Adlai Stevenson → W. E. B. Du Bois (5° Link) | A 5-step chain linking Adlai Stevenson to W. E. B. Du Bois | mixed | 21 | [[Findings/finding-033-210]] |
+| Secret Loom: Committee → Allied (5° Link) | A 5-step chain linking Committee to Allied | mixed | 21 | [[Findings/finding-044-210]] |
+| Secret Loom: Jawaharlal Nehru → World War II (5° Link) | A 5-step chain linking Jawaharlal Nehru to World War II | mixed | 21 | [[Findings/finding-045-210]] |
+| Hidden Nexus: Harvard University → Lincoln (3° Link) | A 3-step chain linking Harvard University to Lincoln | mixed | 21 | [[Findings/finding-059-210]] |
+| Secret Loom: Adams → Reconstruction (5° Link) | A 5-step chain linking Adams to Reconstruction | mixed | 20 | [[Findings/finding-021-200]] |
+| Secret Loom: Colfax → Nation (5° Link) | A 5-step chain linking Colfax to Nation | mixed | 20 | [[Findings/finding-038-200]] |
+| Secret Loom: New York Times → the Communist Party (5° Link) | A 5-step chain linking New York Times to the Communist Party | mixed | 20 | [[Findings/finding-042-200]] |
+| Shadow Chain: the Oval Office → the United States Senate (4° Link) | A 4-step chain linking the Oval Office to the United States Senate | mixed | 20 | [[Findings/finding-047-200]] |
+| Shadow Chain: the Internal Revenue Service → Julius (4° Link) | A 4-step chain linking the Internal Revenue Service to Julius | mixed | 20 | [[Findings/finding-056-200]] |
+| Hidden Nexus: Frances E. Willard → Columbia University (3° Link) | A 3-step chain linking Frances E. Willard to Columbia University | mixed | 20 | [[Findings/finding-058-200]] |
+| Secret Loom: Cold War → Pentagon (5° Link) | A 5-step chain linking Cold War to Pentagon | mixed | 19 | [[Findings/finding-007-190]] |
+| Hidden Nexus: Reconstruction → Steven Spielberg (3° Link) | A 3-step chain linking Reconstruction to Steven Spielberg | mixed | 19 | [[Findings/finding-009-190]] |
+| Hidden Nexus: Cameron → World War II (3° Link) | A 3-step chain linking Cameron to World War II | mixed | 19 | [[Findings/finding-018-190]] |
+| Shadow Chain: Robert F. Wagner → Elliot Richardson (4° Link) | A 4-step chain linking Robert F. Wagner to Elliot Richardson | mixed | 19 | [[Findings/finding-030-190]] |
+| Secret Loom: Joseph McCarthy → Kwame Nkrumah (5° Link) | A 5-step chain linking Joseph McCarthy to Kwame Nkrumah | mixed | 19 | [[Findings/finding-037-190]] |
+| Shadow Chain: the Socialist Party of America → Standard Ebooks (4° Link) | A 4-step chain linking the Socialist Party of America to Standard Ebooks | mixed | 19 | [[Findings/finding-052-190]] |
+| Shadow Chain: Douglass → Navy (4° Link) | A 4-step chain linking Douglass to Navy | mixed | 19 | [[Findings/finding-055-190]] |
+| Hidden Nexus: Siberian Husky → the Ku Klux Klan (3° Link) | A 3-step chain linking Siberian Husky to the Ku Klux Klan | mixed | 19 | [[Findings/finding-060-190]] |
+| Hidden Nexus: State → James Dean (3° Link) | A 3-step chain linking State to James Dean | mixed | 18 | [[Findings/finding-008-180]] |
+| Hidden Nexus: George S. Boutwell → Senate (3° Link) | A 3-step chain linking George S. Boutwell to Senate | mixed | 18 | [[Findings/finding-010-180]] |
+| Secret Loom: Du Bois → Barry Goldwater (5° Link) | A 5-step chain linking Du Bois to Barry Goldwater | mixed | 18 | [[Findings/finding-014-180]] |
+| Secret Loom: Frances E. Willard → Mafia (5° Link) | A 5-step chain linking Frances E. Willard to Mafia | mixed | 18 | [[Findings/finding-020-180]] |
+| Hidden Nexus: Ford → Confederate (3° Link) | A 3-step chain linking Ford to Confederate | mixed | 18 | [[Findings/finding-024-180]] |
+| Hidden Nexus: the First World War → the United States Supreme Court (3° Link) | A 3-step chain linking the First World War to the United States Supreme Court | mixed | 18 | [[Findings/finding-029-180]] |
+| Shadow Chain: Eric Foner → State (4° Link) | A 4-step chain linking Eric Foner to State | mixed | 17 | [[Findings/finding-004-170]] |
+| Shadow Chain: Harvard University Press → BBC (4° Link) | A 4-step chain linking Harvard University Press to BBC | mixed | 17 | [[Findings/finding-012-170]] |
+| Secret Loom: James Monroe → American War (1° Link) | A 1-step chain linking James Monroe to American War | mixed | 17 | [[Findings/finding-040-170]] |
+| Shadow Chain: Fisk University → Simpsons (4° Link) | A 4-step chain linking Fisk University to Simpsons | mixed | 15 | [[Findings/finding-054-150]] |

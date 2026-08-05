@@ -1,66 +1,66 @@
 ---
-title: "Secret Loom: Samuel C. Pomeroy → James Speed (5° Link)"
-teaser: "A 5-step chain linking Samuel C. Pomeroy to James Speed"
-scores: {"novelty": 9, "evidence_strength": 4, "narrative_potential": 10}
+title: "Secret Loom: Disney → the Harlem Renaissance (5° Link)"
+teaser: "A 5-step chain linking Disney to the Harlem Renaissance"
+scores: {"novelty": 8, "evidence_strength": 8, "narrative_potential": 7}
 total_score: 23
 degrees_of_separation: 5
-entities: ["Samuel C. Pomeroy", "The Operation of the Freedmen's Bureau", "Yankee Stepfather", "State Department", "William S.", "James Speed"]
+entities: ["Disney", "Siberian Husky", "Leonhard Seppala", "Balto", "Rotten Tomatoes", "the Harlem Renaissance"]
 evidence_type: "mixed"
 date_generated: 2026-08-05
 ---
 
-# Secret Loom: Samuel C. Pomeroy → James Speed (5° Link)
+# Secret Loom: Disney → the Harlem Renaissance (5° Link)
 
-**Teaser:** A 5-step chain linking Samuel C. Pomeroy to James Speed
+**Teaser:** A 5-step chain linking Disney to the Harlem Renaissance
 
 ## Hidden Chain
 
-1. [[Samuel C. Pomeroy]] —[**cooccurrence**]→ [[The Operation of the Freedmen's Bureau]]
+1. [[Disney]] —[**cooccurrence**]→ [[Siberian Husky]]
    > Co-occurrence in Wikipedia article covering both entities
-   [Link](https://en.wikipedia.org/wiki/Samuel_C._Pomeroy)
+   [Link](https://en.wikipedia.org/wiki/Disney)
 
-2. [[The Operation of the Freedmen's Bureau]] —[**cooccurrence**]→ [[Yankee Stepfather]]
+2. [[Siberian Husky]] —[**cooccurrence**]→ [[Leonhard Seppala]]
    > Co-occurrence in Wikipedia article covering both entities
-   [Link](https://en.wikipedia.org/wiki/Samuel_C._Pomeroy)
+   [Link](https://en.wikipedia.org/wiki/Disney)
 
-3. [[Yankee Stepfather]] —[**cooccurrence**]→ [[State Department]]
+3. [[Leonhard Seppala]] —[**cooccurrence**]→ [[Balto]]
    > Co-occurrence in Wikipedia article covering both entities
-   [Link](https://en.wikipedia.org/wiki/Samuel_C._Pomeroy)
+   [Link](https://en.wikipedia.org/wiki/Disney)
 
-4. [[State Department]] —[**cooccurrence**]→ [[William S.]]
+4. [[Balto]] —[**cooccurrence**]→ [[Rotten Tomatoes]]
    > Co-occurrence in Wikipedia article covering both entities
-   [Link](https://en.wikipedia.org/wiki/Samuel_C._Pomeroy)
+   [Link](https://en.wikipedia.org/wiki/Disney)
 
-5. [[William S.]] —[**cooccurrence**]→ [[James Speed]]
+5. [[Rotten Tomatoes]] —[**cooccurrence**]→ [[the Harlem Renaissance]]
    > Co-occurrence in Wikipedia article covering both entities
-   [Link](https://en.wikipedia.org/wiki/Samuel_C._Pomeroy)
+   [Link](https://en.wikipedia.org/wiki/Disney)
 
 ## Source Trail
 
-Hop 1: Samuel C. Pomeroy → The Operation of the Freedmen's Bureau
+Hop 1: Disney → Siberian Husky
   - Edge type: cooccurrence
   - Source: Wikipedia co-occurrence
-  - URL: https://en.wikipedia.org/wiki/Samuel_C._Pomeroy
+  - URL: https://en.wikipedia.org/wiki/Disney
 
-Hop 2: The Operation of the Freedmen's Bureau → Yankee Stepfather
+Hop 2: Siberian Husky → Leonhard Seppala
   - Edge type: cooccurrence
   - Source: Wikipedia co-occurrence
-  - URL: https://en.wikipedia.org/wiki/Samuel_C._Pomeroy
+  - URL: https://en.wikipedia.org/wiki/Disney
 
-Hop 3: Yankee Stepfather → State Department
+Hop 3: Leonhard Seppala → Balto
   - Edge type: cooccurrence
   - Source: Wikipedia co-occurrence
-  - URL: https://en.wikipedia.org/wiki/Samuel_C._Pomeroy
+  - URL: https://en.wikipedia.org/wiki/Disney
 
-Hop 4: State Department → William S.
+Hop 4: Balto → Rotten Tomatoes
   - Edge type: cooccurrence
   - Source: Wikipedia co-occurrence
-  - URL: https://en.wikipedia.org/wiki/Samuel_C._Pomeroy
+  - URL: https://en.wikipedia.org/wiki/Disney
 
-Hop 5: William S. → James Speed
+Hop 5: Rotten Tomatoes → the Harlem Renaissance
   - Edge type: cooccurrence
   - Source: Wikipedia co-occurrence
-  - URL: https://en.wikipedia.org/wiki/Samuel_C._Pomeroy
+  - URL: https://en.wikipedia.org/wiki/Disney
 
 
 ## Inference Layer
