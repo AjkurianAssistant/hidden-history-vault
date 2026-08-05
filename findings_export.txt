@@ -1,0 +1,3493 @@
+# Hidden History Findings Export
+# Generated: 2026-08-05 17:01:50
+# Total findings: 60
+
+--- FINDING 1 (score: 19, 3°) ---
+# Hidden Nexus: Carl Van Vechten → Fox (3° Link)
+
+**Teaser:** A 3-step chain linking Carl Van Vechten to Fox
+
+## Hidden Chain
+
+1. [[Carl Van Vechten]] —[**cooccurrence**]→ [[Negro]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/Carl_Van_Vechten)
+
+2. [[Negro]] —[**cooccurrence**]→ [[Zora Neale Hurston]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/Carl_Van_Vechten)
+
+3. [[Zora Neale Hurston]] —[**cooccurrence**]→ [[Fox]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/Carl_Van_Vechten)
+
+## Source Trail
+
+Hop 1: Carl Van Vechten → Negro
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/Carl_Van_Vechten
+
+Hop 2: Negro → Zora Neale Hurston
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/Carl_Van_Vechten
+
+Hop 3: Zora Neale Hurston → Fox
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/Carl_Van_Vechten
+
+
+## Inference Layer
+
+This direct chain suggests a documented historical overlap between the two figures. The connection is traceable but buried in secondary sources rather than primary biographies.
+
+## Open Questions
+
+- Why is this connection absent from mainstream historical narratives?
+- What do the intermediate figures reveal about networks of influence?
+- Are there other parallel chains that remain unexplored?
+
+
+
+--- FINDING 2 (score: 18, 3°) ---
+# Hidden Nexus: Franklin → John M. (3° Link)
+
+**Teaser:** A 3-step chain linking Franklin to John M.
+
+## Hidden Chain
+
+1. [[Franklin]] —[**cooccurrence**]→ [[George Meade]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/Franklin)
+
+2. [[George Meade]] —[**cooccurrence**]→ [[Union]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/Franklin)
+
+3. [[Union]] —[**cooccurrence**]→ [[John M.]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/Franklin)
+
+## Source Trail
+
+Hop 1: Franklin → George Meade
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/Franklin
+
+Hop 2: George Meade → Union
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/Franklin
+
+Hop 3: Union → John M.
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/Franklin
+
+
+## Inference Layer
+
+This direct chain suggests a documented historical overlap between the two figures. The connection is traceable but buried in secondary sources rather than primary biographies.
+
+## Open Questions
+
+- Why is this connection absent from mainstream historical narratives?
+- What do the intermediate figures reveal about networks of influence?
+- Are there other parallel chains that remain unexplored?
+
+
+
+--- FINDING 3 (score: 20, 3°) ---
+# Hidden Nexus: Historic Site → the Republican Party (3° Link)
+
+**Teaser:** A 3-step chain linking Historic Site to the Republican Party
+
+## Hidden Chain
+
+1. [[Historic Site]] —[**cooccurrence**]→ [[the National Register of Historic Places]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/Historic_Site)
+
+2. [[the National Register of Historic Places]] —[**cooccurrence**]→ [[Gutzon Borglum]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/Historic_Site)
+
+3. [[Gutzon Borglum]] —[**cooccurrence**]→ [[the Republican Party]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/Historic_Site)
+
+## Source Trail
+
+Hop 1: Historic Site → the National Register of Historic Places
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/Historic_Site
+
+Hop 2: the National Register of Historic Places → Gutzon Borglum
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/Historic_Site
+
+Hop 3: Gutzon Borglum → the Republican Party
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/Historic_Site
+
+
+## Inference Layer
+
+This direct chain suggests a documented historical overlap between the two figures. The connection is traceable but buried in secondary sources rather than primary biographies.
+
+## Open Questions
+
+- Why is this connection absent from mainstream historical narratives?
+- What do the intermediate figures reveal about networks of influence?
+- Are there other parallel chains that remain unexplored?
+
+
+
+--- FINDING 4 (score: 21, 3°) ---
+# Hidden Nexus: Henry Halleck → Alfred A. Knopf (3° Link)
+
+**Teaser:** A 3-step chain linking Henry Halleck to Alfred A. Knopf
+
+## Hidden Chain
+
+1. [[Henry Halleck]] —[**cooccurrence**]→ [[Union]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/Henry_Halleck)
+
+2. [[Union]] —[**cooccurrence**]→ [[Port Hudson]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/Henry_Halleck)
+
+3. [[Port Hudson]] —[**cooccurrence**]→ [[Alfred A. Knopf]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/Henry_Halleck)
+
+## Source Trail
+
+Hop 1: Henry Halleck → Union
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/Henry_Halleck
+
+Hop 2: Union → Port Hudson
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/Henry_Halleck
+
+Hop 3: Port Hudson → Alfred A. Knopf
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/Henry_Halleck
+
+
+## Inference Layer
+
+This direct chain suggests a documented historical overlap between the two figures. The connection is traceable but buried in secondary sources rather than primary biographies.
+
+## Open Questions
+
+- Why is this connection absent from mainstream historical narratives?
+- What do the intermediate figures reveal about networks of influence?
+- Are there other parallel chains that remain unexplored?
+
+
+
+--- FINDING 5 (score: 19, 3°) ---
+# Hidden Nexus: Allen Dulles → Confederacy (3° Link)
+
+**Teaser:** A 3-step chain linking Allen Dulles to Confederacy
+
+## Hidden Chain
+
+1. [[Allen Dulles]] —[**cooccurrence**]→ [[Brigadier General]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/Allen_Dulles)
+
+2. [[Brigadier General]] —[**cooccurrence**]→ [[William T. Sherman]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/Allen_Dulles)
+
+3. [[William T. Sherman]] —[**cooccurrence**]→ [[Confederacy]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/Allen_Dulles)
+
+## Source Trail
+
+Hop 1: Allen Dulles → Brigadier General
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/Allen_Dulles
+
+Hop 2: Brigadier General → William T. Sherman
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/Allen_Dulles
+
+Hop 3: William T. Sherman → Confederacy
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/Allen_Dulles
+
+
+## Inference Layer
+
+This direct chain suggests a documented historical overlap between the two figures. The connection is traceable but buried in secondary sources rather than primary biographies.
+
+## Open Questions
+
+- Why is this connection absent from mainstream historical narratives?
+- What do the intermediate figures reveal about networks of influence?
+- Are there other parallel chains that remain unexplored?
+
+
+
+--- FINDING 6 (score: 23, 3°) ---
+# Hidden Nexus: Ford → Sam Houston (3° Link)
+
+**Teaser:** A 3-step chain linking Ford to Sam Houston
+
+## Hidden Chain
+
+1. [[Ford]] —[**cooccurrence**]→ [[Irvin McDowell]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/Ford)
+
+2. [[Irvin McDowell]] —[**cooccurrence**]→ [[Union]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/Ford)
+
+3. [[Union]] —[**cooccurrence**]→ [[Sam Houston]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/Ford)
+
+## Source Trail
+
+Hop 1: Ford → Irvin McDowell
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/Ford
+
+Hop 2: Irvin McDowell → Union
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/Ford
+
+Hop 3: Union → Sam Houston
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/Ford
+
+
+## Inference Layer
+
+This direct chain suggests a documented historical overlap between the two figures. The connection is traceable but buried in secondary sources rather than primary biographies.
+
+## Open Questions
+
+- Why is this connection absent from mainstream historical narratives?
+- What do the intermediate figures reveal about networks of influence?
+- Are there other parallel chains that remain unexplored?
+
+
+
+--- FINDING 7 (score: 21, 3°) ---
+# Hidden Nexus: Franz Sigel → James K. Polk (3° Link)
+
+**Teaser:** A 3-step chain linking Franz Sigel to James K. Polk
+
+## Hidden Chain
+
+1. [[Franz Sigel]] —[**cooccurrence**]→ [[Union]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/Franz_Sigel)
+
+2. [[Union]] —[**cooccurrence**]→ [[William T. Sherman]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/Franz_Sigel)
+
+3. [[William T. Sherman]] —[**cooccurrence**]→ [[James K. Polk]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/Franz_Sigel)
+
+## Source Trail
+
+Hop 1: Franz Sigel → Union
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/Franz_Sigel
+
+Hop 2: Union → William T. Sherman
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/Franz_Sigel
+
+Hop 3: William T. Sherman → James K. Polk
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/Franz_Sigel
+
+
+## Inference Layer
+
+This direct chain suggests a documented historical overlap between the two figures. The connection is traceable but buried in secondary sources rather than primary biographies.
+
+## Open Questions
+
+- Why is this connection absent from mainstream historical narratives?
+- What do the intermediate figures reveal about networks of influence?
+- Are there other parallel chains that remain unexplored?
+
+
+
+--- FINDING 8 (score: 20, 5°) ---
+# Secret Loom: FBI → Leó Szilárd (5° Link)
+
+**Teaser:** A 5-step chain linking FBI to Leó Szilárd
+
+## Hidden Chain
+
+1. [[FBI]] —[**cooccurrence**]→ [[Frank Sinatra]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/FBI)
+
+2. [[Frank Sinatra]] —[**cooccurrence**]→ [[Louis Armstrong]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/FBI)
+
+3. [[Louis Armstrong]] —[**cooccurrence**]→ [[Duke Ellington]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/FBI)
+
+4. [[Duke Ellington]] —[**cooccurrence**]→ [[World War I]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/FBI)
+
+5. [[World War I]] —[**cooccurrence**]→ [[Leó Szilárd]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/FBI)
+
+## Source Trail
+
+Hop 1: FBI → Frank Sinatra
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/FBI
+
+Hop 2: Frank Sinatra → Louis Armstrong
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/FBI
+
+Hop 3: Louis Armstrong → Duke Ellington
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/FBI
+
+Hop 4: Duke Ellington → World War I
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/FBI
+
+Hop 5: World War I → Leó Szilárd
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/FBI
+
+
+## Inference Layer
+
+This five-degree chain involves multiple inference leaps. Each intermediate node acts as a pivot point — a less-documented historical figure whose obscurity may itself be significant. The chain suggests a network of influence that historians have not explicitly documented as a single connected pathway.
+
+## Open Questions
+
+- Why is this connection absent from mainstream historical narratives?
+- What do the intermediate figures reveal about networks of influence?
+- Are there other parallel chains that remain unexplored?
+
+
+
+--- FINDING 9 (score: 20, 5°) ---
+# Secret Loom: David Farragut → William Colby (5° Link)
+
+**Teaser:** A 5-step chain linking David Farragut to William Colby
+
+## Hidden Chain
+
+1. [[David Farragut]] —[**cooccurrence**]→ [[CSA]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/David_Farragut)
+
+2. [[CSA]] —[**cooccurrence**]→ [[Edmund Kirby Smith]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/David_Farragut)
+
+3. [[Edmund Kirby Smith]] —[**cooccurrence**]→ [[Braxton Bragg]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/David_Farragut)
+
+4. [[Braxton Bragg]] —[**cooccurrence**]→ [[Army]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/David_Farragut)
+
+5. [[Army]] —[**cooccurrence**]→ [[William Colby]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/David_Farragut)
+
+## Source Trail
+
+Hop 1: David Farragut → CSA
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/David_Farragut
+
+Hop 2: CSA → Edmund Kirby Smith
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/David_Farragut
+
+Hop 3: Edmund Kirby Smith → Braxton Bragg
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/David_Farragut
+
+Hop 4: Braxton Bragg → Army
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/David_Farragut
+
+Hop 5: Army → William Colby
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/David_Farragut
+
+
+## Inference Layer
+
+This five-degree chain involves multiple inference leaps. Each intermediate node acts as a pivot point — a less-documented historical figure whose obscurity may itself be significant. The chain suggests a network of influence that historians have not explicitly documented as a single connected pathway.
+
+## Open Questions
+
+- Why is this connection absent from mainstream historical narratives?
+- What do the intermediate figures reveal about networks of influence?
+- Are there other parallel chains that remain unexplored?
+
+
+
+--- FINDING 10 (score: 21, 4°) ---
+# Shadow Chain: Butler → Elizabeth Cady Stanton (4° Link)
+
+**Teaser:** A 4-step chain linking Butler to Elizabeth Cady Stanton
+
+## Hidden Chain
+
+1. [[Butler]] —[**cooccurrence**]→ [[Harriet Tubman]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/Butler)
+
+2. [[Harriet Tubman]] —[**cooccurrence**]→ [[Union]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/Butler)
+
+3. [[Union]] —[**cooccurrence**]→ [[Susan B. Anthony]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/Butler)
+
+4. [[Susan B. Anthony]] —[**cooccurrence**]→ [[Elizabeth Cady Stanton]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/Butler)
+
+## Source Trail
+
+Hop 1: Butler → Harriet Tubman
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/Butler
+
+Hop 2: Harriet Tubman → Union
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/Butler
+
+Hop 3: Union → Susan B. Anthony
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/Butler
+
+Hop 4: Susan B. Anthony → Elizabeth Cady Stanton
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/Butler
+
+
+## Inference Layer
+
+This longer chain requires a careful reading of intermediary relationships. The bridge figure may not be widely recognized, suggesting that their role as an intermediary between these two historical forces has been overlooked or minimized in mainstream accounts.
+
+## Open Questions
+
+- Why is this connection absent from mainstream historical narratives?
+- What do the intermediate figures reveal about networks of influence?
+- Are there other parallel chains that remain unexplored?
+
+
+
+--- FINDING 11 (score: 20, 3°) ---
+# Hidden Nexus: Margaret Thatcher → Robert Anderson (3° Link)
+
+**Teaser:** A 3-step chain linking Margaret Thatcher to Robert Anderson
+
+## Hidden Chain
+
+1. [[Margaret Thatcher]] —[**cooccurrence**]→ [[George Bush]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/Margaret_Thatcher)
+
+2. [[George Bush]] —[**cooccurrence**]→ [[Army]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/Margaret_Thatcher)
+
+3. [[Army]] —[**cooccurrence**]→ [[Robert Anderson]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/Margaret_Thatcher)
+
+## Source Trail
+
+Hop 1: Margaret Thatcher → George Bush
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/Margaret_Thatcher
+
+Hop 2: George Bush → Army
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/Margaret_Thatcher
+
+Hop 3: Army → Robert Anderson
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/Margaret_Thatcher
+
+
+## Inference Layer
+
+This direct chain suggests a documented historical overlap between the two figures. The connection is traceable but buried in secondary sources rather than primary biographies.
+
+## Open Questions
+
+- Why is this connection absent from mainstream historical narratives?
+- What do the intermediate figures reveal about networks of influence?
+- Are there other parallel chains that remain unexplored?
+
+
+
+--- FINDING 12 (score: 20, 3°) ---
+# Hidden Nexus: Military History → Sidney Lanier (3° Link)
+
+**Teaser:** A 3-step chain linking Military History to Sidney Lanier
+
+## Hidden Chain
+
+1. [[Military History]] —[**cooccurrence**]→ [[Union]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/Military_History)
+
+2. [[Union]] —[**cooccurrence**]→ [[Irvin McDowell]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/Military_History)
+
+3. [[Irvin McDowell]] —[**cooccurrence**]→ [[Sidney Lanier]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/Military_History)
+
+## Source Trail
+
+Hop 1: Military History → Union
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/Military_History
+
+Hop 2: Union → Irvin McDowell
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/Military_History
+
+Hop 3: Irvin McDowell → Sidney Lanier
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/Military_History
+
+
+## Inference Layer
+
+This direct chain suggests a documented historical overlap between the two figures. The connection is traceable but buried in secondary sources rather than primary biographies.
+
+## Open Questions
+
+- Why is this connection absent from mainstream historical narratives?
+- What do the intermediate figures reveal about networks of influence?
+- Are there other parallel chains that remain unexplored?
+
+
+
+--- FINDING 13 (score: 23, 3°) ---
+# Hidden Nexus: the Ku Klux Klan → Schuyler Colfax (3° Link)
+
+**Teaser:** A 3-step chain linking the Ku Klux Klan to Schuyler Colfax
+
+## Hidden Chain
+
+1. [[the Ku Klux Klan]] —[**cooccurrence**]→ [[Harriet Tubman]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/the_Ku_Klux_Klan)
+
+2. [[Harriet Tubman]] —[**cooccurrence**]→ [[Confederate]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/the_Ku_Klux_Klan)
+
+3. [[Confederate]] —[**cooccurrence**]→ [[Schuyler Colfax]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/the_Ku_Klux_Klan)
+
+## Source Trail
+
+Hop 1: the Ku Klux Klan → Harriet Tubman
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/the_Ku_Klux_Klan
+
+Hop 2: Harriet Tubman → Confederate
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/the_Ku_Klux_Klan
+
+Hop 3: Confederate → Schuyler Colfax
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/the_Ku_Klux_Klan
+
+
+## Inference Layer
+
+This direct chain suggests a documented historical overlap between the two figures. The connection is traceable but buried in secondary sources rather than primary biographies.
+
+## Open Questions
+
+- Why is this connection absent from mainstream historical narratives?
+- What do the intermediate figures reveal about networks of influence?
+- Are there other parallel chains that remain unexplored?
+
+
+
+--- FINDING 14 (score: 22, 5°) ---
+# Secret Loom: James Lawrence Orr → Zed Books (5° Link)
+
+**Teaser:** A 5-step chain linking James Lawrence Orr to Zed Books
+
+## Hidden Chain
+
+1. [[James Lawrence Orr]] —[**cooccurrence**]→ [[The Operation of the Freedmen's Bureau]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/James_Lawrence_Orr)
+
+2. [[The Operation of the Freedmen's Bureau]] —[**cooccurrence**]→ [[Yankee Stepfather]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/James_Lawrence_Orr)
+
+3. [[Yankee Stepfather]] —[**cooccurrence**]→ [[Daniel Sickles]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/James_Lawrence_Orr)
+
+4. [[Daniel Sickles]] —[**cooccurrence**]→ [[Army]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/James_Lawrence_Orr)
+
+5. [[Army]] —[**cooccurrence**]→ [[Zed Books]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/James_Lawrence_Orr)
+
+## Source Trail
+
+Hop 1: James Lawrence Orr → The Operation of the Freedmen's Bureau
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/James_Lawrence_Orr
+
+Hop 2: The Operation of the Freedmen's Bureau → Yankee Stepfather
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/James_Lawrence_Orr
+
+Hop 3: Yankee Stepfather → Daniel Sickles
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/James_Lawrence_Orr
+
+Hop 4: Daniel Sickles → Army
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/James_Lawrence_Orr
+
+Hop 5: Army → Zed Books
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/James_Lawrence_Orr
+
+
+## Inference Layer
+
+This five-degree chain involves multiple inference leaps. Each intermediate node acts as a pivot point — a less-documented historical figure whose obscurity may itself be significant. The chain suggests a network of influence that historians have not explicitly documented as a single connected pathway.
+
+## Open Questions
+
+- Why is this connection absent from mainstream historical narratives?
+- What do the intermediate figures reveal about networks of influence?
+- Are there other parallel chains that remain unexplored?
+
+
+
+--- FINDING 15 (score: 23, 5°) ---
+# Secret Loom: marijuana → LibriVox (5° Link)
+
+**Teaser:** A 5-step chain linking marijuana to LibriVox
+
+## Hidden Chain
+
+1. [[marijuana]] —[**cooccurrence**]→ [[CSA]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/marijuana)
+
+2. [[CSA]] —[**cooccurrence**]→ [[Edmund Kirby Smith]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/marijuana)
+
+3. [[Edmund Kirby Smith]] —[**cooccurrence**]→ [[Fox]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/marijuana)
+
+4. [[Fox]] —[**cooccurrence**]→ [[Manuscript Library]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/marijuana)
+
+5. [[Manuscript Library]] —[**cooccurrence**]→ [[LibriVox]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/marijuana)
+
+## Source Trail
+
+Hop 1: marijuana → CSA
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/marijuana
+
+Hop 2: CSA → Edmund Kirby Smith
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/marijuana
+
+Hop 3: Edmund Kirby Smith → Fox
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/marijuana
+
+Hop 4: Fox → Manuscript Library
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/marijuana
+
+Hop 5: Manuscript Library → LibriVox
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/marijuana
+
+
+## Inference Layer
+
+This five-degree chain involves multiple inference leaps. Each intermediate node acts as a pivot point — a less-documented historical figure whose obscurity may itself be significant. The chain suggests a network of influence that historians have not explicitly documented as a single connected pathway.
+
+## Open Questions
+
+- Why is this connection absent from mainstream historical narratives?
+- What do the intermediate figures reveal about networks of influence?
+- Are there other parallel chains that remain unexplored?
+
+
+
+--- FINDING 16 (score: 23, 5°) ---
+# Secret Loom: Manuscript Library → Garrison Frazier (5° Link)
+
+**Teaser:** A 5-step chain linking Manuscript Library to Garrison Frazier
+
+## Hidden Chain
+
+1. [[Manuscript Library]] —[**cooccurrence**]→ [[Fenton Johnson]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/Manuscript_Library)
+
+2. [[Fenton Johnson]] —[**cooccurrence**]→ [[Memoir]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/Manuscript_Library)
+
+3. [[Memoir]] —[**cooccurrence**]→ [[Zora Neale Hurston]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/Manuscript_Library)
+
+4. [[Zora Neale Hurston]] —[**cooccurrence**]→ [[Negro]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/Manuscript_Library)
+
+5. [[Negro]] —[**cooccurrence**]→ [[Garrison Frazier]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/Manuscript_Library)
+
+## Source Trail
+
+Hop 1: Manuscript Library → Fenton Johnson
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/Manuscript_Library
+
+Hop 2: Fenton Johnson → Memoir
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/Manuscript_Library
+
+Hop 3: Memoir → Zora Neale Hurston
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/Manuscript_Library
+
+Hop 4: Zora Neale Hurston → Negro
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/Manuscript_Library
+
+Hop 5: Negro → Garrison Frazier
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/Manuscript_Library
+
+
+## Inference Layer
+
+This five-degree chain involves multiple inference leaps. Each intermediate node acts as a pivot point — a less-documented historical figure whose obscurity may itself be significant. The chain suggests a network of influence that historians have not explicitly documented as a single connected pathway.
+
+## Open Questions
+
+- Why is this connection absent from mainstream historical narratives?
+- What do the intermediate figures reveal about networks of influence?
+- Are there other parallel chains that remain unexplored?
+
+
+
+--- FINDING 17 (score: 17, 5°) ---
+# Secret Loom: Anwar Sadat → Cambridge University Press (5° Link)
+
+**Teaser:** A 5-step chain linking Anwar Sadat to Cambridge University Press
+
+## Hidden Chain
+
+1. [[Anwar Sadat]] —[**cooccurrence**]→ [[UNEF]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/Anwar_Sadat)
+
+2. [[UNEF]] —[**cooccurrence**]→ [[King Hussein]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/Anwar_Sadat)
+
+3. [[King Hussein]] —[**cooccurrence**]→ [[State Department]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/Anwar_Sadat)
+
+4. [[State Department]] —[**cooccurrence**]→ [[James Speed]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/Anwar_Sadat)
+
+5. [[James Speed]] —[**cooccurrence**]→ [[Cambridge University Press]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/Anwar_Sadat)
+
+## Source Trail
+
+Hop 1: Anwar Sadat → UNEF
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/Anwar_Sadat
+
+Hop 2: UNEF → King Hussein
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/Anwar_Sadat
+
+Hop 3: King Hussein → State Department
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/Anwar_Sadat
+
+Hop 4: State Department → James Speed
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/Anwar_Sadat
+
+Hop 5: James Speed → Cambridge University Press
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/Anwar_Sadat
+
+
+## Inference Layer
+
+This five-degree chain involves multiple inference leaps. Each intermediate node acts as a pivot point — a less-documented historical figure whose obscurity may itself be significant. The chain suggests a network of influence that historians have not explicitly documented as a single connected pathway.
+
+## Open Questions
+
+- Why is this connection absent from mainstream historical narratives?
+- What do the intermediate figures reveal about networks of influence?
+- Are there other parallel chains that remain unexplored?
+
+
+
+--- FINDING 18 (score: 18, 4°) ---
+# Shadow Chain: Elizabeth Cady Stanton → Cole Porter (4° Link)
+
+**Teaser:** A 4-step chain linking Elizabeth Cady Stanton to Cole Porter
+
+## Hidden Chain
+
+1. [[Elizabeth Cady Stanton]] —[**cooccurrence**]→ [[Ann Allen]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/Elizabeth_Cady_Stanton)
+
+2. [[Ann Allen]] —[**cooccurrence**]→ [[Negro]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/Elizabeth_Cady_Stanton)
+
+3. [[Negro]] —[**cooccurrence**]→ [[Zora Neale Hurston]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/Elizabeth_Cady_Stanton)
+
+4. [[Zora Neale Hurston]] —[**cooccurrence**]→ [[Cole Porter]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/Elizabeth_Cady_Stanton)
+
+## Source Trail
+
+Hop 1: Elizabeth Cady Stanton → Ann Allen
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/Elizabeth_Cady_Stanton
+
+Hop 2: Ann Allen → Negro
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/Elizabeth_Cady_Stanton
+
+Hop 3: Negro → Zora Neale Hurston
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/Elizabeth_Cady_Stanton
+
+Hop 4: Zora Neale Hurston → Cole Porter
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/Elizabeth_Cady_Stanton
+
+
+## Inference Layer
+
+This longer chain requires a careful reading of intermediary relationships. The bridge figure may not be widely recognized, suggesting that their role as an intermediary between these two historical forces has been overlooked or minimized in mainstream accounts.
+
+## Open Questions
+
+- Why is this connection absent from mainstream historical narratives?
+- What do the intermediate figures reveal about networks of influence?
+- Are there other parallel chains that remain unexplored?
+
+
+
+--- FINDING 19 (score: 17, 4°) ---
+# Shadow Chain: Noam Chomsky → CIA (4° Link)
+
+**Teaser:** A 4-step chain linking Noam Chomsky to CIA
+
+## Hidden Chain
+
+1. [[Noam Chomsky]] —[**cooccurrence**]→ [[the Nicaraguan Revolution]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/Noam_Chomsky)
+
+2. [[the Nicaraguan Revolution]] —[**cooccurrence**]→ [[Daniel Ortega]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/Noam_Chomsky)
+
+3. [[Daniel Ortega]] —[**cooccurrence**]→ [[Anastasio Somoza Debayle]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/Noam_Chomsky)
+
+4. [[Anastasio Somoza Debayle]] —[**cooccurrence**]→ [[CIA]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/Noam_Chomsky)
+
+## Source Trail
+
+Hop 1: Noam Chomsky → the Nicaraguan Revolution
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/Noam_Chomsky
+
+Hop 2: the Nicaraguan Revolution → Daniel Ortega
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/Noam_Chomsky
+
+Hop 3: Daniel Ortega → Anastasio Somoza Debayle
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/Noam_Chomsky
+
+Hop 4: Anastasio Somoza Debayle → CIA
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/Noam_Chomsky
+
+
+## Inference Layer
+
+This longer chain requires a careful reading of intermediary relationships. The bridge figure may not be widely recognized, suggesting that their role as an intermediary between these two historical forces has been overlooked or minimized in mainstream accounts.
+
+## Open Questions
+
+- Why is this connection absent from mainstream historical narratives?
+- What do the intermediate figures reveal about networks of influence?
+- Are there other parallel chains that remain unexplored?
+
+
+
+--- FINDING 20 (score: 20, 5°) ---
+# Secret Loom: Reverdy Johnson → Alfred A. Knopf (5° Link)
+
+**Teaser:** A 5-step chain linking Reverdy Johnson to Alfred A. Knopf
+
+## Hidden Chain
+
+1. [[Reverdy Johnson]] —[**cooccurrence**]→ [[Surgeon]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/Reverdy_Johnson)
+
+2. [[Surgeon]] —[**cooccurrence**]→ [[Ebenezer R. Hoar]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/Reverdy_Johnson)
+
+3. [[Ebenezer R. Hoar]] —[**cooccurrence**]→ [[Union]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/Reverdy_Johnson)
+
+4. [[Union]] —[**cooccurrence**]→ [[William T. Sherman]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/Reverdy_Johnson)
+
+5. [[William T. Sherman]] —[**cooccurrence**]→ [[Alfred A. Knopf]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/Reverdy_Johnson)
+
+## Source Trail
+
+Hop 1: Reverdy Johnson → Surgeon
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/Reverdy_Johnson
+
+Hop 2: Surgeon → Ebenezer R. Hoar
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/Reverdy_Johnson
+
+Hop 3: Ebenezer R. Hoar → Union
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/Reverdy_Johnson
+
+Hop 4: Union → William T. Sherman
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/Reverdy_Johnson
+
+Hop 5: William T. Sherman → Alfred A. Knopf
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/Reverdy_Johnson
+
+
+## Inference Layer
+
+This five-degree chain involves multiple inference leaps. Each intermediate node acts as a pivot point — a less-documented historical figure whose obscurity may itself be significant. The chain suggests a network of influence that historians have not explicitly documented as a single connected pathway.
+
+## Open Questions
+
+- Why is this connection absent from mainstream historical narratives?
+- What do the intermediate figures reveal about networks of influence?
+- Are there other parallel chains that remain unexplored?
+
+
+
+--- FINDING 21 (score: 22, 5°) ---
+# Secret Loom: CIA → Methodist (5° Link)
+
+**Teaser:** A 5-step chain linking CIA to Methodist
+
+## Hidden Chain
+
+1. [[CIA]] —[**cooccurrence**]→ [[James Bond]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/CIA)
+
+2. [[James Bond]] —[**cooccurrence**]→ [[the House of Lords]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/CIA)
+
+3. [[the House of Lords]] —[**cooccurrence**]→ [[George Floyd]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/CIA)
+
+4. [[George Floyd]] —[**cooccurrence**]→ [[Gutzon Borglum]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/CIA)
+
+5. [[Gutzon Borglum]] —[**cooccurrence**]→ [[Methodist]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/CIA)
+
+## Source Trail
+
+Hop 1: CIA → James Bond
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/CIA
+
+Hop 2: James Bond → the House of Lords
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/CIA
+
+Hop 3: the House of Lords → George Floyd
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/CIA
+
+Hop 4: George Floyd → Gutzon Borglum
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/CIA
+
+Hop 5: Gutzon Borglum → Methodist
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/CIA
+
+
+## Inference Layer
+
+This five-degree chain involves multiple inference leaps. Each intermediate node acts as a pivot point — a less-documented historical figure whose obscurity may itself be significant. The chain suggests a network of influence that historians have not explicitly documented as a single connected pathway.
+
+## Open Questions
+
+- Why is this connection absent from mainstream historical narratives?
+- What do the intermediate figures reveal about networks of influence?
+- Are there other parallel chains that remain unexplored?
+
+
+
+--- FINDING 22 (score: 24, 5°) ---
+# Secret Loom: Port Hudson → Paul Finkelman (5° Link)
+
+**Teaser:** A 5-step chain linking Port Hudson to Paul Finkelman
+
+## Hidden Chain
+
+1. [[Port Hudson]] —[**cooccurrence**]→ [[Collapse]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/Port_Hudson)
+
+2. [[Collapse]] —[**cooccurrence**]→ [[Harriet Tubman]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/Port_Hudson)
+
+3. [[Harriet Tubman]] —[**cooccurrence**]→ [[Union]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/Port_Hudson)
+
+4. [[Union]] —[**cooccurrence**]→ [[Henry Halleck]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/Port_Hudson)
+
+5. [[Henry Halleck]] —[**cooccurrence**]→ [[Paul Finkelman]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/Port_Hudson)
+
+## Source Trail
+
+Hop 1: Port Hudson → Collapse
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/Port_Hudson
+
+Hop 2: Collapse → Harriet Tubman
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/Port_Hudson
+
+Hop 3: Harriet Tubman → Union
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/Port_Hudson
+
+Hop 4: Union → Henry Halleck
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/Port_Hudson
+
+Hop 5: Henry Halleck → Paul Finkelman
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/Port_Hudson
+
+
+## Inference Layer
+
+This five-degree chain involves multiple inference leaps. Each intermediate node acts as a pivot point — a less-documented historical figure whose obscurity may itself be significant. The chain suggests a network of influence that historians have not explicitly documented as a single connected pathway.
+
+## Open Questions
+
+- Why is this connection absent from mainstream historical narratives?
+- What do the intermediate figures reveal about networks of influence?
+- Are there other parallel chains that remain unexplored?
+
+
+
+--- FINDING 23 (score: 21, 3°) ---
+# Hidden Nexus: Judah P. Benjamin → William L. (3° Link)
+
+**Teaser:** A 3-step chain linking Judah P. Benjamin to William L.
+
+## Hidden Chain
+
+1. [[Judah P. Benjamin]] —[**cooccurrence**]→ [[Union]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/Judah_P._Benjamin)
+
+2. [[Union]] —[**cooccurrence**]→ [[William T. Sherman]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/Judah_P._Benjamin)
+
+3. [[William T. Sherman]] —[**cooccurrence**]→ [[William L.]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/Judah_P._Benjamin)
+
+## Source Trail
+
+Hop 1: Judah P. Benjamin → Union
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/Judah_P._Benjamin
+
+Hop 2: Union → William T. Sherman
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/Judah_P._Benjamin
+
+Hop 3: William T. Sherman → William L.
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/Judah_P._Benjamin
+
+
+## Inference Layer
+
+This direct chain suggests a documented historical overlap between the two figures. The connection is traceable but buried in secondary sources rather than primary biographies.
+
+## Open Questions
+
+- Why is this connection absent from mainstream historical narratives?
+- What do the intermediate figures reveal about networks of influence?
+- Are there other parallel chains that remain unexplored?
+
+
+
+--- FINDING 24 (score: 25, 3°) ---
+# Hidden Nexus: the Wayback Machine → Jonas Savimbi (3° Link)
+
+**Teaser:** A 3-step chain linking the Wayback Machine to Jonas Savimbi
+
+## Hidden Chain
+
+1. [[the Wayback Machine]] —[**cooccurrence**]→ [[George Meade]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/the_Wayback_Machine)
+
+2. [[George Meade]] —[**cooccurrence**]→ [[Army]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/the_Wayback_Machine)
+
+3. [[Army]] —[**cooccurrence**]→ [[Jonas Savimbi]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/the_Wayback_Machine)
+
+## Source Trail
+
+Hop 1: the Wayback Machine → George Meade
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/the_Wayback_Machine
+
+Hop 2: George Meade → Army
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/the_Wayback_Machine
+
+Hop 3: Army → Jonas Savimbi
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/the_Wayback_Machine
+
+
+## Inference Layer
+
+This direct chain suggests a documented historical overlap between the two figures. The connection is traceable but buried in secondary sources rather than primary biographies.
+
+## Open Questions
+
+- Why is this connection absent from mainstream historical narratives?
+- What do the intermediate figures reveal about networks of influence?
+- Are there other parallel chains that remain unexplored?
+
+
+
+--- FINDING 25 (score: 20, 3°) ---
+# Hidden Nexus: CIA → Orson Welles (3° Link)
+
+**Teaser:** A 3-step chain linking CIA to Orson Welles
+
+## Hidden Chain
+
+1. [[CIA]] —[**cooccurrence**]→ [[James Bond]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/CIA)
+
+2. [[James Bond]] —[**cooccurrence**]→ [[The War of the Worlds]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/CIA)
+
+3. [[The War of the Worlds]] —[**cooccurrence**]→ [[Orson Welles]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/CIA)
+
+## Source Trail
+
+Hop 1: CIA → James Bond
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/CIA
+
+Hop 2: James Bond → The War of the Worlds
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/CIA
+
+Hop 3: The War of the Worlds → Orson Welles
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/CIA
+
+
+## Inference Layer
+
+This direct chain suggests a documented historical overlap between the two figures. The connection is traceable but buried in secondary sources rather than primary biographies.
+
+## Open Questions
+
+- Why is this connection absent from mainstream historical narratives?
+- What do the intermediate figures reveal about networks of influence?
+- Are there other parallel chains that remain unexplored?
+
+
+
+--- FINDING 26 (score: 22, 3°) ---
+# Hidden Nexus: the Confederate Army → Augusto Pinochet (3° Link)
+
+**Teaser:** A 3-step chain linking the Confederate Army to Augusto Pinochet
+
+## Hidden Chain
+
+1. [[the Confederate Army]] —[**cooccurrence**]→ [[Harriet Tubman]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/the_Confederate_Army)
+
+2. [[Harriet Tubman]] —[**cooccurrence**]→ [[Army]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/the_Confederate_Army)
+
+3. [[Army]] —[**cooccurrence**]→ [[Augusto Pinochet]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/the_Confederate_Army)
+
+## Source Trail
+
+Hop 1: the Confederate Army → Harriet Tubman
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/the_Confederate_Army
+
+Hop 2: Harriet Tubman → Army
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/the_Confederate_Army
+
+Hop 3: Army → Augusto Pinochet
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/the_Confederate_Army
+
+
+## Inference Layer
+
+This direct chain suggests a documented historical overlap between the two figures. The connection is traceable but buried in secondary sources rather than primary biographies.
+
+## Open Questions
+
+- Why is this connection absent from mainstream historical narratives?
+- What do the intermediate figures reveal about networks of influence?
+- Are there other parallel chains that remain unexplored?
+
+
+
+--- FINDING 27 (score: 18, 3°) ---
+# Hidden Nexus: Lee Highway → the War Department (3° Link)
+
+**Teaser:** A 3-step chain linking Lee Highway to the War Department
+
+## Hidden Chain
+
+1. [[Lee Highway]] —[**cooccurrence**]→ [[CSA]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/Lee_Highway)
+
+2. [[CSA]] —[**cooccurrence**]→ [[Irvin McDowell]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/Lee_Highway)
+
+3. [[Irvin McDowell]] —[**cooccurrence**]→ [[the War Department]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/Lee_Highway)
+
+## Source Trail
+
+Hop 1: Lee Highway → CSA
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/Lee_Highway
+
+Hop 2: CSA → Irvin McDowell
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/Lee_Highway
+
+Hop 3: Irvin McDowell → the War Department
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/Lee_Highway
+
+
+## Inference Layer
+
+This direct chain suggests a documented historical overlap between the two figures. The connection is traceable but buried in secondary sources rather than primary biographies.
+
+## Open Questions
+
+- Why is this connection absent from mainstream historical narratives?
+- What do the intermediate figures reveal about networks of influence?
+- Are there other parallel chains that remain unexplored?
+
+
+
+--- FINDING 28 (score: 22, 3°) ---
+# Hidden Nexus: Charles Scribner's → Benjamin Bristow (3° Link)
+
+**Teaser:** A 3-step chain linking Charles Scribner's to Benjamin Bristow
+
+## Hidden Chain
+
+1. [[Charles Scribner's]] —[**cooccurrence**]→ [[Union]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/Charles_Scribner's)
+
+2. [[Union]] —[**cooccurrence**]→ [[William T. Sherman]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/Charles_Scribner's)
+
+3. [[William T. Sherman]] —[**cooccurrence**]→ [[Benjamin Bristow]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/Charles_Scribner's)
+
+## Source Trail
+
+Hop 1: Charles Scribner's → Union
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/Charles_Scribner's
+
+Hop 2: Union → William T. Sherman
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/Charles_Scribner's
+
+Hop 3: William T. Sherman → Benjamin Bristow
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/Charles_Scribner's
+
+
+## Inference Layer
+
+This direct chain suggests a documented historical overlap between the two figures. The connection is traceable but buried in secondary sources rather than primary biographies.
+
+## Open Questions
+
+- Why is this connection absent from mainstream historical narratives?
+- What do the intermediate figures reveal about networks of influence?
+- Are there other parallel chains that remain unexplored?
+
+
+
+--- FINDING 29 (score: 17, 4°) ---
+# Shadow Chain: Isaac Murphy → Sam Houston (4° Link)
+
+**Teaser:** A 4-step chain linking Isaac Murphy to Sam Houston
+
+## Hidden Chain
+
+1. [[Isaac Murphy]] —[**cooccurrence**]→ [[The Operation of the Freedmen's Bureau]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/Isaac_Murphy)
+
+2. [[The Operation of the Freedmen's Bureau]] —[**cooccurrence**]→ [[Daniel Sickles]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/Isaac_Murphy)
+
+3. [[Daniel Sickles]] —[**cooccurrence**]→ [[Union]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/Isaac_Murphy)
+
+4. [[Union]] —[**cooccurrence**]→ [[Sam Houston]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/Isaac_Murphy)
+
+## Source Trail
+
+Hop 1: Isaac Murphy → The Operation of the Freedmen's Bureau
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/Isaac_Murphy
+
+Hop 2: The Operation of the Freedmen's Bureau → Daniel Sickles
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/Isaac_Murphy
+
+Hop 3: Daniel Sickles → Union
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/Isaac_Murphy
+
+Hop 4: Union → Sam Houston
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/Isaac_Murphy
+
+
+## Inference Layer
+
+This longer chain requires a careful reading of intermediary relationships. The bridge figure may not be widely recognized, suggesting that their role as an intermediary between these two historical forces has been overlooked or minimized in mainstream accounts.
+
+## Open Questions
+
+- Why is this connection absent from mainstream historical narratives?
+- What do the intermediate figures reveal about networks of influence?
+- Are there other parallel chains that remain unexplored?
+
+
+
+--- FINDING 30 (score: 19, 4°) ---
+# Shadow Chain: Edward L. Pierce → John H. Reagan (4° Link)
+
+**Teaser:** A 4-step chain linking Edward L. Pierce to John H. Reagan
+
+## Hidden Chain
+
+1. [[Edward L. Pierce]] —[**cooccurrence**]→ [[The Operation of the Freedmen's Bureau]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/Edward_L._Pierce)
+
+2. [[The Operation of the Freedmen's Bureau]] —[**cooccurrence**]→ [[Daniel Sickles]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/Edward_L._Pierce)
+
+3. [[Daniel Sickles]] —[**cooccurrence**]→ [[Union]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/Edward_L._Pierce)
+
+4. [[Union]] —[**cooccurrence**]→ [[John H. Reagan]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/Edward_L._Pierce)
+
+## Source Trail
+
+Hop 1: Edward L. Pierce → The Operation of the Freedmen's Bureau
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/Edward_L._Pierce
+
+Hop 2: The Operation of the Freedmen's Bureau → Daniel Sickles
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/Edward_L._Pierce
+
+Hop 3: Daniel Sickles → Union
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/Edward_L._Pierce
+
+Hop 4: Union → John H. Reagan
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/Edward_L._Pierce
+
+
+## Inference Layer
+
+This longer chain requires a careful reading of intermediary relationships. The bridge figure may not be widely recognized, suggesting that their role as an intermediary between these two historical forces has been overlooked or minimized in mainstream accounts.
+
+## Open Questions
+
+- Why is this connection absent from mainstream historical narratives?
+- What do the intermediate figures reveal about networks of influence?
+- Are there other parallel chains that remain unexplored?
+
+
+
+--- FINDING 31 (score: 19, 5°) ---
+# Secret Loom: Andrew Johnson's → W. E. B. (5° Link)
+
+**Teaser:** A 5-step chain linking Andrew Johnson's to W. E. B.
+
+## Hidden Chain
+
+1. [[Andrew Johnson's]] —[**cooccurrence**]→ [[Civil Rights]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/Andrew_Johnson's)
+
+2. [[Civil Rights]] —[**cooccurrence**]→ [[Edward T.]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/Andrew_Johnson's)
+
+3. [[Edward T.]] —[**cooccurrence**]→ [[Fordham University Press]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/Andrew_Johnson's)
+
+4. [[Fordham University Press]] —[**cooccurrence**]→ [[William S.]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/Andrew_Johnson's)
+
+5. [[William S.]] —[**cooccurrence**]→ [[W. E. B.]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/Andrew_Johnson's)
+
+## Source Trail
+
+Hop 1: Andrew Johnson's → Civil Rights
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/Andrew_Johnson's
+
+Hop 2: Civil Rights → Edward T.
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/Andrew_Johnson's
+
+Hop 3: Edward T. → Fordham University Press
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/Andrew_Johnson's
+
+Hop 4: Fordham University Press → William S.
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/Andrew_Johnson's
+
+Hop 5: William S. → W. E. B.
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/Andrew_Johnson's
+
+
+## Inference Layer
+
+This five-degree chain involves multiple inference leaps. Each intermediate node acts as a pivot point — a less-documented historical figure whose obscurity may itself be significant. The chain suggests a network of influence that historians have not explicitly documented as a single connected pathway.
+
+## Open Questions
+
+- Why is this connection absent from mainstream historical narratives?
+- What do the intermediate figures reveal about networks of influence?
+- Are there other parallel chains that remain unexplored?
+
+
+
+--- FINDING 32 (score: 20, 5°) ---
+# Secret Loom: Uncle Tom's Cabin → Harry Truman (5° Link)
+
+**Teaser:** A 5-step chain linking Uncle Tom's Cabin to Harry Truman
+
+## Hidden Chain
+
+1. [[Uncle Tom's Cabin]] —[**cooccurrence**]→ [[the Lost Cause]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/Uncle_Tom's_Cabin)
+
+2. [[the Lost Cause]] —[**cooccurrence**]→ [[Edmund Kirby Smith]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/Uncle_Tom's_Cabin)
+
+3. [[Edmund Kirby Smith]] —[**cooccurrence**]→ [[Union]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/Uncle_Tom's_Cabin)
+
+4. [[Union]] —[**cooccurrence**]→ [[Henry Clay]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/Uncle_Tom's_Cabin)
+
+5. [[Henry Clay]] —[**cooccurrence**]→ [[Harry Truman]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/Uncle_Tom's_Cabin)
+
+## Source Trail
+
+Hop 1: Uncle Tom's Cabin → the Lost Cause
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/Uncle_Tom's_Cabin
+
+Hop 2: the Lost Cause → Edmund Kirby Smith
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/Uncle_Tom's_Cabin
+
+Hop 3: Edmund Kirby Smith → Union
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/Uncle_Tom's_Cabin
+
+Hop 4: Union → Henry Clay
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/Uncle_Tom's_Cabin
+
+Hop 5: Henry Clay → Harry Truman
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/Uncle_Tom's_Cabin
+
+
+## Inference Layer
+
+This five-degree chain involves multiple inference leaps. Each intermediate node acts as a pivot point — a less-documented historical figure whose obscurity may itself be significant. The chain suggests a network of influence that historians have not explicitly documented as a single connected pathway.
+
+## Open Questions
+
+- Why is this connection absent from mainstream historical narratives?
+- What do the intermediate figures reveal about networks of influence?
+- Are there other parallel chains that remain unexplored?
+
+
+
+--- FINDING 33 (score: 17, 5°) ---
+# Secret Loom: Viet Cong → the Confederate Army (5° Link)
+
+**Teaser:** A 5-step chain linking Viet Cong to the Confederate Army
+
+## Hidden Chain
+
+1. [[Viet Cong]] —[**cooccurrence**]→ [[the United Nations Security Council]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/Viet_Cong)
+
+2. [[the United Nations Security Council]] —[**cooccurrence**]→ [[King Hussein]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/Viet_Cong)
+
+3. [[King Hussein]] —[**cooccurrence**]→ [[State Department]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/Viet_Cong)
+
+4. [[State Department]] —[**cooccurrence**]→ [[Order No]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/Viet_Cong)
+
+5. [[Order No]] —[**cooccurrence**]→ [[the Confederate Army]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/Viet_Cong)
+
+## Source Trail
+
+Hop 1: Viet Cong → the United Nations Security Council
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/Viet_Cong
+
+Hop 2: the United Nations Security Council → King Hussein
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/Viet_Cong
+
+Hop 3: King Hussein → State Department
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/Viet_Cong
+
+Hop 4: State Department → Order No
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/Viet_Cong
+
+Hop 5: Order No → the Confederate Army
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/Viet_Cong
+
+
+## Inference Layer
+
+This five-degree chain involves multiple inference leaps. Each intermediate node acts as a pivot point — a less-documented historical figure whose obscurity may itself be significant. The chain suggests a network of influence that historians have not explicitly documented as a single connected pathway.
+
+## Open Questions
+
+- Why is this connection absent from mainstream historical narratives?
+- What do the intermediate figures reveal about networks of influence?
+- Are there other parallel chains that remain unexplored?
+
+
+
+--- FINDING 34 (score: 18, 5°) ---
+# Secret Loom: Henry Halleck → Desert Storm (5° Link)
+
+**Teaser:** A 5-step chain linking Henry Halleck to Desert Storm
+
+## Hidden Chain
+
+1. [[Henry Halleck]] —[**cooccurrence**]→ [[Collapse]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/Henry_Halleck)
+
+2. [[Collapse]] —[**cooccurrence**]→ [[Harriet Tubman]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/Henry_Halleck)
+
+3. [[Harriet Tubman]] —[**cooccurrence**]→ [[Union]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/Henry_Halleck)
+
+4. [[Union]] —[**cooccurrence**]→ [[Braxton Bragg]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/Henry_Halleck)
+
+5. [[Braxton Bragg]] —[**cooccurrence**]→ [[Desert Storm]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/Henry_Halleck)
+
+## Source Trail
+
+Hop 1: Henry Halleck → Collapse
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/Henry_Halleck
+
+Hop 2: Collapse → Harriet Tubman
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/Henry_Halleck
+
+Hop 3: Harriet Tubman → Union
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/Henry_Halleck
+
+Hop 4: Union → Braxton Bragg
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/Henry_Halleck
+
+Hop 5: Braxton Bragg → Desert Storm
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/Henry_Halleck
+
+
+## Inference Layer
+
+This five-degree chain involves multiple inference leaps. Each intermediate node acts as a pivot point — a less-documented historical figure whose obscurity may itself be significant. The chain suggests a network of influence that historians have not explicitly documented as a single connected pathway.
+
+## Open Questions
+
+- Why is this connection absent from mainstream historical narratives?
+- What do the intermediate figures reveal about networks of influence?
+- Are there other parallel chains that remain unexplored?
+
+
+
+--- FINDING 35 (score: 18, 5°) ---
+# Secret Loom: Xi Jinping → Henry Tizard (5° Link)
+
+**Teaser:** A 5-step chain linking Xi Jinping to Henry Tizard
+
+## Hidden Chain
+
+1. [[Xi Jinping]] —[**cooccurrence**]→ [[the September 11]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/Xi_Jinping)
+
+2. [[the September 11]] —[**cooccurrence**]→ [[Oliver Gould Jennings House]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/Xi_Jinping)
+
+3. [[Oliver Gould Jennings House]] —[**cooccurrence**]→ [[Christopher Gray]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/Xi_Jinping)
+
+4. [[Christopher Gray]] —[**cooccurrence**]→ [[PDF]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/Xi_Jinping)
+
+5. [[PDF]] —[**cooccurrence**]→ [[Henry Tizard]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/Xi_Jinping)
+
+## Source Trail
+
+Hop 1: Xi Jinping → the September 11
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/Xi_Jinping
+
+Hop 2: the September 11 → Oliver Gould Jennings House
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/Xi_Jinping
+
+Hop 3: Oliver Gould Jennings House → Christopher Gray
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/Xi_Jinping
+
+Hop 4: Christopher Gray → PDF
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/Xi_Jinping
+
+Hop 5: PDF → Henry Tizard
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/Xi_Jinping
+
+
+## Inference Layer
+
+This five-degree chain involves multiple inference leaps. Each intermediate node acts as a pivot point — a less-documented historical figure whose obscurity may itself be significant. The chain suggests a network of influence that historians have not explicitly documented as a single connected pathway.
+
+## Open Questions
+
+- Why is this connection absent from mainstream historical narratives?
+- What do the intermediate figures reveal about networks of influence?
+- Are there other parallel chains that remain unexplored?
+
+
+
+--- FINDING 36 (score: 23, 5°) ---
+# Secret Loom: Samuel C. Pomeroy → James Speed (5° Link)
+
+**Teaser:** A 5-step chain linking Samuel C. Pomeroy to James Speed
+
+## Hidden Chain
+
+1. [[Samuel C. Pomeroy]] —[**cooccurrence**]→ [[The Operation of the Freedmen's Bureau]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/Samuel_C._Pomeroy)
+
+2. [[The Operation of the Freedmen's Bureau]] —[**cooccurrence**]→ [[Yankee Stepfather]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/Samuel_C._Pomeroy)
+
+3. [[Yankee Stepfather]] —[**cooccurrence**]→ [[State Department]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/Samuel_C._Pomeroy)
+
+4. [[State Department]] —[**cooccurrence**]→ [[William S.]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/Samuel_C._Pomeroy)
+
+5. [[William S.]] —[**cooccurrence**]→ [[James Speed]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/Samuel_C._Pomeroy)
+
+## Source Trail
+
+Hop 1: Samuel C. Pomeroy → The Operation of the Freedmen's Bureau
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/Samuel_C._Pomeroy
+
+Hop 2: The Operation of the Freedmen's Bureau → Yankee Stepfather
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/Samuel_C._Pomeroy
+
+Hop 3: Yankee Stepfather → State Department
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/Samuel_C._Pomeroy
+
+Hop 4: State Department → William S.
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/Samuel_C._Pomeroy
+
+Hop 5: William S. → James Speed
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/Samuel_C._Pomeroy
+
+
+## Inference Layer
+
+This five-degree chain involves multiple inference leaps. Each intermediate node acts as a pivot point — a less-documented historical figure whose obscurity may itself be significant. The chain suggests a network of influence that historians have not explicitly documented as a single connected pathway.
+
+## Open Questions
+
+- Why is this connection absent from mainstream historical narratives?
+- What do the intermediate figures reveal about networks of influence?
+- Are there other parallel chains that remain unexplored?
+
+
+
+--- FINDING 37 (score: 22, 5°) ---
+# Secret Loom: Queen Victoria → Interior (5° Link)
+
+**Teaser:** A 5-step chain linking Queen Victoria to Interior
+
+## Hidden Chain
+
+1. [[Queen Victoria]] —[**cooccurrence**]→ [[the Glasgow Evening News]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/Queen_Victoria)
+
+2. [[the Glasgow Evening News]] —[**cooccurrence**]→ [[J. Edgar Hoover]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/Queen_Victoria)
+
+3. [[J. Edgar Hoover]] —[**cooccurrence**]→ [[Freemasonry]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/Queen_Victoria)
+
+4. [[Freemasonry]] —[**cooccurrence**]→ [[Che Guevara]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/Queen_Victoria)
+
+5. [[Che Guevara]] —[**cooccurrence**]→ [[Interior]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/Queen_Victoria)
+
+## Source Trail
+
+Hop 1: Queen Victoria → the Glasgow Evening News
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/Queen_Victoria
+
+Hop 2: the Glasgow Evening News → J. Edgar Hoover
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/Queen_Victoria
+
+Hop 3: J. Edgar Hoover → Freemasonry
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/Queen_Victoria
+
+Hop 4: Freemasonry → Che Guevara
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/Queen_Victoria
+
+Hop 5: Che Guevara → Interior
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/Queen_Victoria
+
+
+## Inference Layer
+
+This five-degree chain involves multiple inference leaps. Each intermediate node acts as a pivot point — a less-documented historical figure whose obscurity may itself be significant. The chain suggests a network of influence that historians have not explicitly documented as a single connected pathway.
+
+## Open Questions
+
+- Why is this connection absent from mainstream historical narratives?
+- What do the intermediate figures reveal about networks of influence?
+- Are there other parallel chains that remain unexplored?
+
+
+
+--- FINDING 38 (score: 22, 5°) ---
+# Secret Loom: John Bingham → the Emancipation Proclamation (5° Link)
+
+**Teaser:** A 5-step chain linking John Bingham to the Emancipation Proclamation
+
+## Hidden Chain
+
+1. [[John Bingham]] —[**cooccurrence**]→ [[Eric Foner]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/John_Bingham)
+
+2. [[Eric Foner]] —[**cooccurrence**]→ [[The Supreme Court]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/John_Bingham)
+
+3. [[The Supreme Court]] —[**cooccurrence**]→ [[Ebenezer R. Hoar]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/John_Bingham)
+
+4. [[Ebenezer R. Hoar]] —[**cooccurrence**]→ [[Daniel Sickles]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/John_Bingham)
+
+5. [[Daniel Sickles]] —[**cooccurrence**]→ [[the Emancipation Proclamation]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/John_Bingham)
+
+## Source Trail
+
+Hop 1: John Bingham → Eric Foner
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/John_Bingham
+
+Hop 2: Eric Foner → The Supreme Court
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/John_Bingham
+
+Hop 3: The Supreme Court → Ebenezer R. Hoar
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/John_Bingham
+
+Hop 4: Ebenezer R. Hoar → Daniel Sickles
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/John_Bingham
+
+Hop 5: Daniel Sickles → the Emancipation Proclamation
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/John_Bingham
+
+
+## Inference Layer
+
+This five-degree chain involves multiple inference leaps. Each intermediate node acts as a pivot point — a less-documented historical figure whose obscurity may itself be significant. The chain suggests a network of influence that historians have not explicitly documented as a single connected pathway.
+
+## Open Questions
+
+- Why is this connection absent from mainstream historical narratives?
+- What do the intermediate figures reveal about networks of influence?
+- Are there other parallel chains that remain unexplored?
+
+
+
+--- FINDING 39 (score: 19, 3°) ---
+# Hidden Nexus: James McPherson → Lilacs Last (3° Link)
+
+**Teaser:** A 3-step chain linking James McPherson to Lilacs Last
+
+## Hidden Chain
+
+1. [[James McPherson]] —[**cooccurrence**]→ [[Union]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/James_McPherson)
+
+2. [[Union]] —[**cooccurrence**]→ [[George Meade]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/James_McPherson)
+
+3. [[George Meade]] —[**cooccurrence**]→ [[Lilacs Last]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/James_McPherson)
+
+## Source Trail
+
+Hop 1: James McPherson → Union
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/James_McPherson
+
+Hop 2: Union → George Meade
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/James_McPherson
+
+Hop 3: George Meade → Lilacs Last
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/James_McPherson
+
+
+## Inference Layer
+
+This direct chain suggests a documented historical overlap between the two figures. The connection is traceable but buried in secondary sources rather than primary biographies.
+
+## Open Questions
+
+- Why is this connection absent from mainstream historical narratives?
+- What do the intermediate figures reveal about networks of influence?
+- Are there other parallel chains that remain unexplored?
+
+
+
+--- FINDING 40 (score: 19, 3°) ---
+# Hidden Nexus: Sidney Lanier → James G. Blaine (3° Link)
+
+**Teaser:** A 3-step chain linking Sidney Lanier to James G. Blaine
+
+## Hidden Chain
+
+1. [[Sidney Lanier]] —[**cooccurrence**]→ [[Edmund Kirby Smith]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/Sidney_Lanier)
+
+2. [[Edmund Kirby Smith]] —[**cooccurrence**]→ [[Union]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/Sidney_Lanier)
+
+3. [[Union]] —[**cooccurrence**]→ [[James G. Blaine]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/Sidney_Lanier)
+
+## Source Trail
+
+Hop 1: Sidney Lanier → Edmund Kirby Smith
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/Sidney_Lanier
+
+Hop 2: Edmund Kirby Smith → Union
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/Sidney_Lanier
+
+Hop 3: Union → James G. Blaine
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/Sidney_Lanier
+
+
+## Inference Layer
+
+This direct chain suggests a documented historical overlap between the two figures. The connection is traceable but buried in secondary sources rather than primary biographies.
+
+## Open Questions
+
+- Why is this connection absent from mainstream historical narratives?
+- What do the intermediate figures reveal about networks of influence?
+- Are there other parallel chains that remain unexplored?
+
+
+
+--- FINDING 41 (score: 18, 3°) ---
+# Hidden Nexus: Margaret Thatcher → Henry Louis Gates Jr. (3° Link)
+
+**Teaser:** A 3-step chain linking Margaret Thatcher to Henry Louis Gates Jr.
+
+## Hidden Chain
+
+1. [[Margaret Thatcher]] —[**cooccurrence**]→ [[George Bush]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/Margaret_Thatcher)
+
+2. [[George Bush]] —[**cooccurrence**]→ [[Army]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/Margaret_Thatcher)
+
+3. [[Army]] —[**cooccurrence**]→ [[Henry Louis Gates Jr.]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/Margaret_Thatcher)
+
+## Source Trail
+
+Hop 1: Margaret Thatcher → George Bush
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/Margaret_Thatcher
+
+Hop 2: George Bush → Army
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/Margaret_Thatcher
+
+Hop 3: Army → Henry Louis Gates Jr.
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/Margaret_Thatcher
+
+
+## Inference Layer
+
+This direct chain suggests a documented historical overlap between the two figures. The connection is traceable but buried in secondary sources rather than primary biographies.
+
+## Open Questions
+
+- Why is this connection absent from mainstream historical narratives?
+- What do the intermediate figures reveal about networks of influence?
+- Are there other parallel chains that remain unexplored?
+
+
+
+--- FINDING 42 (score: 22, 3°) ---
+# Hidden Nexus: FBI → Edward L. Pierce (3° Link)
+
+**Teaser:** A 3-step chain linking FBI to Edward L. Pierce
+
+## Hidden Chain
+
+1. [[FBI]] —[**cooccurrence**]→ [[Mickey Rooney]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/FBI)
+
+2. [[Mickey Rooney]] —[**cooccurrence**]→ [[Lincoln]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/FBI)
+
+3. [[Lincoln]] —[**cooccurrence**]→ [[Edward L. Pierce]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/FBI)
+
+## Source Trail
+
+Hop 1: FBI → Mickey Rooney
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/FBI
+
+Hop 2: Mickey Rooney → Lincoln
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/FBI
+
+Hop 3: Lincoln → Edward L. Pierce
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/FBI
+
+
+## Inference Layer
+
+This direct chain suggests a documented historical overlap between the two figures. The connection is traceable but buried in secondary sources rather than primary biographies.
+
+## Open Questions
+
+- Why is this connection absent from mainstream historical narratives?
+- What do the intermediate figures reveal about networks of influence?
+- Are there other parallel chains that remain unexplored?
+
+
+
+--- FINDING 43 (score: 19, 3°) ---
+# Hidden Nexus: Robert E. → Simon & Schuster (3° Link)
+
+**Teaser:** A 3-step chain linking Robert E. to Simon & Schuster
+
+## Hidden Chain
+
+1. [[Robert E.]] —[**cooccurrence**]→ [[the Great Depression]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/Robert_E.)
+
+2. [[the Great Depression]] —[**cooccurrence**]→ [[Duke Ellington]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/Robert_E.)
+
+3. [[Duke Ellington]] —[**cooccurrence**]→ [[Simon & Schuster]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/Robert_E.)
+
+## Source Trail
+
+Hop 1: Robert E. → the Great Depression
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/Robert_E.
+
+Hop 2: the Great Depression → Duke Ellington
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/Robert_E.
+
+Hop 3: Duke Ellington → Simon & Schuster
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/Robert_E.
+
+
+## Inference Layer
+
+This direct chain suggests a documented historical overlap between the two figures. The connection is traceable but buried in secondary sources rather than primary biographies.
+
+## Open Questions
+
+- Why is this connection absent from mainstream historical narratives?
+- What do the intermediate figures reveal about networks of influence?
+- Are there other parallel chains that remain unexplored?
+
+
+
+--- FINDING 44 (score: 22, 3°) ---
+# Hidden Nexus: Gerald Templer → the Vietnam War (3° Link)
+
+**Teaser:** A 3-step chain linking Gerald Templer to the Vietnam War
+
+## Hidden Chain
+
+1. [[Gerald Templer]] —[**cooccurrence**]→ [[PDF]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/Gerald_Templer)
+
+2. [[PDF]] —[**cooccurrence**]→ [[Peter Krogh]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/Gerald_Templer)
+
+3. [[Peter Krogh]] —[**cooccurrence**]→ [[the Vietnam War]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/Gerald_Templer)
+
+## Source Trail
+
+Hop 1: Gerald Templer → PDF
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/Gerald_Templer
+
+Hop 2: PDF → Peter Krogh
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/Gerald_Templer
+
+Hop 3: Peter Krogh → the Vietnam War
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/Gerald_Templer
+
+
+## Inference Layer
+
+This direct chain suggests a documented historical overlap between the two figures. The connection is traceable but buried in secondary sources rather than primary biographies.
+
+## Open Questions
+
+- Why is this connection absent from mainstream historical narratives?
+- What do the intermediate figures reveal about networks of influence?
+- Are there other parallel chains that remain unexplored?
+
+
+
+--- FINDING 45 (score: 25, 4°) ---
+# Shadow Chain: the Supreme Court → Thomas E. Dewey (4° Link)
+
+**Teaser:** A 4-step chain linking the Supreme Court to Thomas E. Dewey
+
+## Hidden Chain
+
+1. [[the Supreme Court]] —[**cooccurrence**]→ [[Ebenezer R. Hoar]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/the_Supreme_Court)
+
+2. [[Ebenezer R. Hoar]] —[**cooccurrence**]→ [[Irvin McDowell]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/the_Supreme_Court)
+
+3. [[Irvin McDowell]] —[**cooccurrence**]→ [[Army]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/the_Supreme_Court)
+
+4. [[Army]] —[**cooccurrence**]→ [[Thomas E. Dewey]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/the_Supreme_Court)
+
+## Source Trail
+
+Hop 1: the Supreme Court → Ebenezer R. Hoar
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/the_Supreme_Court
+
+Hop 2: Ebenezer R. Hoar → Irvin McDowell
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/the_Supreme_Court
+
+Hop 3: Irvin McDowell → Army
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/the_Supreme_Court
+
+Hop 4: Army → Thomas E. Dewey
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/the_Supreme_Court
+
+
+## Inference Layer
+
+This longer chain requires a careful reading of intermediary relationships. The bridge figure may not be widely recognized, suggesting that their role as an intermediary between these two historical forces has been overlooked or minimized in mainstream accounts.
+
+## Open Questions
+
+- Why is this connection absent from mainstream historical narratives?
+- What do the intermediate figures reveal about networks of influence?
+- Are there other parallel chains that remain unexplored?
+
+
+
+--- FINDING 46 (score: 22, 4°) ---
+# Shadow Chain: Benjamin Harrison → Samuel J. Tilden (4° Link)
+
+**Teaser:** A 4-step chain linking Benjamin Harrison to Samuel J. Tilden
+
+## Hidden Chain
+
+1. [[Benjamin Harrison]] —[**cooccurrence**]→ [[the History Channel's]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/Benjamin_Harrison)
+
+2. [[the History Channel's]] —[**cooccurrence**]→ [[Stephen A. Douglas]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/Benjamin_Harrison)
+
+3. [[Stephen A. Douglas]] —[**cooccurrence**]→ [[House]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/Benjamin_Harrison)
+
+4. [[House]] —[**cooccurrence**]→ [[Samuel J. Tilden]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/Benjamin_Harrison)
+
+## Source Trail
+
+Hop 1: Benjamin Harrison → the History Channel's
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/Benjamin_Harrison
+
+Hop 2: the History Channel's → Stephen A. Douglas
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/Benjamin_Harrison
+
+Hop 3: Stephen A. Douglas → House
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/Benjamin_Harrison
+
+Hop 4: House → Samuel J. Tilden
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/Benjamin_Harrison
+
+
+## Inference Layer
+
+This longer chain requires a careful reading of intermediary relationships. The bridge figure may not be widely recognized, suggesting that their role as an intermediary between these two historical forces has been overlooked or minimized in mainstream accounts.
+
+## Open Questions
+
+- Why is this connection absent from mainstream historical narratives?
+- What do the intermediate figures reveal about networks of influence?
+- Are there other parallel chains that remain unexplored?
+
+
+
+--- FINDING 47 (score: 18, 4°) ---
+# Shadow Chain: Negro → John Nance Garner (4° Link)
+
+**Teaser:** A 4-step chain linking Negro to John Nance Garner
+
+## Hidden Chain
+
+1. [[Negro]] —[**cooccurrence**]→ [[Fenton Johnson]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/Negro)
+
+2. [[Fenton Johnson]] —[**cooccurrence**]→ [[American Negro Poetry]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/Negro)
+
+3. [[American Negro Poetry]] —[**cooccurrence**]→ [[Gertrude Stein]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/Negro)
+
+4. [[Gertrude Stein]] —[**cooccurrence**]→ [[John Nance Garner]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/Negro)
+
+## Source Trail
+
+Hop 1: Negro → Fenton Johnson
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/Negro
+
+Hop 2: Fenton Johnson → American Negro Poetry
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/Negro
+
+Hop 3: American Negro Poetry → Gertrude Stein
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/Negro
+
+Hop 4: Gertrude Stein → John Nance Garner
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/Negro
+
+
+## Inference Layer
+
+This longer chain requires a careful reading of intermediary relationships. The bridge figure may not be widely recognized, suggesting that their role as an intermediary between these two historical forces has been overlooked or minimized in mainstream accounts.
+
+## Open Questions
+
+- Why is this connection absent from mainstream historical narratives?
+- What do the intermediate figures reveal about networks of influence?
+- Are there other parallel chains that remain unexplored?
+
+
+
+--- FINDING 48 (score: 23, 4°) ---
+# Shadow Chain: Lee Highway → Eastern (4° Link)
+
+**Teaser:** A 4-step chain linking Lee Highway to Eastern
+
+## Hidden Chain
+
+1. [[Lee Highway]] —[**cooccurrence**]→ [[SCV]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/Lee_Highway)
+
+2. [[SCV]] —[**cooccurrence**]→ [[Edmund Kirby Smith]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/Lee_Highway)
+
+3. [[Edmund Kirby Smith]] —[**cooccurrence**]→ [[Braxton Bragg]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/Lee_Highway)
+
+4. [[Braxton Bragg]] —[**cooccurrence**]→ [[Eastern]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/Lee_Highway)
+
+## Source Trail
+
+Hop 1: Lee Highway → SCV
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/Lee_Highway
+
+Hop 2: SCV → Edmund Kirby Smith
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/Lee_Highway
+
+Hop 3: Edmund Kirby Smith → Braxton Bragg
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/Lee_Highway
+
+Hop 4: Braxton Bragg → Eastern
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/Lee_Highway
+
+
+## Inference Layer
+
+This longer chain requires a careful reading of intermediary relationships. The bridge figure may not be widely recognized, suggesting that their role as an intermediary between these two historical forces has been overlooked or minimized in mainstream accounts.
+
+## Open Questions
+
+- Why is this connection absent from mainstream historical narratives?
+- What do the intermediate figures reveal about networks of influence?
+- Are there other parallel chains that remain unexplored?
+
+
+
+--- FINDING 49 (score: 20, 4°) ---
+# Shadow Chain: John Dillinger → Columbia (4° Link)
+
+**Teaser:** A 4-step chain linking John Dillinger to Columbia
+
+## Hidden Chain
+
+1. [[John Dillinger]] —[**cooccurrence**]→ [[Alcatraz]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/John_Dillinger)
+
+2. [[Alcatraz]] —[**cooccurrence**]→ [[Bugs Moran]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/John_Dillinger)
+
+3. [[Bugs Moran]] —[**cooccurrence**]→ [[Charles Lindbergh]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/John_Dillinger)
+
+4. [[Charles Lindbergh]] —[**cooccurrence**]→ [[Columbia]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/John_Dillinger)
+
+## Source Trail
+
+Hop 1: John Dillinger → Alcatraz
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/John_Dillinger
+
+Hop 2: Alcatraz → Bugs Moran
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/John_Dillinger
+
+Hop 3: Bugs Moran → Charles Lindbergh
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/John_Dillinger
+
+Hop 4: Charles Lindbergh → Columbia
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/John_Dillinger
+
+
+## Inference Layer
+
+This longer chain requires a careful reading of intermediary relationships. The bridge figure may not be widely recognized, suggesting that their role as an intermediary between these two historical forces has been overlooked or minimized in mainstream accounts.
+
+## Open Questions
+
+- Why is this connection absent from mainstream historical narratives?
+- What do the intermediate figures reveal about networks of influence?
+- Are there other parallel chains that remain unexplored?
+
+
+
+--- FINDING 50 (score: 18, 4°) ---
+# Shadow Chain: Lee Elementary School → the War Department (4° Link)
+
+**Teaser:** A 4-step chain linking Lee Elementary School to the War Department
+
+## Hidden Chain
+
+1. [[Lee Elementary School]] —[**cooccurrence**]→ [[SCV]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/Lee_Elementary_School)
+
+2. [[SCV]] —[**cooccurrence**]→ [[Edmund Kirby Smith]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/Lee_Elementary_School)
+
+3. [[Edmund Kirby Smith]] —[**cooccurrence**]→ [[Braxton Bragg]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/Lee_Elementary_School)
+
+4. [[Braxton Bragg]] —[**cooccurrence**]→ [[the War Department]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/Lee_Elementary_School)
+
+## Source Trail
+
+Hop 1: Lee Elementary School → SCV
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/Lee_Elementary_School
+
+Hop 2: SCV → Edmund Kirby Smith
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/Lee_Elementary_School
+
+Hop 3: Edmund Kirby Smith → Braxton Bragg
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/Lee_Elementary_School
+
+Hop 4: Braxton Bragg → the War Department
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/Lee_Elementary_School
+
+
+## Inference Layer
+
+This longer chain requires a careful reading of intermediary relationships. The bridge figure may not be widely recognized, suggesting that their role as an intermediary between these two historical forces has been overlooked or minimized in mainstream accounts.
+
+## Open Questions
+
+- Why is this connection absent from mainstream historical narratives?
+- What do the intermediate figures reveal about networks of influence?
+- Are there other parallel chains that remain unexplored?
+
+
+
+--- FINDING 51 (score: 22, 4°) ---
+# Shadow Chain: Lyndon Johnson → Martin (4° Link)
+
+**Teaser:** A 4-step chain linking Lyndon Johnson to Martin
+
+## Hidden Chain
+
+1. [[Lyndon Johnson]] —[**cooccurrence**]→ [[PDF]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/Lyndon_Johnson)
+
+2. [[PDF]] —[**cooccurrence**]→ [[William J.]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/Lyndon_Johnson)
+
+3. [[William J.]] —[**cooccurrence**]→ [[Confederate]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/Lyndon_Johnson)
+
+4. [[Confederate]] —[**cooccurrence**]→ [[Martin]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/Lyndon_Johnson)
+
+## Source Trail
+
+Hop 1: Lyndon Johnson → PDF
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/Lyndon_Johnson
+
+Hop 2: PDF → William J.
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/Lyndon_Johnson
+
+Hop 3: William J. → Confederate
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/Lyndon_Johnson
+
+Hop 4: Confederate → Martin
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/Lyndon_Johnson
+
+
+## Inference Layer
+
+This longer chain requires a careful reading of intermediary relationships. The bridge figure may not be widely recognized, suggesting that their role as an intermediary between these two historical forces has been overlooked or minimized in mainstream accounts.
+
+## Open Questions
+
+- Why is this connection absent from mainstream historical narratives?
+- What do the intermediate figures reveal about networks of influence?
+- Are there other parallel chains that remain unexplored?
+
+
+
+--- FINDING 52 (score: 23, 4°) ---
+# Shadow Chain: Bugs Moran → George Henry Williams (4° Link)
+
+**Teaser:** A 4-step chain linking Bugs Moran to George Henry Williams
+
+## Hidden Chain
+
+1. [[Bugs Moran]] —[**cooccurrence**]→ [[Fox]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/Bugs_Moran)
+
+2. [[Fox]] —[**cooccurrence**]→ [[Edmund Kirby Smith]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/Bugs_Moran)
+
+3. [[Edmund Kirby Smith]] —[**cooccurrence**]→ [[Confederate]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/Bugs_Moran)
+
+4. [[Confederate]] —[**cooccurrence**]→ [[George Henry Williams]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/Bugs_Moran)
+
+## Source Trail
+
+Hop 1: Bugs Moran → Fox
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/Bugs_Moran
+
+Hop 2: Fox → Edmund Kirby Smith
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/Bugs_Moran
+
+Hop 3: Edmund Kirby Smith → Confederate
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/Bugs_Moran
+
+Hop 4: Confederate → George Henry Williams
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/Bugs_Moran
+
+
+## Inference Layer
+
+This longer chain requires a careful reading of intermediary relationships. The bridge figure may not be widely recognized, suggesting that their role as an intermediary between these two historical forces has been overlooked or minimized in mainstream accounts.
+
+## Open Questions
+
+- Why is this connection absent from mainstream historical narratives?
+- What do the intermediate figures reveal about networks of influence?
+- Are there other parallel chains that remain unexplored?
+
+
+
+--- FINDING 53 (score: 23, 4°) ---
+# Shadow Chain: the Republican Party → Ho Chi Minh (4° Link)
+
+**Teaser:** A 4-step chain linking the Republican Party to Ho Chi Minh
+
+## Hidden Chain
+
+1. [[the Republican Party]] —[**cooccurrence**]→ [[Harriet Tubman]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/the_Republican_Party)
+
+2. [[Harriet Tubman]] —[**cooccurrence**]→ [[Army]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/the_Republican_Party)
+
+3. [[Army]] —[**cooccurrence**]→ [[Allen Dulles]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/the_Republican_Party)
+
+4. [[Allen Dulles]] —[**cooccurrence**]→ [[Ho Chi Minh]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/the_Republican_Party)
+
+## Source Trail
+
+Hop 1: the Republican Party → Harriet Tubman
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/the_Republican_Party
+
+Hop 2: Harriet Tubman → Army
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/the_Republican_Party
+
+Hop 3: Army → Allen Dulles
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/the_Republican_Party
+
+Hop 4: Allen Dulles → Ho Chi Minh
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/the_Republican_Party
+
+
+## Inference Layer
+
+This longer chain requires a careful reading of intermediary relationships. The bridge figure may not be widely recognized, suggesting that their role as an intermediary between these two historical forces has been overlooked or minimized in mainstream accounts.
+
+## Open Questions
+
+- Why is this connection absent from mainstream historical narratives?
+- What do the intermediate figures reveal about networks of influence?
+- Are there other parallel chains that remain unexplored?
+
+
+
+--- FINDING 54 (score: 21, 4°) ---
+# Shadow Chain: Supreme Court → Xi Jinping (4° Link)
+
+**Teaser:** A 4-step chain linking Supreme Court to Xi Jinping
+
+## Hidden Chain
+
+1. [[Supreme Court]] —[**cooccurrence**]→ [[Ebenezer R. Hoar]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/Supreme_Court)
+
+2. [[Ebenezer R. Hoar]] —[**cooccurrence**]→ [[Irvin McDowell]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/Supreme_Court)
+
+3. [[Irvin McDowell]] —[**cooccurrence**]→ [[Civil War]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/Supreme_Court)
+
+4. [[Civil War]] —[**cooccurrence**]→ [[Xi Jinping]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/Supreme_Court)
+
+## Source Trail
+
+Hop 1: Supreme Court → Ebenezer R. Hoar
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/Supreme_Court
+
+Hop 2: Ebenezer R. Hoar → Irvin McDowell
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/Supreme_Court
+
+Hop 3: Irvin McDowell → Civil War
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/Supreme_Court
+
+Hop 4: Civil War → Xi Jinping
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/Supreme_Court
+
+
+## Inference Layer
+
+This longer chain requires a careful reading of intermediary relationships. The bridge figure may not be widely recognized, suggesting that their role as an intermediary between these two historical forces has been overlooked or minimized in mainstream accounts.
+
+## Open Questions
+
+- Why is this connection absent from mainstream historical narratives?
+- What do the intermediate figures reveal about networks of influence?
+- Are there other parallel chains that remain unexplored?
+
+
+
+--- FINDING 55 (score: 23, 5°) ---
+# Secret Loom: James M. Cox → Richard Taylor (5° Link)
+
+**Teaser:** A 5-step chain linking James M. Cox to Richard Taylor
+
+## Hidden Chain
+
+1. [[James M. Cox]] —[**cooccurrence**]→ [[the History Channel's]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/James_M._Cox)
+
+2. [[the History Channel's]] —[**cooccurrence**]→ [[Stephen A. Douglas]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/James_M._Cox)
+
+3. [[Stephen A. Douglas]] —[**cooccurrence**]→ [[the National Register of Historic Places]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/James_M._Cox)
+
+4. [[the National Register of Historic Places]] —[**cooccurrence**]→ [[Historic Site]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/James_M._Cox)
+
+5. [[Historic Site]] —[**cooccurrence**]→ [[Richard Taylor]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/James_M._Cox)
+
+## Source Trail
+
+Hop 1: James M. Cox → the History Channel's
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/James_M._Cox
+
+Hop 2: the History Channel's → Stephen A. Douglas
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/James_M._Cox
+
+Hop 3: Stephen A. Douglas → the National Register of Historic Places
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/James_M._Cox
+
+Hop 4: the National Register of Historic Places → Historic Site
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/James_M._Cox
+
+Hop 5: Historic Site → Richard Taylor
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/James_M._Cox
+
+
+## Inference Layer
+
+This five-degree chain involves multiple inference leaps. Each intermediate node acts as a pivot point — a less-documented historical figure whose obscurity may itself be significant. The chain suggests a network of influence that historians have not explicitly documented as a single connected pathway.
+
+## Open Questions
+
+- Why is this connection absent from mainstream historical narratives?
+- What do the intermediate figures reveal about networks of influence?
+- Are there other parallel chains that remain unexplored?
+
+
+
+--- FINDING 56 (score: 19, 5°) ---
+# Secret Loom: Charles "Lucky" Luciano → the Cold War (5° Link)
+
+**Teaser:** A 5-step chain linking Charles "Lucky" Luciano to the Cold War
+
+## Hidden Chain
+
+1. [[Charles "Lucky" Luciano]] —[**cooccurrence**]→ [[Ciro Terranova]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/Charles_"Lucky"_Luciano)
+
+2. [[Ciro Terranova]] —[**cooccurrence**]→ [[Valenti]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/Charles_"Lucky"_Luciano)
+
+3. [[Valenti]] —[**cooccurrence**]→ [[Joe Masseria]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/Charles_"Lucky"_Luciano)
+
+4. [[Joe Masseria]] —[**cooccurrence**]→ [[Frank Sinatra]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/Charles_"Lucky"_Luciano)
+
+5. [[Frank Sinatra]] —[**cooccurrence**]→ [[the Cold War]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/Charles_"Lucky"_Luciano)
+
+## Source Trail
+
+Hop 1: Charles "Lucky" Luciano → Ciro Terranova
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/Charles_"Lucky"_Luciano
+
+Hop 2: Ciro Terranova → Valenti
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/Charles_"Lucky"_Luciano
+
+Hop 3: Valenti → Joe Masseria
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/Charles_"Lucky"_Luciano
+
+Hop 4: Joe Masseria → Frank Sinatra
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/Charles_"Lucky"_Luciano
+
+Hop 5: Frank Sinatra → the Cold War
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/Charles_"Lucky"_Luciano
+
+
+## Inference Layer
+
+This five-degree chain involves multiple inference leaps. Each intermediate node acts as a pivot point — a less-documented historical figure whose obscurity may itself be significant. The chain suggests a network of influence that historians have not explicitly documented as a single connected pathway.
+
+## Open Questions
+
+- Why is this connection absent from mainstream historical narratives?
+- What do the intermediate figures reveal about networks of influence?
+- Are there other parallel chains that remain unexplored?
+
+
+
+--- FINDING 57 (score: 25, 5°) ---
+# Secret Loom: the Union Army → Benjamin F. Butler (5° Link)
+
+**Teaser:** A 5-step chain linking the Union Army to Benjamin F. Butler
+
+## Hidden Chain
+
+1. [[the Union Army]] —[**cooccurrence**]→ [[Harriet Tubman]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/the_Union_Army)
+
+2. [[Harriet Tubman]] —[**cooccurrence**]→ [[Collapse]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/the_Union_Army)
+
+3. [[Collapse]] —[**cooccurrence**]→ [[Port Hudson]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/the_Union_Army)
+
+4. [[Port Hudson]] —[**cooccurrence**]→ [[the Civil War South]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/the_Union_Army)
+
+5. [[the Civil War South]] —[**cooccurrence**]→ [[Benjamin F. Butler]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/the_Union_Army)
+
+## Source Trail
+
+Hop 1: the Union Army → Harriet Tubman
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/the_Union_Army
+
+Hop 2: Harriet Tubman → Collapse
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/the_Union_Army
+
+Hop 3: Collapse → Port Hudson
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/the_Union_Army
+
+Hop 4: Port Hudson → the Civil War South
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/the_Union_Army
+
+Hop 5: the Civil War South → Benjamin F. Butler
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/the_Union_Army
+
+
+## Inference Layer
+
+This five-degree chain involves multiple inference leaps. Each intermediate node acts as a pivot point — a less-documented historical figure whose obscurity may itself be significant. The chain suggests a network of influence that historians have not explicitly documented as a single connected pathway.
+
+## Open Questions
+
+- Why is this connection absent from mainstream historical narratives?
+- What do the intermediate figures reveal about networks of influence?
+- Are there other parallel chains that remain unexplored?
+
+
+
+--- FINDING 58 (score: 18, 5°) ---
+# Secret Loom: Robert K. Scott → the Union Army (5° Link)
+
+**Teaser:** A 5-step chain linking Robert K. Scott to the Union Army
+
+## Hidden Chain
+
+1. [[Robert K. Scott]] —[**cooccurrence**]→ [[Civil Rights]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/Robert_K._Scott)
+
+2. [[Civil Rights]] —[**cooccurrence**]→ [[Edward T.]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/Robert_K._Scott)
+
+3. [[Edward T.]] —[**cooccurrence**]→ [[University of Georgia Press]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/Robert_K._Scott)
+
+4. [[University of Georgia Press]] —[**cooccurrence**]→ [[Harriet Tubman]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/Robert_K._Scott)
+
+5. [[Harriet Tubman]] —[**cooccurrence**]→ [[the Union Army]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/Robert_K._Scott)
+
+## Source Trail
+
+Hop 1: Robert K. Scott → Civil Rights
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/Robert_K._Scott
+
+Hop 2: Civil Rights → Edward T.
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/Robert_K._Scott
+
+Hop 3: Edward T. → University of Georgia Press
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/Robert_K._Scott
+
+Hop 4: University of Georgia Press → Harriet Tubman
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/Robert_K._Scott
+
+Hop 5: Harriet Tubman → the Union Army
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/Robert_K._Scott
+
+
+## Inference Layer
+
+This five-degree chain involves multiple inference leaps. Each intermediate node acts as a pivot point — a less-documented historical figure whose obscurity may itself be significant. The chain suggests a network of influence that historians have not explicitly documented as a single connected pathway.
+
+## Open Questions
+
+- Why is this connection absent from mainstream historical narratives?
+- What do the intermediate figures reveal about networks of influence?
+- Are there other parallel chains that remain unexplored?
+
+
+
+--- FINDING 59 (score: 22, 5°) ---
+# Secret Loom: Winfield Scott → George Atzerodt (5° Link)
+
+**Teaser:** A 5-step chain linking Winfield Scott to George Atzerodt
+
+## Hidden Chain
+
+1. [[Winfield Scott]] —[**cooccurrence**]→ [[Blaine]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/Winfield_Scott)
+
+2. [[Blaine]] —[**cooccurrence**]→ [[Ring]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/Winfield_Scott)
+
+3. [[Ring]] —[**cooccurrence**]→ [[Earl Van Dorn]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/Winfield_Scott)
+
+4. [[Earl Van Dorn]] —[**cooccurrence**]→ [[Confederate]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/Winfield_Scott)
+
+5. [[Confederate]] —[**cooccurrence**]→ [[George Atzerodt]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/Winfield_Scott)
+
+## Source Trail
+
+Hop 1: Winfield Scott → Blaine
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/Winfield_Scott
+
+Hop 2: Blaine → Ring
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/Winfield_Scott
+
+Hop 3: Ring → Earl Van Dorn
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/Winfield_Scott
+
+Hop 4: Earl Van Dorn → Confederate
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/Winfield_Scott
+
+Hop 5: Confederate → George Atzerodt
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/Winfield_Scott
+
+
+## Inference Layer
+
+This five-degree chain involves multiple inference leaps. Each intermediate node acts as a pivot point — a less-documented historical figure whose obscurity may itself be significant. The chain suggests a network of influence that historians have not explicitly documented as a single connected pathway.
+
+## Open Questions
+
+- Why is this connection absent from mainstream historical narratives?
+- What do the intermediate figures reveal about networks of influence?
+- Are there other parallel chains that remain unexplored?
+
+
+
+--- FINDING 60 (score: 20, 5°) ---
+# Secret Loom: Jesus Christ → Palgrave Macmillan (5° Link)
+
+**Teaser:** A 5-step chain linking Jesus Christ to Palgrave Macmillan
+
+## Hidden Chain
+
+1. [[Jesus Christ]] —[**cooccurrence**]→ [[Oxford]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/Jesus_Christ)
+
+2. [[Oxford]] —[**cooccurrence**]→ [[Edmund Kirby Smith]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/Jesus_Christ)
+
+3. [[Edmund Kirby Smith]] —[**cooccurrence**]→ [[Union]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/Jesus_Christ)
+
+4. [[Union]] —[**cooccurrence**]→ [[Harry Truman]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/Jesus_Christ)
+
+5. [[Harry Truman]] —[**cooccurrence**]→ [[Palgrave Macmillan]]
+   > Co-occurrence in Wikipedia article covering both entities
+   [Link](https://en.wikipedia.org/wiki/Jesus_Christ)
+
+## Source Trail
+
+Hop 1: Jesus Christ → Oxford
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/Jesus_Christ
+
+Hop 2: Oxford → Edmund Kirby Smith
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/Jesus_Christ
+
+Hop 3: Edmund Kirby Smith → Union
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/Jesus_Christ
+
+Hop 4: Union → Harry Truman
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/Jesus_Christ
+
+Hop 5: Harry Truman → Palgrave Macmillan
+  - Edge type: cooccurrence
+  - Source: Wikipedia co-occurrence
+  - URL: https://en.wikipedia.org/wiki/Jesus_Christ
+
+
+## Inference Layer
+
+This five-degree chain involves multiple inference leaps. Each intermediate node acts as a pivot point — a less-documented historical figure whose obscurity may itself be significant. The chain suggests a network of influence that historians have not explicitly documented as a single connected pathway.
+
+## Open Questions
+
+- Why is this connection absent from mainstream historical narratives?
+- What do the intermediate figures reveal about networks of influence?
+- Are there other parallel chains that remain unexplored?
+
+
+
