@@ -3,3 +3,8 @@
 .fseventsd
 *~
 *.tmp
+
+# Local-only files (not pushed to GitHub)
+Entities/
+findings_export.txt
+findings_summary.txt

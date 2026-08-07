@@ -1,7 +1,0 @@
-# Breckenridge
-
-Type: org
-
-Wikipedia: [Breckenridge](https://en.wikipedia.org/w/index.php?search=Breckenridge)
-
-Appears in 2 Wikipedia articles.
