@@ -1,7 +1,7 @@
-# the Prohibition era
+# the Prohibition Era
 
 Type: event
 
-Wikipedia: [the Prohibition era](https://en.wikipedia.org/w/index.php?search=the+Prohibition+era)
+Wikipedia: [the Prohibition Era](https://en.wikipedia.org/w/index.php?search=the+Prohibition+Era)
 
-Appears in 5 Wikipedia articles.
+Appears in 1 Wikipedia articles.

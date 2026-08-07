@@ -1,7 +1,7 @@
-# the US State Department
+# The US State Department
 
 Type: org
 
-Wikipedia: [the US State Department](https://en.wikipedia.org/w/index.php?search=the+US+State+Department)
+Wikipedia: [The US State Department](https://en.wikipedia.org/w/index.php?search=The+US+State+Department)
 
-Appears in 8 Wikipedia articles.
+Appears in 2 Wikipedia articles.

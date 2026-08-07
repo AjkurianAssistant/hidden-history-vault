@@ -1,48 +1,48 @@
 ---
-title: "Hidden Nexus: Best Picture → Giuseppe Morello (3° Link)"
-teaser: "A 3-step chain linking Best Picture to Giuseppe Morello"
-scores: {"novelty": 7, "evidence_strength": 7, "narrative_potential": 8}
+title: "Hidden Nexus: Napoleon → Jack Ruby (3° Link)"
+teaser: "A 3-step chain linking Napoleon to Jack Ruby"
+scores: {"novelty": 8, "evidence_strength": 6, "narrative_potential": 8}
 total_score: 22
 degrees_of_separation: 3
-entities: ["Best Picture", "James Dean", "Mafia", "Giuseppe Morello"]
+entities: ["Napoleon", "William T. Sherman", "Confederate", "Jack Ruby"]
 evidence_type: "mixed"
-date_generated: 2026-08-05
+date_generated: 2026-08-07
 ---
 
-# Hidden Nexus: Best Picture → Giuseppe Morello (3° Link)
+# Hidden Nexus: Napoleon → Jack Ruby (3° Link)
 
-**Teaser:** A 3-step chain linking Best Picture to Giuseppe Morello
+**Teaser:** A 3-step chain linking Napoleon to Jack Ruby
 
 ## Hidden Chain
 
-1. [[Best Picture]] —[**cooccurrence**]→ [[James Dean]]
+1. [[Napoleon]] —[**cooccurrence**]→ [[William T. Sherman]]
    > Co-occurrence in Wikipedia article covering both entities
-   [Link](https://en.wikipedia.org/wiki/Best_Picture)
+   [Link](https://en.wikipedia.org/wiki/Napoleon)
 
-2. [[James Dean]] —[**cooccurrence**]→ [[Mafia]]
+2. [[William T. Sherman]] —[**cooccurrence**]→ [[Confederate]]
    > Co-occurrence in Wikipedia article covering both entities
-   [Link](https://en.wikipedia.org/wiki/Best_Picture)
+   [Link](https://en.wikipedia.org/wiki/Napoleon)
 
-3. [[Mafia]] —[**cooccurrence**]→ [[Giuseppe Morello]]
+3. [[Confederate]] —[**cooccurrence**]→ [[Jack Ruby]]
    > Co-occurrence in Wikipedia article covering both entities
-   [Link](https://en.wikipedia.org/wiki/Best_Picture)
+   [Link](https://en.wikipedia.org/wiki/Napoleon)
 
 ## Source Trail
 
-Hop 1: Best Picture → James Dean
+Hop 1: Napoleon → William T. Sherman
   - Edge type: cooccurrence
   - Source: Wikipedia co-occurrence
-  - URL: https://en.wikipedia.org/wiki/Best_Picture
+  - URL: https://en.wikipedia.org/wiki/Napoleon
 
-Hop 2: James Dean → Mafia
+Hop 2: William T. Sherman → Confederate
   - Edge type: cooccurrence
   - Source: Wikipedia co-occurrence
-  - URL: https://en.wikipedia.org/wiki/Best_Picture
+  - URL: https://en.wikipedia.org/wiki/Napoleon
 
-Hop 3: Mafia → Giuseppe Morello
+Hop 3: Confederate → Jack Ruby
   - Edge type: cooccurrence
   - Source: Wikipedia co-occurrence
-  - URL: https://en.wikipedia.org/wiki/Best_Picture
+  - URL: https://en.wikipedia.org/wiki/Napoleon
 
 
 ## Inference Layer
@@ -51,7 +51,8 @@ This direct chain suggests a documented historical overlap between the two figur
 
 ## Open Questions
 
-- Why is this connection absent from mainstream historical narratives?
-- What do the intermediate figures reveal about networks of influence?
-- Are there other parallel chains that remain unexplored?
+- Could the institutional positions held by Napoleon and Jack Ruby have created indirect contact never officially recorded?
+- Could any of the intermediary figures have served as unwitting conduits for broader historical forces?
+- Are there contemporaneous newspaper accounts or private letters that mention Napoleon and Jack Ruby in the same context?
+- What documents or correspondence between these figures remain classified, lost, or uncatalogued?
 
