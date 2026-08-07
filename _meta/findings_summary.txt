@@ -1,0 +1,155 @@
+# Hidden History Engine — Top Findings Summary
+# Phone-friendly compact view
+# Total findings: 356
+
+=== #1 (Score: 27, 3°) ===
+Hidden Nexus: Todaro → Joseph Bonanno (3° Link)
+Teaser: A 3-step chain linking Todaro to Joseph Bonanno
+Chain: Todaro → S. HRG. → Mafia → Joseph Bonanno
+File: Findings/finding-026-270.md
+
+=== #2 (Score: 27, 4°) ===
+Shadow Chain: the Vietnam War → Charlie Wilson's (4° Link)
+Teaser: A 4-step chain linking the Vietnam War to Charlie Wilson's
+Chain: the Vietnam War → Evan Hineman → USAF → Milton Bearden → Charlie Wilson's
+File: Findings/finding-081-270.md
+
+=== #3 (Score: 26, 5°) ===
+Secret Loom: the Oval Office → Frances E. Willard (5° Link)
+Teaser: A 5-step chain linking the Oval Office to Frances E. Willard
+Chain: the Oval Office → Adlai Stevenson → Microsoft → Franklin Roosevelt → the Twenty-first Amendment → Frances E. Willard
+File: Findings/finding-022-260.md
+
+=== #4 (Score: 26, 3°) ===
+Hidden Nexus: the Great Depression → Confederacy (3° Link)
+Teaser: A 3-step chain linking the Great Depression to Confederacy
+Chain: the Great Depression → Benjamin Franklin → Andrew Johnson → Confederacy
+File: Findings/finding-028-260.md
+
+=== #5 (Score: 26, 5°) ===
+Secret Loom: the Watergate scandal → Fisk University (5° Link)
+Teaser: A 5-step chain linking the Watergate scandal to Fisk University
+Chain: the Watergate scandal → Adam Schiff → MSS → Franklin Roosevelt → Calvin Coolidge → Fisk University
+File: Findings/finding-035-260.md
+
+=== #6 (Score: 26, 5°) ===
+Secret Loom: Times → Republican National Convention (5° Link)
+Teaser: A 5-step chain linking Times to Republican National Convention
+Chain: Times → Howard Hughes → the Federal Bureau of Investigation (FBI → Archibald Cox → Leon Jaworski → Republican National Convention
+File: Findings/finding-046-260.md
+
+=== #7 (Score: 26, 3°) ===
+Hidden Nexus: Edmund Muskie → Charles Sumner (3° Link)
+Teaser: A 3-step chain linking Edmund Muskie to Charles Sumner
+Chain: Edmund Muskie → the Supreme Court → Benjamin Wade → Charles Sumner
+File: Findings/finding-086-260.md
+
+=== #8 (Score: 26, 4°) ===
+Shadow Chain: Elliot Richardson → Jeremy Renner (4° Link)
+Teaser: A 4-step chain linking Elliot Richardson to Jeremy Renner
+Chain: Elliot Richardson → Caulfield → Edmund Muskie → the Vietnam War → Jeremy Renner
+File: Findings/finding-171-260.md
+
+=== #9 (Score: 26, 4°) ===
+Shadow Chain: James M. → Benito Mussolini (4° Link)
+Teaser: A 4-step chain linking James M. to Benito Mussolini
+Chain: James M. → Robeson → John S. → Reynolds → Benito Mussolini
+File: Findings/finding-210-260.md
+
+=== #10 (Score: 26, 4°) ===
+Shadow Chain: Michael Jackson → Parker (4° Link)
+Teaser: A 4-step chain linking Michael Jackson to Parker
+Chain: Michael Jackson → FBI → Evan Hineman → Commerce → Parker
+File: Findings/finding-212-260.md
+
+=== #11 (Score: 26, 3°) ===
+Hidden Nexus: Gary W. Gallagher → Walter Bedell Smith (3° Link)
+Teaser: A 3-step chain linking Gary W. Gallagher to Walter Bedell Smith
+Chain: Gary W. Gallagher → the Civil War → Cameron → Walter Bedell Smith
+File: Findings/finding-251-260.md
+
+=== #12 (Score: 26, 3°) ===
+Hidden Nexus: Roger Ebert → Harry Dexter White (3° Link)
+Teaser: A 3-step chain linking Roger Ebert to Harry Dexter White
+Chain: Roger Ebert → Humphrey Bogart → Chambers → Harry Dexter White
+File: Findings/finding-285-260.md
+
+=== #13 (Score: 26, 3°) ===
+Hidden Nexus: Roger Ebert → Joseph Goebbels (3° Link)
+Teaser: A 3-step chain linking Roger Ebert to Joseph Goebbels
+Chain: Roger Ebert → Humphrey Bogart → Chambers → Joseph Goebbels
+File: Findings/finding-289-260.md
+
+=== #14 (Score: 25, 5°) ===
+Secret Loom: Salvatore D'Aquila → the House of Representatives (5° Link)
+Teaser: A 5-step chain linking Salvatore D'Aquila to the House of Representatives
+Chain: Salvatore D'Aquila → D'Aquila → Nicola Gentile → Stephen R. → Salmon P. Chase → the House of Representatives
+File: Findings/finding-011-250.md
+
+=== #15 (Score: 25, 4°) ===
+Shadow Chain: Jack Ruby → the American Civil War (4° Link)
+Teaser: A 4-step chain linking Jack Ruby to the American Civil War
+Chain: Jack Ruby → the Korean War → Jeremy Renner → Robert E. Lee → the American Civil War
+File: Findings/finding-019-250.md
+
+=== #16 (Score: 25, 5°) ===
+Secret Loom: Montgomery → Historic Site (5° Link)
+Teaser: A 5-step chain linking Montgomery to Historic Site
+Chain: Montgomery → James Dean → the Korean War → Lee Harvey Oswald → World War II → Historic Site
+File: Findings/finding-023-250.md
+
+=== #17 (Score: 25, 5°) ===
+Secret Loom: Dolores Huerta → Eric Foner (5° Link)
+Teaser: A 5-step chain linking Dolores Huerta to Eric Foner
+Chain: Dolores Huerta → The Associated Farmers → Robert C. → the United States Congress → Schuyler Colfax → Eric Foner
+File: Findings/finding-035-250.md
+
+=== #18 (Score: 25, 5°) ===
+Secret Loom: PBS → American War (2° Link)
+Teaser: A 2-step chain linking PBS to American War
+Chain: PBS → James Monroe → American War
+Treaty → William Jennings Bryan → W. E. B. Du Bois → Yale University
+File: Findings/finding-039-250.md
+
+=== #19 (Score: 25, 3°) ===
+Hidden Nexus: Alan Dershowitz → Harry S. Truman's (3° Link)
+Teaser: A 3-step chain linking Alan Dershowitz to Harry S. Truman's
+Chain: Alan Dershowitz → FBI → Alger Hiss → Harry S. Truman's
+File: Findings/finding-042-250.md
+
+=== #20 (Score: 25, 5°) ===
+Secret Loom: Christopher A. Wray → Joseph Brooks (5° Link)
+Teaser: A 5-step chain linking Christopher A. Wray to Joseph Brooks
+Chain: Christopher A. Wray → Committees → Adam Schiff → Jeff Sessions → the Methodist Protestant Church → Joseph Brooks
+File: Findings/finding-074-250.md
+
+=== #21 (Score: 25, 3°) ===
+Hidden Nexus: Christopher A. Wray → John H. (3° Link)
+Teaser: A 3-step chain linking Christopher A. Wray to John H.
+Chain: Christopher A. Wray → FBI → Joe Masseria → John H.
+File: Findings/finding-093-250.md
+
+=== #22 (Score: 25, 4°) ===
+Shadow Chain: Agency → Princeton University (4° Link)
+Teaser: A 4-step chain linking Agency to Princeton University
+Chain: Agency → Evan Hineman → USAF → Luis Alvarez → Princeton University
+File: Findings/finding-109-250.md
+
+=== #23 (Score: 25, 4°) ===
+Shadow Chain: Michael Caine → Frank Sinatra (4° Link)
+Teaser: A 4-step chain linking Michael Caine to Frank Sinatra
+Chain: Michael Caine → Sidney Gottlieb → CIA → Robert Redford → Frank Sinatra
+File: Findings/finding-116-250.md
+
+=== #24 (Score: 25, 5°) ===
+Secret Loom: Norman Thomas → Douglas MacArthur (5° Link)
+Teaser: A 5-step chain linking Norman Thomas to Douglas MacArthur
+Chain: Norman Thomas → University of Alabama Press → Joseph Stalin → the Union of Soviet Socialist Republics → John Lewis → Douglas MacArthur
+File: Findings/finding-126-250.md
+
+=== #25 (Score: 25, 4°) ===
+Shadow Chain: NATO → Princeton University Press (4° Link)
+Teaser: A 4-step chain linking NATO to Princeton University Press
+Chain: NATO → Luis Alvarez → antennas → Winston Churchill → Princeton University Press
+File: Findings/finding-167-250.md
+
