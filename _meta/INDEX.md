@@ -4,62 +4,56 @@ Sorted by total score (highest first).
 
 | Title | Teaser | Evidence | Score | Go to |
 |-------|--------|----------|-------|-------|
-| **The Forgotten Thread: How an 1870s Impeachment Committee Connects Two Forgotten Political Giants to the FBI's Most Notorious Director** | An overlooked connection | mixed | 26 | [[Findings/finding-020-260]] |
-| **The Forgotten Thread: How a Supreme Court Justice Connected to a Confederate Veteran Through the Nation’s Greatest Political Crisis** | An overlooked connection | mixed | 26 | [[Findings/finding-025-260]] |
-| **Title: The Forgotten Thread: How One Abolitionist Pastor Connected Stowe's Pen to Buchanan's White House** | An overlooked connection | mixed | 25 | [[Findings/finding-048-250]] |
-| The Gray-Oaksmith Connection: A Presidential Puzzle Spanning 150 Years | An overlooked connection | mixed | 25 | [[Findings/finding-059-250]] |
-| **The Harlem Renaissance's Forgotten Southern Thread** | An overlooked connection | mixed | 24 | [[Findings/finding-013-240]] |
-| **The Unlikely Thread: How a 19th-Century Senator Connects to 9/11** | An overlooked connection | mixed | 24 | [[Findings/finding-029-240]] |
-| **Title: The Hidden Thread: How Cold War Architects Wove a Path to 9/11** | An overlooked connection | mixed | 24 | [[Findings/finding-039-240]] |
-| **The Lincoln Assassination's Unlikely Bureaucratic Echo**   | An overlooked connection | mixed | 24 | [[Findings/finding-042-240]] |
-| **The Philosopher's Shadow: How One Dead Thinker's Ideas Traced a Path to 9/11** | An overlooked connection | mixed | 24 | [[Findings/finding-050-240]] |
-| **The Forgotten Links: How a Senate Investigation Connected to Cold War Covert Operations** | An overlooked connection | mixed | 23 | [[Findings/finding-010-230]] |
-| **The Ghost Chain: How a 19th-Century Diplomat Connects the Civil War to a 1943 Race Riot** | An overlooked connection | mixed | 23 | [[Findings/finding-022-230]] |
-| The Trumbull-Defense-Bin Laden-Pentagon Chain: What Connects These Four Nodes? | An overlooked connection | mixed | 23 | [[Findings/finding-023-230]] |
-| **The Invisible Pipeline: How a Literary Magazine Connected Black Intellectuals to FDR's Inner Circle** | An overlooked connection | mixed | 23 | [[Findings/finding-037-230]] |
-| **Title: The Ghost Chain: How a 19th-Century Diplomat Connects to the Iraq War** | An overlooked connection | mixed | 23 | [[Findings/finding-053-230]] |
-| **The Invisible Thread: How a Harlem Renaissance Artist, a CIA Operative, and a Saudi Billionaire Connect to America's Shadow Wars** | An overlooked connection | mixed | 23 | [[Findings/finding-054-230]] |
-| **The Hidden Web: How a 1970s Peace Summit Connects to Modern Counterterrorism** | An overlooked connection | mixed | 22 | [[Findings/finding-003-220]] |
-| **Title: The Hidden Thread: How a Congolese Martyr Connects to a Confederate Secretary** | An overlooked connection | mixed | 22 | [[Findings/finding-005-220]] |
-| **Title: The Unlikely Chain: How a VMI Alumnus May Have Connected to Saddam Hussein Through CIA Operations** | An overlooked connection | mixed | 22 | [[Findings/finding-018-220]] |
-| **Title: The Forgotten Thread: How a 19th Century Politician Connects to the Mafia Commission** | An overlooked connection | mixed | 22 | [[Findings/finding-024-220]] |
-| The Forgotten Thread: How a Confederate General Connects to America's War on Poverty   | An overlooked connection | mixed | 22 | [[Findings/finding-043-220]] |
-| The Red Bootlegger's Chain: How Prohibition's Threads Connect Dillinger to Mao | An overlooked connection | mixed | 22 | [[Findings/finding-044-220]] |
-| **The Buchanan-Arthur Connection: How a Disgraced Diplomat's Legacy Shaped Civil War Espionage** | An overlooked connection | mixed | 22 | [[Findings/finding-057-220]] |
-| The Hidden Thread: How a Mob Boss’s Shadow Connects to Black Power | An overlooked connection | mixed | 21 | [[Findings/finding-008-210]] |
-| **The Impeachment Pipeline: From Civil War Radicals to Modern Senate Politics** | An overlooked connection | mixed | 21 | [[Findings/finding-017-210]] |
-| **The Forgotten Thread: How a 19th-Century Senator Connects to Cold War Defense Policy** | An overlooked connection | mixed | 21 | [[Findings/finding-027-210]] |
-| **Title: "The Spider's Web: Tracing a Forgotten Thread from Counterterrorism to Watergate"** | An overlooked connection | mixed | 21 | [[Findings/finding-034-210]] |
-| **Title: The Hidden Thread: How America's Counter-Terrorism Architecture Connects to Its Imperial Origins** | An overlooked connection | mixed | 21 | [[Findings/finding-038-210]] |
-| **The Forgotten Thread: How a Confederate General, a President's Inner Circle, and a Secretary of State Wove Through Lincoln's Defining Act** | An overlooked connection | mixed | 21 | [[Findings/finding-045-210]] |
-| **Title: The Strange Threads Connecting a Future Senator to a Forgotten Labor War** | An overlooked connection | mixed | 21 | [[Findings/finding-047-210]] |
-| **Title: The Phantom Chain: How a Chicago Mob Boss Connects to Lincoln's Inner Circle** | An overlooked connection | mixed | 20 | [[Findings/finding-002-200]] |
-| **Title: The Hidden Thread: How a Mafia Boss Connects to America's Power Elite** | An overlooked connection | mixed | 20 | [[Findings/finding-009-200]] |
-| The Hidden Thread: How a Watergate Legend Connects to the Civil War's Final Fortress | An overlooked connection | mixed | 20 | [[Findings/finding-014-200]] |
-| **The Paper Trail: How a 19th Century Bureau Connects to Watergate's Inner Circle** | An overlooked connection | mixed | 20 | [[Findings/finding-015-200]] |
-| The Hidden Thread: How Klan Origins Connect to Supreme Court Nominations Through Forgotten Civil War Politics | An overlooked connection | mixed | 20 | [[Findings/finding-019-200]] |
-| **The Hidden Thread: How Vietnam's Founding Father Connects to the Union Army's Commanding General** | An overlooked connection | mixed | 20 | [[Findings/finding-033-200]] |
-| **Title: The Hidden Thread: How a Civil War Hero Connects to America's Shadow Wars**   | An overlooked connection | mixed | 20 | [[Findings/finding-035-200]] |
-| **Title:** The Forgotten Thread: How a Journalist's Circle Tied Steinbeck to Sheppard Through Five Degrees of Power   | What connects a novelist's biographer to a Texas senator through Cold War intelligence networks? | mixed | 20 | [[Findings/finding-036-200]] |
-| **The Lincoln-Ford Connection: Tracing Five Degrees Through American Power Structures** | An overlooked connection | mixed | 20 | [[Findings/finding-040-200]] |
-| **The Forgotten Thread: How a Watergate Conspirator Connects to McCarthyism Through a Chain of Historical Coincidences** | An overlooked connection | mixed | 20 | [[Findings/finding-052-200]] |
-| **Title:** "The Mongoose's Web: Tracing a Hidden Network from CIA Operations to Dr. King's Final Years" | An overlooked connection | mixed | 20 | [[Findings/finding-056-200]] |
-| **The Watergate-Web: How a Controversial Psychiatrist Tied Two Scandals Together** | An overlooked connection | mixed | 19 | [[Findings/finding-004-190]] |
-| **The Hidden Web: How a 1970s CIA Asset Became the Thread Connecting Ford, Afghanistan, and Al-Qaeda's Inner Circle** | An overlooked connection | mixed | 19 | [[Findings/finding-016-190]] |
-| **Title: The Hidden Thread: How a Dismissed Prosecutor Connects to CIA Covert Operations** | An overlooked connection | mixed | 19 | [[Findings/finding-028-190]] |
-| **The Ghost Loop: How America's Cold War Echoes Connect a Fallen Attorney General to a Pan-African Visionary** | An overlooked connection | mixed | 19 | [[Findings/finding-030-190]] |
-| **The Ghost Pipeline: How a Forgotten Journalist Connects America's Literary Giants to Its Most Wanted** | An overlooked connection | mixed | 19 | [[Findings/finding-031-190]] |
-| The Haig-Harvey Connection: Tracing a Shadow Network Through Cold War Intelligence | An overlooked connection | mixed | 19 | [[Findings/finding-032-190]] |
-| **The Hidden Thread: How One Bureau Shaped Civil Rights Law Through Three Generations** | An overlooked connection | mixed | 19 | [[Findings/finding-049-190]] |
-| **The Hidden Thread: How Prohibition's Enforcer Connects to Hollywood's War Chronicles** | An overlooked connection | mixed | 18 | [[Findings/finding-007-180]] |
-| **The Forgotten Thread: How a Disgraced Justice Connected Buchanan to Butler** | An overlooked connection | mixed | 18 | [[Findings/finding-021-180]] |
-| **The Strangler's Web: How a Mob-Connected Hotel Kingpin Tied Nixon's Fixer to a Crime Boss Through a Broadway Showgirl** | An overlooked connection | mixed | 18 | [[Findings/finding-041-180]] |
-| **The Forgotten Thread: How a Future President's Civil War Service Connected to the House That Built American Empire** | An overlooked connection | mixed | 18 | [[Findings/finding-046-180]] |
-| **The Forgotten Thread: How Lincoln’s War Connected Blaine to Spencer Through Beecher’s Circle** | An overlooked connection | mixed | 17 | [[Findings/finding-006-170]] |
-| **Title: The Hidden Thread: How a Cold War Spy Network Links the CIA to George Marshall** | An overlooked connection | mixed | 17 | [[Findings/finding-012-170]] |
-| **The Ghost in the Machine: How a Saudi Billionaire Became the CIA's Unlikely Bridge** | An overlooked connection | mixed | 17 | [[Findings/finding-026-170]] |
-| **Title: The Hidden Thread: How a Civil War General Connects to the CIA’s Secret Ops** | An overlooked connection | mixed | 17 | [[Findings/finding-051-170]] |
-| **Title: The Johnson Nexus: How One President Connected America's Liberal Elite to Vietnam's Communist Revolution** | An overlooked connection | mixed | 17 | [[Findings/finding-055-170]] |
-| **The Silent Chain: How a Wartime Senator, a Presidential Transition, and a Miner's Union Shaped an Era** | An overlooked connection | mixed | 17 | [[Findings/finding-058-170]] |
-| **The Forgotten Chain: How a Pulitzer Winner Connects to a President Through the Architect of Reconstruction** | An overlooked connection | mixed | 16 | [[Findings/finding-011-160]] |
-| **Title: The Hidden Thread: From Mafia Boss to Atomic Scientist**   | An overlooked connection | mixed | 15 | [[Findings/finding-001-150]] |
+| **Title: The Watergate-Web: How Assassination Investigators Traced Paths That Led Straight to the Lincoln Memorial** | An overlooked connection | mixed | 26 | [[Findings/finding-017-260]] |
+| **Title: The Forgotten Threads: How a Supreme Court Justice, a Texas Governor, and RFK Became Linked Through Labor's Shadow Network** | An overlooked connection | mixed | 26 | [[Findings/finding-034-260]] |
+| **Title: The Pacific Committee Connection: How Imperial Japan's 1940 Visit Linked Three American Political Giants** | An overlooked connection | mixed | 26 | [[Findings/finding-049-260]] |
+| **The Hurston-Du Bois-Parker Connection: When Harlem Met the Highway** | An overlooked connection | mixed | 25 | [[Findings/finding-001-250]] |
+| **The Cartographer's Chain: How a Civil War-Era Mission Connected to Satellite Mapping** | An overlooked connection | mixed | 25 | [[Findings/finding-033-250]] |
+| **Title: The Forgotten Threads Connecting Ford's Empire to California's Labor Movement** | An overlooked connection | mixed | 25 | [[Findings/finding-051-250]] |
+| **Title: The Hidden Thread: From Lincoln's Labor Policies to Pinochet's Rise** | An overlooked connection | mixed | 25 | [[Findings/finding-052-250]] |
+| **Title: The Bedford Connection: How a Supreme Court Nominee Links to Pennsylvania's Historic Farms** | An overlooked connection | mixed | 24 | [[Findings/finding-002-240]] |
+| **The Forgotten Thread: How a Historian's Rail Tour Connects to a Confederate Fortress Commander** | An overlooked connection | mixed | 24 | [[Findings/finding-006-240]] |
+| The Seward-to-MKUltra Pipeline: A Historical Thread Too Convenient to Ignore? | What connects a Civil War-era secretary of state to CIA mind control experiments through a single North Dakota town? | mixed | 24 | [[Findings/finding-022-240]] |
+| The Spy Who Came in from the Cold War | An overlooked connection | mixed | 24 | [[Findings/finding-025-240]] |
+| **The Forgotten Thread: How a Texas Senator’s 1950s Labor Program Connects to Modern Political Drama** | An overlooked connection | mixed | 24 | [[Findings/finding-032-240]] |
+| **The Phantom Chain: How a Soviet Spy Ring Connects to Dillinger Through America's Most Divisive Monuments** | An overlooked connection | mixed | 23 | [[Findings/finding-004-230]] |
+| **"The Ford-Bush Connection: Tracing a Chain Through America's Power Elite"** | An overlooked connection | mixed | 23 | [[Findings/finding-012-230]] |
+| **Title: The Strange Loops: How Sicilian Blood Ties Connect to JFK's Investigation** | An overlooked connection | mixed | 23 | [[Findings/finding-029-230]] |
+| **Title: The Hidden Thread: How a 1930s Asylum Connects to Watergate's Deep Throat** | An overlooked connection | mixed | 23 | [[Findings/finding-031-230]] |
+| **The Forgotten Thread: How a Little-Known War Connects Congress to the Senate Floor** | An overlooked connection | mixed | 23 | [[Findings/finding-036-230]] |
+| **Title: The Longshoremen's Shadow Network: How a Dockworkers' Union Became the FBI's Training Ground** | An overlooked connection | mixed | 23 | [[Findings/finding-050-230]] |
+| **The Sicilian Connection: When New York's Underworld Met Castro's Revolution** | An overlooked connection | mixed | 22 | [[Findings/finding-003-220]] |
+| **The Ghost Chain: How a Drunken VP Speech Links Three Presidents to the Senate** | An overlooked connection | mixed | 22 | [[Findings/finding-005-220]] |
+| **The Silent Web: How a Former FBI Associate Became Linked to Hughes, Bremer, and COINTELPRO**   | An overlooked connection | mixed | 22 | [[Findings/finding-027-220]] |
+| **The Forgotten Threads: How Nixon's Labor Battles Connect to Lincoln's Final Resting Place** | An overlooked connection | mixed | 22 | [[Findings/finding-037-220]] |
+| The Hidden Thread: How a CIA Mind-Control Program Connects to America's Business Elite | What starts as a Cold War experiment ends at the doorstep of corporate power — but why? | mixed | 22 | [[Findings/finding-041-220]] |
+| **Title: The Helms Connection: How One CIA Chief Linked Bush, Ellsberg, and Clifford** | An overlooked connection | mixed | 22 | [[Findings/finding-042-220]] |
+| **The Forgotten Thread: How a Senate Office Connects to Confederate Memory** | An overlooked connection | mixed | 22 | [[Findings/finding-045-220]] |
+| **The Manchild's Mentor: How CIA Mind Control Research May Have Shaped America's Most Notorious Cult Leader** | An overlooked connection | mixed | 22 | [[Findings/finding-053-220]] |
+| **The Hidden Thread: How a Civil War Spy Master’s Legacy Wired the McCarthy Hearings** | An overlooked connection | mixed | 21 | [[Findings/finding-010-210]] |
+| **Title: The Forgotten Thread: How a Texas Senator Bridged Civil War and Civil Rights Eras** | A direct paper trail connects a 1960s Senate leader to the architect of Reconstruction—and it's hiding in plain sight on Wikipedia. | mixed | 21 | [[Findings/finding-018-210]] |
+| **The Hidden Thread: How One Congressional Record Entry Tied Tehran to Thatcher's War** | An overlooked connection | mixed | 21 | [[Findings/finding-026-210]] |
+| **The War, The Tycoon, and the CIA's Mind Control Program** | An overlooked connection | mixed | 21 | [[Findings/finding-028-210]] |
+| **The Forgotten Thread: How a Senate Subcommittee Connects to the Revolutionary War** | An overlooked connection | mixed | 21 | [[Findings/finding-030-210]] |
+| **The Stanton-Polizzi Paradox: How a Civil War Committee Connects to Lincoln's Killer** | An overlooked connection | mixed | 21 | [[Findings/finding-039-210]] |
+| **The Oberlin Connection: How a Small College Tied Three Major 20th Century Political Scandals** | An overlooked connection | mixed | 21 | [[Findings/finding-044-210]] |
+| **The Forgotten Network: How FBI Academy Ties Connect to McCarthy's Inner Circle** | An overlooked connection | mixed | 21 | [[Findings/finding-046-210]] |
+| **Title: The Forgotten Thread: How a Texas Congressman Connected Ford, Stanley, and the Korean War** | Buried in Cold War documents is a three-degree connection linking President Ford's inner circle to a controversial CIA program through a Texas political dynasty. | mixed | 21 | [[Findings/finding-048-210]] |
+| **The Forgotten Intellectual Pipeline: How Depression-Era Black Scholars Shaped Congressional Labor Policy** | An overlooked connection | mixed | 20 | [[Findings/finding-013-200]] |
+| **Title: The Prohibition Connection: How a Gangster's Prison Linked to Confederate Monuments   | An overlooked connection | mixed | 20 | [[Findings/finding-014-200]] |
+| **The Seward-Reagan Connection: How a 19th Century Politician Links to the Gipper Through a Forgotten Legal Legacy** | An overlooked connection | mixed | 20 | [[Findings/finding-021-200]] |
+| Stanford's Shadow Network: How a University Ties to the Mob Through Intelligence Layers | An overlooked connection | mixed | 20 | [[Findings/finding-023-200]] |
+| **Title:** The Forgotten Thread: How Kansas City's Spy Network Shaped American Intelligence History   | An overlooked connection | mixed | 20 | [[Findings/finding-035-200]] |
+| **Title: The Hidden Thread: How a Cold War Crisis Connects to a Diplomat's Assassination** | An overlooked connection | mixed | 20 | [[Findings/finding-038-200]] |
+| **The Clay-Du Bois Pipeline: How One Kentucky Senator's Legacy Traveled Through Literary Fire to Civil Rights Theory** | An overlooked connection | mixed | 20 | [[Findings/finding-047-200]] |
+| **Title: The Phantom Thread: How a CIA Director, a President, and a Migrant Mother Connect Across Century** | An overlooked connection | mixed | 19 | [[Findings/finding-007-190]] |
+| The Strange Case of Watergate's Rural Pennsylvania Thread | An overlooked connection | mixed | 19 | [[Findings/finding-008-190]] |
+| **"The Spider's Web: How Pentagon Intelligence Ties Connect to KGB Defection Secrets"** | An overlooked connection | mixed | 19 | [[Findings/finding-011-190]] |
+| **Title: The Forgotten Thread: How a UC Press Connection Links Steinbeck to the Revolutionary War** | An overlooked connection | mixed | 19 | [[Findings/finding-016-190]] |
+| The Mafia-Olympics Connection: How Organized Crime Tied Reagan to Cold War Sports Diplomacy | An overlooked connection | mixed | 19 | [[Findings/finding-043-190]] |
+| **The Forgotten Pipeline: How a Congressional Commission Shaped Elite Networks Behind WWII** | An overlooked connection | mixed | 18 | [[Findings/finding-024-180]] |
+| The Labor-Mind Connection: How Dockworkers, a Union Boss, and CIA Experiments Converge in Obscure History | What connects International Longshoremen to mind control experiments through just three degrees of separation? | mixed | 18 | [[Findings/finding-040-180]] |
+| **The Ghost Chain: How a Civil War Radical's Tour Connects to Vietnam** | An overlooked connection | mixed | 17 | [[Findings/finding-015-170]] |
+| **The Forgotten Thread: How a Depression-Era Outlaw Connects to Britain's Elite Economics Institute** | An overlooked connection | mixed | 17 | [[Findings/finding-019-170]] |
+| **The Forgotten Thread: How a Civil War General Connects to Modern Congressional Politics** | An overlooked connection | mixed | 16 | [[Findings/finding-009-160]] |
+| **Title: From Valley Forge to Valley Forge: How the Revolutionary War Echoed Through Steinbeck's Dust Bowl** | An overlooked connection | mixed | 16 | [[Findings/finding-020-160]] |
