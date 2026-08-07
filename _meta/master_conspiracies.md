@@ -4,145 +4,145 @@ Ranked by narrative impact and historical significance.
 
 ## Ranked Findings
 
-## #1: Secret Loom — Bonnie Parker → Bureau (5° Link)
+## #1: The Hidden Thread — How a Mob Boss’s Shadow Connects to Black Power
 - **Degrees:** 5-degree chain
 - **Score:** 21/30 (novelty: 7, evidence: 4, narrative: 10)
-- **Chain:** Bonnie Parker → Clyde Barrow → Dillinger → Pretty Boy Floyd → John Dillinger → Bureau
-- **Impact:** Hidden institutional networks spanning American history
+- **Chain:** Lucky Luciano → Mafia → Peter Kornbluh → the Executive Committee → Bayard Rustin → Stokely Carmichael
+- **Impact:** Intelligence agency overreach and domestic surveillance
 - **Vault:** [[Findings/finding-001-210]]
 
-## #2: Secret Loom — James A. Garfield → Ford (5° Link)
+## #2: **The Impeachment Pipeline — From Civil War Radicals to Modern Senate Politics**
+- **Degrees:** 5-degree chain
+- **Score:** 21/30 (novelty: 7, evidence: 4, narrative: 10)
+- **Chain:** the United States Army → Schuyler Colfax → the Radical Republicans → Benjamin Wade → the House of Representatives → Dick Durbin
+- **Impact:** Hidden institutional networks spanning American history
+- **Vault:** [[Findings/finding-002-210]]
+
+## #3: **The Unlikely Thread — How a 19th-Century Senator Connects to 9/11**
 - **Degrees:** 5-degree chain
 - **Score:** 24/30 (novelty: 6, evidence: 8, narrative: 10)
-- **Chain:** James A. Garfield → Republican Party → Samuel J. Tilden → Wilson → Benjamin Wade → Ford
+- **Chain:** Elliot Richardson → Ford → bin Laden → Defense → John B. Henderson → James G. Blaine
 - **Impact:** Hidden institutional networks spanning American history
-- **Vault:** [[Findings/finding-002-240]]
+- **Vault:** [[Findings/finding-003-240]]
 
-## #3: Secret Loom — Apalachin → Prescott Bush (5° Link)
+## #4: **Title — The Hidden Thread — How a Congolese Martyr Connects to a Confederate Secretary**
 - **Degrees:** 5-degree chain
-- **Score:** 20/30 (novelty: 5, evidence: 5, narrative: 10)
-- **Chain:** Apalachin → the University of Kansas → Charles Colson → FBI → Earl Warren → Prescott Bush
-- **Impact:** Intelligence agency overreach and domestic surveillance
-- **Vault:** [[Findings/finding-003-200]]
-
-## #4: Secret Loom — FBI → John L. Lewis (5° Link)
-- **Degrees:** 5-degree chain
-- **Score:** 23/30 (novelty: 8, evidence: 5, narrative: 10)
-- **Chain:** FBI → Evan Hineman → DCI → Donald Rumsfeld → the Vietnam War → John L. Lewis
-- **Impact:** Intelligence agency overreach and domestic surveillance
-- **Vault:** [[Findings/finding-004-230]]
-
-## #5: Secret Loom — White House → Vincent Mangano (5° Link)
-- **Degrees:** 5-degree chain
-- **Score:** 20/30 (novelty: 6, evidence: 4, narrative: 10)
-- **Chain:** White House → Evan Hineman → DCI → Saddam Hussein → St. Martin's → Vincent Mangano
+- **Score:** 22/30 (novelty: 6, evidence: 7, narrative: 9)
+- **Chain:** Patrice Lumumba → Ford → bin Laden → Defense → Edwin M. Stanton → Confederacy
 - **Impact:** Hidden institutional networks spanning American history
-- **Vault:** [[Findings/finding-005-200]]
+- **Vault:** [[Findings/finding-004-220]]
 
-## #6: Secret Loom — Jefferson Davis → Henry Cabot Lodge (5° Link)
+## #5: **The Invisible Pipeline — How a Literary Magazine Connected Black Intellectuals to FDR's Inner Circle**
 - **Degrees:** 5-degree chain
-- **Score:** 22/30 (novelty: 8, evidence: 4, narrative: 10)
-- **Chain:** Jefferson Davis → James A. Garfield → Republican Party → Samuel J. Tilden → the Art Students League of → Henry Cabot Lodge
+- **Score:** 23/30 (novelty: 5, evidence: 8, narrative: 10)
+- **Chain:** Moore → Columbia University → Charles S. Johnson → Fisk University → Zora Neale Hurston → Democratic Party
 - **Impact:** Hidden institutional networks spanning American history
-- **Vault:** [[Findings/finding-006-220]]
+- **Vault:** [[Findings/finding-005-230]]
 
-## #7: Secret Loom — Sidney Gottlieb → Gary W. Gallagher (5° Link)
+## #6: **Title — The Hidden Thread — How Cold War Architects Wove a Path to 9/11**
 - **Degrees:** 5-degree chain
-- **Score:** 23/30 (novelty: 6, evidence: 7, narrative: 10)
-- **Chain:** Sidney Gottlieb → DCI → Evan Hineman → Defense Intelligence Agency → John C. Frémont → Gary W. Gallagher
+- **Score:** 24/30 (novelty: 9, evidence: 5, narrative: 10)
+- **Chain:** Caspar Weinberger → Brookings Institution → Peter Kornbluh → Defense → bin Laden → Peter L.
 - **Impact:** Hidden institutional networks spanning American history
-- **Vault:** [[Findings/finding-007-230]]
+- **Vault:** [[Findings/finding-006-240]]
 
-## #8: Secret Loom — Oxford University Press → Reconstruction (5° Link)
+## #7: **The Ghost Pipeline — How a Forgotten Journalist Connects America's Literary Giants to Its Most Wanted**
+- **Degrees:** 5-degree chain
+- **Score:** 19/30 (novelty: 6, evidence: 4, narrative: 9)
+- **Chain:** John Steinbeck's → Ford → bin Laden → the Central Intelligence Agency → John Dillinger → Melvin Purvis
+- **Impact:** Hidden institutional networks spanning American history
+- **Vault:** [[Findings/finding-007-190]]
+
+## #8: **The Invisible Thread — How a Harlem Renaissance Artist, a CIA Operative, and a Saudi Billionaire Connect to America's Shadow Wars**
 - **Degrees:** 5-degree chain
 - **Score:** 23/30 (novelty: 8, evidence: 6, narrative: 9)
-- **Chain:** Oxford University Press → Joseph Stalin → University of Alabama Press → Eric Foner → Rutherford B. Hayes → Reconstruction
-- **Impact:** Civil War-era power structures and their lasting legacy
+- **Chain:** Milton Bearden → Ford → bin Laden → the Central Intelligence Agency → Adams → John S.
+- **Impact:** Hidden institutional networks spanning American history
 - **Vault:** [[Findings/finding-008-230]]
 
-## #9: Secret Loom — Wallace Thurman → Barbara Stanwyck (5° Link)
+## #9: **The Paper Trail — How a 19th Century Bureau Connects to Watergate's Inner Circle**
 - **Degrees:** 5-degree chain
-- **Score:** 23/30 (novelty: 7, evidence: 6, narrative: 10)
-- **Chain:** Wallace Thurman → Hughes → Patrice Lumumba → the Cold War → Henry Morgenthau Jr. → Barbara Stanwyck
-- **Impact:** Cold War propaganda and its real-world consequences
-- **Vault:** [[Findings/finding-009-230]]
+- **Score:** 20/30 (novelty: 5, evidence: 7, narrative: 8)
+- **Chain:** Greenwood Press → William S. → W.W. Norton → Ben Bradlee → Watergate → Egil Krogh
+- **Impact:** Executive branch cover-up and political surveillance
+- **Vault:** [[Findings/finding-009-200]]
 
-## #10: Secret Loom — US Army → Princeton University (5° Link)
-- **Degrees:** 5-degree chain
-- **Score:** 23/30 (novelty: 9, evidence: 4, narrative: 10)
-- **Chain:** US Army → Niagara Falls → UN → Gamal Abdel Nasser → Lee Harvey Oswald → Princeton University
-- **Impact:** Hidden institutional networks spanning American history
-- **Vault:** [[Findings/finding-010-230]]
-
-## #11: Secret Loom — Rose Mary Woods → Peter Dale (5° Link)
-- **Degrees:** 5-degree chain
-- **Score:** 21/30 (novelty: 6, evidence: 6, narrative: 9)
-- **Chain:** Rose Mary Woods → the Supreme Court → Benjamin Butler → Confederate → Lucky Luciano → Peter Dale
-- **Impact:** Intelligence agency overreach and domestic surveillance
-- **Vault:** [[Findings/finding-011-210]]
-
-## #12: Secret Loom — Dolores Huerta → Eric Foner (5° Link)
-- **Degrees:** 5-degree chain
-- **Score:** 25/30 (novelty: 8, evidence: 8, narrative: 9)
-- **Chain:** Dolores Huerta → The Associated Farmers → Robert C. → the United States Congress → Schuyler Colfax → Eric Foner
-- **Impact:** Intelligence agency overreach and domestic surveillance
-- **Vault:** [[Findings/finding-012-250]]
-
-## #13: Secret Loom — John L. → Jawaharlal Nehru (5° Link)
-- **Degrees:** 5-degree chain
-- **Score:** 20/30 (novelty: 5, evidence: 5, narrative: 10)
-- **Chain:** John L. → Sidney Gottlieb → DCI → Donald Rumsfeld → Moscow Olympics → Jawaharlal Nehru
-- **Impact:** Hidden institutional networks spanning American history
-- **Vault:** [[Findings/finding-013-200]]
-
-## #14: Shadow Chain — Frank Sinatra → the U.S. Army (4° Link)
+## #10: **Title — The Unlikely Chain — How a VMI Alumnus May Have Connected to Saddam Hussein Through CIA Operations**
 - **Degrees:** 4-degree chain
-- **Score:** 24/30 (novelty: 6, evidence: 8, narrative: 10)
-- **Chain:** Frank Sinatra → Roger Ebert → Confederate → Jefferson Davis → the U.S. Army
+- **Score:** 22/30 (novelty: 5, evidence: 7, narrative: 10)
+- **Chain:** Smith → the Virginia Military Institute → Walter Bedell Smith → the Central Intelligence Agency → Saddam Hussein
 - **Impact:** Hidden institutional networks spanning American history
-- **Vault:** [[Findings/finding-014-240]]
+- **Vault:** [[Findings/finding-010-220]]
 
-## #15: Secret Loom — Tony Mendez → Labor (5° Link)
+## #11: **The Forgotten Thread — How an 1870s Impeachment Committee Connects Two Forgotten Political Giants to the FBI's Most Notorious Director**
+- **Degrees:** 4-degree chain
+- **Score:** 26/30 (novelty: 9, evidence: 7, narrative: 10)
+- **Chain:** Horatio Seymour → the Radical Republicans → Schuyler Colfax → Confederate → Melvin Purvis
+- **Impact:** Hidden institutional networks spanning American history
+- **Vault:** [[Findings/finding-011-260]]
+
+## #12: **Title — The Phantom Chain — How a Chicago Mob Boss Connects to Lincoln's Inner Circle**
 - **Degrees:** 5-degree chain
-- **Score:** 24/30 (novelty: 9, evidence: 7, narrative: 8)
-- **Chain:** Tony Mendez → the United States Naval Reserve → Stansfield Turner → FBI → John Dillinger → Labor
+- **Score:** 20/30 (novelty: 9, evidence: 4, narrative: 7)
+- **Chain:** Lucky Luciano → Mafia → Peter Kornbluh → Defense → Gideon Welles → John Bell
 - **Impact:** Intelligence agency overreach and domestic surveillance
-- **Vault:** [[Findings/finding-015-240]]
+- **Vault:** [[Findings/finding-012-200]]
 
-## #16: Secret Loom — University of North Carolina Press → Michael Caine (5° Link)
+## #13: **The Hidden Thread — How Prohibition's Enforcer Connects to Hollywood's War Chronicles**
 - **Degrees:** 5-degree chain
-- **Score:** 24/30 (novelty: 8, evidence: 7, narrative: 9)
-- **Chain:** University of North Carolina Press → Samuel J. Tilden → Wilson → John A. Logan → Myers → Michael Caine
+- **Score:** 18/30 (novelty: 6, evidence: 5, narrative: 7)
+- **Chain:** Al Capone → the United States Constitution → Alexander Hamilton → the American Civil War → Joseph E. Johnston → Steven Spielberg
+- **Impact:** Civil War-era power structures and their lasting legacy
+- **Vault:** [[Findings/finding-013-180]]
+
+## #14: **Title — The Johnson Nexus — How One President Connected America's Liberal Elite to Vietnam's Communist Revolution**
+- **Degrees:** 5-degree chain
+- **Score:** 17/30 (novelty: 5, evidence: 4, narrative: 8)
+- **Chain:** Dean Acheson → District Court → Martin Luther King's → Great Society → Ho Chi Minh → the Vietnam War
 - **Impact:** Hidden institutional networks spanning American history
-- **Vault:** [[Findings/finding-016-240]]
+- **Vault:** [[Findings/finding-014-170]]
 
-## #17: Secret Loom — Nelson Rockefeller → Oxford University Press (5° Link)
+## #15: **Title — The Hidden Thread — From Mafia Boss to Atomic Scientist**  
 - **Degrees:** 5-degree chain
-- **Score:** 21/30 (novelty: 8, evidence: 4, narrative: 9)
-- **Chain:** Nelson Rockefeller → NAACP → Wendell Willkie → UN → Gamal Abdel Nasser → Oxford University Press
+- **Score:** 15/30 (novelty: 5, evidence: 4, narrative: 6)
+- **Chain:** Lucky Luciano → Mafia → Peter Kornbluh → Defense → Harold Brown → J. Robert Oppenheimer
+- **Impact:** Intelligence agency overreach and domestic surveillance
+- **Vault:** [[Findings/finding-015-150]]
+
+## #16: The Hidden Thread — How a Watergate Legend Connects to the Civil War's Final Fortress
+- **Degrees:** 4-degree chain
+- **Score:** 20/30 (novelty: 6, evidence: 5, narrative: 9)
+- **Chain:** Deep Throat → W.W. Norton → William S. → the Civil War → Robert E. Lee's
+- **Impact:** Civil War-era power structures and their lasting legacy
+- **Vault:** [[Findings/finding-016-200]]
+
+## #17: **The Hidden Web — How a 1970s CIA Asset Became the Thread Connecting Ford, Afghanistan, and Al-Qaeda's Inner Circle**
+- **Degrees:** 5-degree chain
+- **Score:** 19/30 (novelty: 6, evidence: 6, narrative: 7)
+- **Chain:** Bin Laden → Ford → bin Laden → Taliban → bin Laden's → Peter L.
 - **Impact:** Hidden institutional networks spanning American history
-- **Vault:** [[Findings/finding-017-210]]
+- **Vault:** [[Findings/finding-017-190]]
 
-## #18: Secret Loom — Eastern → Thomas Mann (5° Link)
+## #18: **The Hidden Web — How a 1970s Peace Summit Connects to Modern Counterterrorism**
 - **Degrees:** 5-degree chain
-- **Score:** 22/30 (novelty: 8, evidence: 5, narrative: 9)
-- **Chain:** Eastern → Samuel J. Tilden → Wilson → John Schofield → World's → Thomas Mann
+- **Score:** 22/30 (novelty: 9, evidence: 7, narrative: 6)
+- **Chain:** Anwar Sadat → the Iraq War → Margaret Thatcher → Taliban → bin Laden → Defense
 - **Impact:** Hidden institutional networks spanning American history
 - **Vault:** [[Findings/finding-018-220]]
 
-## #19: Secret Loom — James A. Garfield → John Eaton (5° Link)
+## #19: **Title — The Hidden Thread — How America's Counter-Terrorism Architecture Connects to Its Imperial Origins**
 - **Degrees:** 5-degree chain
-- **Score:** 18/30 (novelty: 5, evidence: 4, narrative: 9)
-- **Chain:** James A. Garfield → Republican Party → Samuel J. Tilden → Houghton Mifflin → the Civil War → John Eaton
-- **Impact:** Civil War-era power structures and their lasting legacy
-- **Vault:** [[Findings/finding-019-180]]
-
-## #20: Secret Loom — Joseph Brooks → Prescott Bush (5° Link)
-- **Degrees:** 5-degree chain
-- **Score:** 23/30 (novelty: 8, evidence: 6, narrative: 9)
-- **Chain:** Joseph Brooks → James A. Garfield → Republican Party → Samuel J. Tilden → Yale → Prescott Bush
+- **Score:** 21/30 (novelty: 7, evidence: 7, narrative: 7)
+- **Chain:** Condoleezza Rice → Ford → bin Laden → the Central Intelligence Agency → William McKinley → Benjamin Harrison
 - **Impact:** Hidden institutional networks spanning American history
-- **Vault:** [[Findings/finding-020-230]]
+- **Vault:** [[Findings/finding-019-210]]
+
+## #20: **The Harlem Renaissance's Forgotten Southern Thread**
+- **Degrees:** 3-degree chain
+- **Score:** 24/30 (novelty: 7, evidence: 7, narrative: 10)
+- **Chain:** Oxford University Press → Wallace Thurman → the Civil War → Joseph E. Johnston
+- **Impact:** Civil War-era power structures and their lasting legacy
+- **Vault:** [[Findings/finding-020-240]]
 
 ---
 *Auto-generated by Phase 3. Updated each run.*

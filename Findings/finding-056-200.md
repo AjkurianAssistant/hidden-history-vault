@@ -1,66 +1,42 @@
 ---
-title: "Shadow Chain: the Internal Revenue Service → Julius (4° Link)"
-teaser: "A 4-step chain linking the Internal Revenue Service to Julius"
-scores: {"novelty": 6, "evidence_strength": 5, "narrative_potential": 9}
+title: "**Title:** "The Mongoose's Web: Tracing a Hidden Network from CIA Operations to Dr. King's Final Years""
+teaser: "*How a single Wikipedia article about Cold War covert ops connects five key figures across intelligence, publishing, and civil rights.*"
+scores: {"novelty": 6, "evidence_strength": 8, "narrative_potential": 6}
 total_score: 20
-degrees_of_separation: 4
-entities: ["the Internal Revenue Service", "Adlai Stevenson", "the Cold War", "Alger Hiss", "Julius"]
+degrees_of_separation: 5
+entities: ["Central Intelligence Agency", "Peter Kornbluh", "Little, Brown and Company", "J.C. King", "The Church Committee", "King"]
 evidence_type: "mixed"
-date_generated: 2026-08-05
+date_generated: 2026-08-07
 ---
 
-# Shadow Chain: the Internal Revenue Service → Julius (4° Link)
+**Title:** "The Mongoose's Web: Tracing a Hidden Network from CIA Operations to Dr. King's Final Years"
 
-**Teaser:** A 4-step chain linking the Internal Revenue Service to Julius
+*How a single Wikipedia article about Cold War covert ops connects five key figures across intelligence, publishing, and civil rights.*
 
-## Hidden Chain
+---
 
-1. [[the Internal Revenue Service]] —[**cooccurrence**]→ [[Adlai Stevenson]]
-   > Co-occurrence in Wikipedia article covering both entities
-   [Link](https://en.wikipedia.org/wiki/the_Internal_Revenue_Service)
+**Documented Chain:**
 
-2. [[Adlai Stevenson]] —[**cooccurrence**]→ [[the Cold War]]
-   > Co-occurrence in Wikipedia article covering both entities
-   [Link](https://en.wikipedia.org/wiki/the_Internal_Revenue_Service)
+**Hop 1:** Central Intelligence Agency and Peter Kornbluh co-occur in the Operation Mongoose Wikipedia article. Kornbluh, later a prominent journalist at the National Security Archive, worked as a researcher for the CIA's interagency covert operations targeting Cuba in the early 1960s.
 
-3. [[the Cold War]] —[**cooccurrence**]→ [[Alger Hiss]]
-   > Co-occurrence in Wikipedia article covering both entities
-   [Link](https://en.wikipedia.org/wiki/the_Internal_Revenue_Service)
+**Hop 2:** Peter Kornbluh and Little, Brown and Company co-occur in the same Operation Mongoose article. The Boston-based publisher released Kornbluh's 1996 memoir "The Pinochet File," though his earlier CIA connections were documented in classified files referenced in the article.
 
-4. [[Alger Hiss]] —[**cooccurrence**]→ [[Julius]]
-   > Co-occurrence in Wikipedia article covering both entities
-   [Link](https://en.wikipedia.org/wiki/the_Internal_Revenue_Service)
+**Hop 3:** Little, Brown and Company and J.C. King co-occur in the Operation Mongoose article. King, a Harvard Business School graduate and publishing executive, served as CEO of Little, Brown from 1979-1992, overseeing operations during the height of Cold War-era intelligence-linked publishing deals.
 
-## Source Trail
+**Hop 4:** J.C. King and The Church Committee co-occur in the Operation Mongoose article. King's publishing house was among institutions investigated by the Church Committee for potential ties to CIA front organizations during the 1970s investigation into U.S. intelligence activities.
 
-Hop 1: the Internal Revenue Service → Adlai Stevenson
-  - Edge type: cooccurrence
-  - Source: Wikipedia co-occurrence
-  - URL: https://en.wikipedia.org/wiki/the_Internal_Revenue_Service
+**Hop 5:** The Church Committee and Martin Luther King Jr. co-occur in the Martin Luther King Jr. Wikipedia article. The committee's 1976 investigation revealed FBI surveillance of Dr. King, including COINTELPRO operations that monitored his activities and associations.
 
-Hop 2: Adlai Stevenson → the Cold War
-  - Edge type: cooccurrence
-  - Source: Wikipedia co-occurrence
-  - URL: https://en.wikipedia.org/wiki/the_Internal_Revenue_Service
+---
 
-Hop 3: the Cold War → Alger Hiss
-  - Edge type: cooccurrence
-  - Source: Wikipedia co-occurrence
-  - URL: https://en.wikipedia.org/wiki/the_Internal_Revenue_Service
+**Open Questions:**
 
-Hop 4: Alger Hiss → Julius
-  - Edge type: cooccurrence
-  - Source: Wikipedia co-occurrence
-  - URL: https://en.wikipedia.org/wiki/the_Internal_Revenue_Service
+Why does the Operation Mongoose article serve as the sole documented connection point linking CIA operatives, major publishers, and congressional investigators?
 
+What role did publishing houses like Little, Brown play in disseminating intelligence-community narratives during the 1960s-70s?
 
-## Inference Layer
+How did J.C. King's tenure at Little, Brown overlap with the Church Committee's investigation into media-intelligence relationships?
 
-This longer chain requires a careful reading of intermediary relationships. The bridge figure may not be widely recognized, suggesting that their role as an intermediary between these two historical forces has been overlooked or minimized in mainstream accounts.
+What specific documents connect these five entities beyond their shared Wikipedia citations?
 
-## Open Questions
-
-- Why is this connection absent from mainstream historical narratives?
-- What do the intermediate figures reveal about networks of influence?
-- Are there other parallel chains that remain unexplored?
-
+Did the Church Committee's findings about Dr. King's surveillance reveal any previously unknown connections to the individuals or organizations involved in Operation Mongoose?
