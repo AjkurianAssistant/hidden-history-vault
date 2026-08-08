@@ -4,145 +4,144 @@ Ranked by narrative impact and historical significance.
 
 ## Ranked Findings
 
-## #1: **The Phantom Chain — How a Soviet Spy Ring Connects to Dillinger Through America's Most Divisive Monuments**
+## #1: Secret Loom — Irving Berlin → the Cleveland Mob (5-Degree Link)
 - **Degrees:** 5-degree chain
-- **Score:** 23/30 (novelty: 9, evidence: 7, narrative: 7)
-- **Chain:** the Soviet Union → William H. Seward → Arlington House → Stonewall Jackson → Confederate → John Dillinger
+- **Score:** 26/30 (novelty: 8, evidence: 8, narrative: 10)
+- **Chain:** Irving Berlin → Wilson → Schuyler Colfax → Confederate → Paul A. → the Cleveland Mob
 - **Impact:** Hidden institutional networks spanning American history
-- **Vault:** [[Findings/finding-001-230]]
+- **Vault:** [[Findings/finding-001-260]]
 
-## #2: Stanford's Shadow Network — How a University Ties to the Mob Through Intelligence Layers
+## #2: Shadow Chain — The Wall Street Journal → the Senate Foreign Relations Committee (4-Degree Link)
+- **Degrees:** 4-degree chain
+- **Score:** 22/30 (novelty: 5, evidence: 7, narrative: 10)
+- **Chain:** The Wall Street Journal → William T. Sherman → Confederate → Horace Greeley → the Senate Foreign Relations Committee
+- **Impact:** Hidden institutional networks spanning American history
+- **Vault:** [[Findings/finding-002-220]]
+
+## #3: Shadow Chain — The Wall Street Journal → the Senate Judiciary Committee (4-Degree Link)
+- **Degrees:** 4-degree chain
+- **Score:** 21/30 (novelty: 6, evidence: 5, narrative: 10)
+- **Chain:** The Wall Street Journal → William T. Sherman → Confederate → John R. → the Senate Judiciary Committee
+- **Impact:** Intelligence agency overreach and domestic surveillance
+- **Vault:** [[Findings/finding-003-210]]
+
+## #4: Secret Loom — the Non-Proliferation of Nuclear Weapons → the Mayfield Road Mob (5-Degree Link)
 - **Degrees:** 5-degree chain
-- **Score:** 20/30 (novelty: 6, evidence: 6, narrative: 8)
-- **Chain:** Stanford → Edward Bennett Williams → Operations → Meyer Lansky → Mafia → Luciano
-- **Impact:** Intelligence agency overreach and domestic surveillance
-- **Vault:** [[Findings/finding-002-200]]
-
-## #3: **Title — The Hidden Thread — From Lincoln's Labor Policies to Pinochet's Rise**
-- **Degrees:** 4-degree chain
-- **Score:** 25/30 (novelty: 8, evidence: 7, narrative: 10)
-- **Chain:** Lincoln → Coke Stevenson → the Department of Justice → Augusto Pinochet → Mao Zedong
+- **Score:** 20/30 (novelty: 6, evidence: 5, narrative: 9)
+- **Chain:** the Non-Proliferation of Nuclear Weapons → Howard W. Smith → the U.S. Senate → Vincent Mangano → S. HRG. → the Mayfield Road Mob
 - **Impact:** Hidden institutional networks spanning American history
-- **Vault:** [[Findings/finding-003-250]]
+- **Vault:** [[Findings/finding-004-200]]
 
-## #4: **The Manchild's Mentor — How CIA Mind Control Research May Have Shaped America's Most Notorious Cult Leader**
+## #5: Shadow Chain — the George Bush Center for Intelligence → Great Depression (4-Degree Link)
 - **Degrees:** 4-degree chain
-- **Score:** 22/30 (novelty: 6, evidence: 6, narrative: 10)
-- **Chain:** the Intelligence Community
-List of MKULTRA Unclassified Documents → Stanley → John L. → Charles Manson → The Complete Social History
-- **Impact:** Intelligence agency overreach and domestic surveillance
-- **Vault:** [[Findings/finding-004-220]]
+- **Score:** 20/30 (novelty: 5, evidence: 5, narrative: 10)
+- **Chain:** the George Bush Center for Intelligence → George Bush → Watergate → Gertrude Stein → Great Depression
+- **Impact:** Executive branch cover-up and political surveillance
+- **Vault:** [[Findings/finding-005-200]]
 
-## #5: The Seward-to-MKUltra Pipeline — A Historical Thread Too Convenient to Ignore?
+## #6: Secret Loom — Lincoln → the Soviet Union (5-Degree Link)
+- **Degrees:** 5-degree chain
+- **Score:** 22/30 (novelty: 9, evidence: 6, narrative: 7)
+- **Chain:** Lincoln → Schuyler Colfax → The Baltimore Sun's → Edward McPherson → Horace Greeley → the Soviet Union
+- **Impact:** Hidden institutional networks spanning American history
+- **Vault:** [[Findings/finding-006-220]]
+
+## #7: Secret Loom — the Watergate Hotel → Stanford University's (5-Degree Link)
+- **Degrees:** 5-degree chain
+- **Score:** 20/30 (novelty: 7, evidence: 5, narrative: 8)
+- **Chain:** the Watergate Hotel → Robert Bork → Edward Bennett Williams → the Six Day War → Walter Bedell Smith → Stanford University's
+- **Impact:** Executive branch cover-up and political surveillance
+- **Vault:** [[Findings/finding-007-200]]
+
+## #8: Secret Loom — the Paris Peace Accords → the Mayfield Road Mob (5-Degree Link)
+- **Degrees:** 5-degree chain
+- **Score:** 19/30 (novelty: 7, evidence: 4, narrative: 8)
+- **Chain:** the Paris Peace Accords → Robert Bork → Edward Bennett Williams → Greenwood Press → S. HRG. → the Mayfield Road Mob
+- **Impact:** Hidden institutional networks spanning American history
+- **Vault:** [[Findings/finding-008-190]]
+
+## #9: Shadow Chain — The Chicago Tribune → Eric Foner (4-Degree Link)
 - **Degrees:** 4-degree chain
-- **Score:** 24/30 (novelty: 8, evidence: 7, narrative: 9)
-- **Chain:** the Grant Administration → William H. Seward → Reconstruction → John L. → Project MKUltra
-- **Impact:** Civil War-era power structures and their lasting legacy
-- **Vault:** [[Findings/finding-005-240]]
+- **Score:** 20/30 (novelty: 7, evidence: 5, narrative: 8)
+- **Chain:** The Chicago Tribune → Schuyler Colfax → Confederate → Horace Greeley → Eric Foner
+- **Impact:** Hidden institutional networks spanning American history
+- **Vault:** [[Findings/finding-009-200]]
 
-## #6: **The Hurston-Du Bois-Parker Connection — When Harlem Met the Highway**
+## #10: Shadow Chain — Communist Party → George Herbert Walker Bush (4-Degree Link)
+- **Degrees:** 4-degree chain
+- **Score:** 26/30 (novelty: 9, evidence: 8, narrative: 9)
+- **Chain:** Communist Party → Alexander Vassiliev's → Elizabeth Bentley → the Great Depression → George Herbert Walker Bush
+- **Impact:** Hidden institutional networks spanning American history
+- **Vault:** [[Findings/finding-010-260]]
+
+## #11: Secret Loom — Watergate → Richard M. Nixon (5-Degree Link)
+- **Degrees:** 5-degree chain
+- **Score:** 19/30 (novelty: 7, evidence: 5, narrative: 7)
+- **Chain:** Watergate → William Sargant → U.S. General Accounting Office → John Ranelagh → The Watergate → Richard M. Nixon
+- **Impact:** Executive branch cover-up and political surveillance
+- **Vault:** [[Findings/finding-011-190]]
+
+## #12: Hidden Nexus — Chicago Tribune → the War of 1812 (3-Degree Link)
 - **Degrees:** 3-degree chain
-- **Score:** 25/30 (novelty: 8, evidence: 8, narrative: 9)
-- **Chain:** the National Association for the Advancement of Colored People (NAACP → Zora Neale Hurston → the Great Depression → Bonnie Parker
-- **Impact:** Intelligence agency overreach and domestic surveillance
-- **Vault:** [[Findings/finding-006-250]]
+- **Score:** 21/30 (novelty: 7, evidence: 4, narrative: 10)
+- **Chain:** Chicago Tribune → LibriVox → Uncle Tom's Cabin → the War of 1812
+- **Impact:** Hidden institutional networks spanning American history
+- **Vault:** [[Findings/finding-012-210]]
 
-## #7: **Title — The Hidden Thread — How a 1930s Asylum Connects to Watergate's Deep Throat**
+## #13: Hidden Nexus — the Korean War → Lucky Luciano (3-Degree Link)
+- **Degrees:** 3-degree chain
+- **Score:** 22/30 (novelty: 5, evidence: 7, narrative: 10)
+- **Chain:** the Korean War → George Bush → Simon & Schuster → Lucky Luciano
+- **Impact:** Intelligence agency overreach and domestic surveillance
+- **Vault:** [[Findings/finding-013-220]]
+
+## #14: Hidden Nexus — U.S. House of Representatives → Dillinger (3-Degree Link)
+- **Degrees:** 3-degree chain
+- **Score:** 22/30 (novelty: 6, evidence: 6, narrative: 10)
+- **Chain:** U.S. House of Representatives → Coke Stevenson → John Dillinger → Dillinger
+- **Impact:** Hidden institutional networks spanning American history
+- **Vault:** [[Findings/finding-014-220]]
+
+## #15: Shadow Chain — The Chicago Tribune → James Ford Rhodes (4-Degree Link)
+- **Degrees:** 4-degree chain
+- **Score:** 18/30 (novelty: 7, evidence: 5, narrative: 6)
+- **Chain:** The Chicago Tribune → Schuyler Colfax → Confederate → William H. Seward → James Ford Rhodes
+- **Impact:** Hidden institutional networks spanning American history
+- **Vault:** [[Findings/finding-015-180]]
+
+## #16: Shadow Chain — Gulf War → the Trump Organization (4-Degree Link)
 - **Degrees:** 4-degree chain
 - **Score:** 23/30 (novelty: 6, evidence: 8, narrative: 9)
-- **Chain:** the Criminally Insane → Charles Manson → National Register of Historic Places listings in Bedford County, Pennsylvania → Carl Bernstein → The Secret War
+- **Chain:** Gulf War → George Bush → Iranian Revolution → William Casey → the Trump Organization
 - **Impact:** Hidden institutional networks spanning American history
-- **Vault:** [[Findings/finding-007-230]]
+- **Vault:** [[Findings/finding-016-230]]
 
-## #8: **Title — The Longshoremen's Shadow Network — How a Dockworkers' Union Became the FBI's Training Ground**
+## #17: Shadow Chain — the Department of Justice → Fordham University Press (4-Degree Link)
 - **Degrees:** 4-degree chain
-- **Score:** 23/30 (novelty: 8, evidence: 6, narrative: 9)
-- **Chain:** the International Longshoremen's Association → Charles "Lucky" Luciano → the Castellammarese War → Apalachin → the FBI Academy
+- **Score:** 21/30 (novelty: 6, evidence: 6, narrative: 9)
+- **Chain:** the Department of Justice → Howard W. Smith → Reconstruction → Thaddeus Stevens → Fordham University Press
+- **Impact:** Civil War-era power structures and their lasting legacy
+- **Vault:** [[Findings/finding-017-210]]
+
+## #18: Hidden Nexus — the American Psychiatric Association → the House Select Committee on Assassinations (3-Degree Link)
+- **Degrees:** 3-degree chain
+- **Score:** 24/30 (novelty: 6, evidence: 8, narrative: 10)
+- **Chain:** the American Psychiatric Association → Sidney Gottlieb → William Harvey → the House Select Committee on Assassinations
 - **Impact:** Intelligence agency overreach and domestic surveillance
-- **Vault:** [[Findings/finding-008-230]]
+- **Vault:** [[Findings/finding-018-240]]
 
-## #9: **Title — The Forgotten Threads Connecting Ford's Empire to California's Labor Movement**
+## #19: Shadow Chain — Bonnie Parker → The House of Representatives (4-Degree Link)
 - **Degrees:** 4-degree chain
-- **Score:** 25/30 (novelty: 9, evidence: 7, narrative: 9)
-- **Chain:** Henry Ford → Coke Stevenson → Cannery → Dolores Huerta → University of California Press
+- **Score:** 23/30 (novelty: 8, evidence: 7, narrative: 8)
+- **Chain:** Bonnie Parker → Moncada Barracks → Schuyler Colfax → Benjamin Wade → The House of Representatives
 - **Impact:** Hidden institutional networks spanning American history
-- **Vault:** [[Findings/finding-009-250]]
+- **Vault:** [[Findings/finding-019-230]]
 
-## #10: **"The Ford-Bush Connection — Tracing a Chain Through America's Power Elite"**
+## #20: Hidden Nexus — the Continental Congress → the Watergate scandal and (3-Degree Link)
 - **Degrees:** 3-degree chain
-- **Score:** 23/30 (novelty: 8, evidence: 5, narrative: 10)
-- **Chain:** Gerald Ford's → Labor → Edward Bennett Williams → KGB
-- **Impact:** Hidden institutional networks spanning American history
-- **Vault:** [[Findings/finding-010-230]]
-
-## #11: **Title — The Watergate-Web — How Assassination Investigators Traced Paths That Led Straight to the Lincoln Memorial**
-- **Degrees:** 3-degree chain
-- **Score:** 26/30 (novelty: 9, evidence: 7, narrative: 10)
-- **Chain:** the U.S. House Select Committee on Assassinations → Charles Colson → John N. Mitchell → Lincoln Memorial
-- **Impact:** Hidden institutional networks spanning American history
-- **Vault:** [[Findings/finding-011-260]]
-
-## #12: **The Ghost Chain — How a Drunken VP Speech Links Three Presidents to the Senate**
-- **Degrees:** 3-degree chain
-- **Score:** 22/30 (novelty: 6, evidence: 7, narrative: 9)
-- **Chain:** Rutherford B. Hayes → William H. Seward → Abraham Lincoln's → the U.S. Senate
-- **Impact:** Hidden institutional networks spanning American history
-- **Vault:** [[Findings/finding-012-220]]
-
-## #13: **The Forgotten Thread — How a Historian's Rail Tour Connects to a Confederate Fortress Commander**
-- **Degrees:** 3-degree chain
-- **Score:** 24/30 (novelty: 9, evidence: 6, narrative: 9)
-- **Chain:** James Ford Rhodes → William H. Seward → Confederate → Braxton Bragg
-- **Impact:** Hidden institutional networks spanning American history
-- **Vault:** [[Findings/finding-013-240]]
-
-## #14: **The Hidden Thread — How One Congressional Record Entry Tied Tehran to Thatcher's War**
-- **Degrees:** 3-degree chain
-- **Score:** 21/30 (novelty: 5, evidence: 6, narrative: 10)
-- **Chain:** the Congressional Record → Ayatollah Khomeini → Margaret Thatcher → the Gulf War
-- **Impact:** Hidden institutional networks spanning American history
-- **Vault:** [[Findings/finding-014-210]]
-
-## #15: **The Forgotten Thread — How a Texas Senator’s 1950s Labor Program Connects to Modern Political Drama**
-- **Degrees:** 4-degree chain
-- **Score:** 24/30 (novelty: 9, evidence: 7, narrative: 8)
-- **Chain:** U.S. Senate → Coke Stevenson → the Department of Justice → James Comey → Michael Jackson
-- **Impact:** Hidden institutional networks spanning American history
-- **Vault:** [[Findings/finding-015-240]]
-
-## #16: **Title — The Bedford Connection — How a Supreme Court Nominee Links to Pennsylvania's Historic Farms**
-- **Degrees:** 3-degree chain
-- **Score:** 24/30 (novelty: 8, evidence: 8, narrative: 8)
-- **Chain:** the Supreme Court's → Elliot Richardson → National Register of Historic Places listings in Bedford County, Pennsylvania → Chicago Tribune
-- **Impact:** Hidden institutional networks spanning American history
-- **Vault:** [[Findings/finding-016-240]]
-
-## #17: **The Sicilian Connection — When New York's Underworld Met Castro's Revolution**
-- **Degrees:** 3-degree chain
-- **Score:** 22/30 (novelty: 7, evidence: 7, narrative: 8)
-- **Chain:** Mafia → Vincenzo Terranova → the American Mafia → Fidel Castro's
-- **Impact:** Organized crime's infiltration of legitimate power
-- **Vault:** [[Findings/finding-017-220]]
-
-## #18: The Strange Case of Watergate's Rural Pennsylvania Thread
-- **Degrees:** 3-degree chain
-- **Score:** 19/30 (novelty: 6, evidence: 4, narrative: 9)
-- **Chain:** the Senate Watergate Committee → Elliot Richardson → National Register of Historic Places listings in Bedford County, Pennsylvania → Bonnie Parker
+- **Score:** 23/30 (novelty: 7, evidence: 6, narrative: 10)
+- **Chain:** the Continental Congress → Thomas Jefferson → Newt Gingrich → the Watergate scandal and
 - **Impact:** Executive branch cover-up and political surveillance
-- **Vault:** [[Findings/finding-018-190]]
-
-## #19: **Title — The Forgotten Threads — How a Supreme Court Justice, a Texas Governor, and RFK Became Linked Through Labor's Shadow Network**
-- **Degrees:** 3-degree chain
-- **Score:** 26/30 (novelty: 8, evidence: 8, narrative: 10)
-- **Chain:** the U.S. Supreme Court → Coke Stevenson → Department of Labor → Robert F. Kennedy's
-- **Impact:** Hidden institutional networks spanning American history
-- **Vault:** [[Findings/finding-019-260]]
-
-## #20: **The Forgotten Thread — How a Little-Known War Connects Congress to the Senate Floor**
-- **Degrees:** 3-degree chain
-- **Score:** 23/30 (novelty: 8, evidence: 5, narrative: 10)
-- **Chain:** the House Judiciary Committee → Powell Clayton → Horace Greeley → senate
-- **Impact:** Intelligence agency overreach and domestic surveillance
 - **Vault:** [[Findings/finding-020-230]]
 
 ---

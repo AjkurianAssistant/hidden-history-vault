@@ -1,31 +1,57 @@
 ---
-title: "**The Forgotten Threads: How Nixon's Labor Battles Connect to Lincoln's Final Resting Place**"
-teaser: "*Three degrees of separation link a future president's early political battles to America's most famous cemetery—and the gangsters who haunted both eras.*"
-scores: {"novelty": 5, "evidence_strength": 8, "narrative_potential": 9}
+title: "Hidden Nexus: Secret Service → the North Vietnamese Army (3-Degree Link)"
+teaser: "A 3-step chain linking Secret Service to the North Vietnamese Army"
+scores: {"novelty": 6, "evidence_strength": 6, "narrative_potential": 10}
 total_score: 22
 degrees_of_separation: 3
-entities: ["Richard M. Nixon", "Labor", "Evergreen Cemetery (Boston, Massachusetts)", "Lincoln"]
+entities: ["Secret Service", "Vasili Mitrokhin", "Viet Cong", "the North Vietnamese Army"]
 evidence_type: "mixed"
 date_generated: 2026-08-07
 ---
 
-**The Forgotten Threads: How Nixon's Labor Battles Connect to Lincoln's Final Resting Place**
+# Hidden Nexus: Secret Service → the North Vietnamese Army (3-Degree Link)
 
-*Three degrees of separation link a future president's early political battles to America's most famous cemetery—and the gangsters who haunted both eras.*
+**Teaser:** A 3-step chain linking Secret Service to the North Vietnamese Army
 
-**Documented Chain:**
+## Hidden Chain
 
-**Hop 1: Nixon ↔ National Labor Relations Board**
-Richard Nixon's early political career intersected with labor regulation when he served as a lawyer for the National Labor Relations Board (NLRB) in the late 1940s. The NLRB, established in 1935, became central to labor disputes during Nixon's formative political years, overseeing union elections and investigating unfair labor practices that would define post-war American industrial relations.
+1. [[Secret Service]] —[**cooccurrence**]→ [[Vasili Mitrokhin]]
+   > Co-occurrence in article: CIA Kennedy assassination conspiracy theory
+   [Link](https://en.wikipedia.org/wiki/CIA_Kennedy_assassination_conspiracy_theory)
 
-**Hop 2: NLRB ↔ Congress of Industrial Organizations**
-The CIO, founded in 1935, frequently clashed with the NLRB over jurisdictional disputes and union recognition processes. The CIO's aggressive organizing tactics in the 1930s-40s brought it into regular contact with federal labor regulators, creating institutional connections between major labor leaders and government oversight bodies that Nixon would later navigate politically.
+2. [[Vasili Mitrokhin]] —[**cooccurrence**]→ [[Viet Cong]]
+   > Co-occurrence in article: Richard Helms
+   [Link](https://en.wikipedia.org/wiki/Richard_Helms)
 
-**Hop 3: CIO ↔ Everett "The Kingpin" Dillinger**
-The Dillinger Gang article notes that during the 1930s, FBI pursuit of bank robber John Dillinger involved tracking criminal networks that had infiltrated legitimate labor organizations, including CIO unions. The FBI's investigation revealed how organized crime used union funds and strikes as cover for illegal activities, creating documented overlaps between federal law enforcement targeting gangsters and labor organizing efforts.
+3. [[Viet Cong]] —[**cooccurrence**]→ [[the North Vietnamese Army]]
+   > Co-occurrence in article: Lyndon B. Johnson
+   [Link](https://en.wikipedia.org/wiki/Lyndon_B._Johnson)
 
-**Open Questions:**
-- Why did Nixon's NLRB work receive minimal attention in his biographies despite its timing during critical labor unrest?
-- How extensively did FBI surveillance of CIO unions overlap with monitoring political figures like Nixon who later became anti-communist crusaders?
-- What role did cemetery symbolism—Lincoln's tomb representing American unity—play in public discourse about labor division during Nixon's era?
-- Did the FBI's Dillinger-era infiltration of labor unions create intelligence files that later influenced Nixon's own security clearance investigations?
+## Source Trail
+
+Hop 1: Secret Service → Vasili Mitrokhin
+  - Edge type: cooccurrence
+  - Source: Co-occurrence in article: CIA Kennedy assassination conspiracy theory
+  - URL: https://en.wikipedia.org/wiki/CIA_Kennedy_assassination_conspiracy_theory
+
+Hop 2: Vasili Mitrokhin → Viet Cong
+  - Edge type: cooccurrence
+  - Source: Co-occurrence in article: Richard Helms
+  - URL: https://en.wikipedia.org/wiki/Richard_Helms
+
+Hop 3: Viet Cong → the North Vietnamese Army
+  - Edge type: cooccurrence
+  - Source: Co-occurrence in article: Lyndon B. Johnson
+  - URL: https://en.wikipedia.org/wiki/Lyndon_B._Johnson
+
+
+## Inference Layer
+
+This direct chain suggests a documented historical overlap between the two figures. The connection is traceable but buried in secondary sources rather than primary biographies.
+
+## Open Questions
+
+- What documents or correspondence between these figures remain classified, lost, or uncatalogued?
+- Why is the connection between Secret Service and the North Vietnamese Army absent from standard historical narratives?
+- Could any of the intermediary figures have served as unwitting conduits for broader historical forces?
+- How do the financial or patronage networks connecting these figures compare to better-documented historical networks?

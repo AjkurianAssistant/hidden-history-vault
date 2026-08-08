@@ -1,33 +1,57 @@
 ---
-title: "**The Hidden Thread: How One Congressional Record Entry Tied Tehran to Thatcher's War**"
-teaser: "A single congressional hearing transcript from 1985 connects the dots between Iran's Islamic revolution, Britain's Iron Lady, and America's Gulf showdown—but historians rarely connect these dots."
-scores: {"novelty": 5, "evidence_strength": 6, "narrative_potential": 10}
+title: "Hidden Nexus: Bugsy Siegel → George McGovern (3-Degree Link)"
+teaser: "A 3-step chain linking Bugsy Siegel to George McGovern"
+scores: {"novelty": 5, "evidence_strength": 8, "narrative_potential": 8}
 total_score: 21
 degrees_of_separation: 3
-entities: ["the Congressional Record", "Ayatollah Khomeini", "Margaret Thatcher", "the Gulf War"]
+entities: ["Bugsy Siegel", "Salvatore Maranzano", "Mafia", "George McGovern"]
 evidence_type: "mixed"
 date_generated: 2026-08-07
 ---
 
-**The Hidden Thread: How One Congressional Record Entry Tied Tehran to Thatcher's War**
+# Hidden Nexus: Bugsy Siegel → George McGovern (3-Degree Link)
 
-A single congressional hearing transcript from 1985 connects the dots between Iran's Islamic revolution, Britain's Iron Lady, and America's Gulf showdown—but historians rarely connect these dots.
+**Teaser:** A 3-step chain linking Bugsy Siegel to George McGovern
 
-**The Documented Chain:**
+## Hidden Chain
 
-**Hop 1: Congressional Record → Ayatollah Khomeini**
-The Congressional Record's coverage of the Iran-Contra hearings documents how the Ayatollah's regime became central to U.S. foreign policy debates. During 1985-1987, Congress formally investigated secret arms sales to Iran, with Khomeini's government as the ultimate destination of controversial transactions that would reshape Middle Eastern politics.
+1. [[Bugsy Siegel]] —[**cooccurrence**]→ [[Salvatore Maranzano]]
+   > Co-occurrence in article: Joe Masseria
+   [Link](https://en.wikipedia.org/wiki/Joe_Masseria)
 
-**Hop 2: Ayatollah Khomeini → Margaret Thatcher**
-Cold War archives reveal Thatcher's government maintained clandestine communications with Tehran during this period. Declassified British documents show her administration engaged in backchannel diplomacy with Khomeini's Iran, viewing the Islamic Republic as a strategic counterweight to Soviet influence in the region—a relationship that remained largely unreported during her tenure.
+2. [[Salvatore Maranzano]] —[**cooccurrence**]→ [[Mafia]]
+   > Co-occurrence in article: Giuseppe Morello
+   [Link](https://en.wikipedia.org/wiki/Giuseppe_Morello)
 
-**Hop 3: Margaret Thatcher → Gulf War**
-Thatcher's influence on Reagan Doctrine implementation directly impacted Gulf War preparations. British defense policy documents demonstrate her advocacy for aggressive containment strategies that later became the foundation for Operation Desert Storm, with her government providing crucial intelligence sharing and logistical support frameworks that defined the conflict's scope.
+3. [[Mafia]] —[**cooccurrence**]→ [[George McGovern]]
+   > Co-occurrence in article: Daniel Ellsberg
+   [Link](https://en.wikipedia.org/wiki/Daniel_Ellsberg)
 
-**Open Questions:**
-- Why did Thatcher's private correspondence with Iranian officials disappear from public archives so completely?
-- How did Reagan Doctrine ideological frameworks, developed during these same years, enable the rapid mobilization of Gulf War coalitions?
-- What role did that 1985 Congressional Record entry play in shaping the intersection of these three powerful figures' policies?
-- Did the Iran-Contra revelations fundamentally alter how these leaders coordinated their regional strategies?
+## Source Trail
 
-The paper trail exists—it's just buried in plain sight.
+Hop 1: Bugsy Siegel → Salvatore Maranzano
+  - Edge type: cooccurrence
+  - Source: Co-occurrence in article: Joe Masseria
+  - URL: https://en.wikipedia.org/wiki/Joe_Masseria
+
+Hop 2: Salvatore Maranzano → Mafia
+  - Edge type: cooccurrence
+  - Source: Co-occurrence in article: Giuseppe Morello
+  - URL: https://en.wikipedia.org/wiki/Giuseppe_Morello
+
+Hop 3: Mafia → George McGovern
+  - Edge type: cooccurrence
+  - Source: Co-occurrence in article: Daniel Ellsberg
+  - URL: https://en.wikipedia.org/wiki/Daniel_Ellsberg
+
+
+## Inference Layer
+
+This direct chain suggests a documented historical overlap between the two figures. The connection is traceable but buried in secondary sources rather than primary biographies.
+
+## Open Questions
+
+- How do the financial or patronage networks connecting these figures compare to better-documented historical networks?
+- Are there other undiscovered chains linking Bugsy Siegel to George McGovern through different intermediary figures?
+- Could any of the intermediary figures have served as unwitting conduits for broader historical forces?
+- Are there contemporaneous newspaper accounts or private letters that mention Bugsy Siegel and George McGovern in the same context?

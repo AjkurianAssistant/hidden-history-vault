@@ -61,3 +61,10 @@
 - Budget remaining: 847
 - Graph: 5653 nodes, 131547 edges
 - Candidates checkpointed: 300
+
+## Run 2026-08-07 20:26:12
+- Findings generated: 57
+- API calls used: 114
+- Budget remaining: 843
+- Graph: 6310 nodes, 156401 edges
+- Candidates checkpointed: 300

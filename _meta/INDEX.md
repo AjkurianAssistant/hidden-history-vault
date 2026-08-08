@@ -4,56 +4,60 @@ Sorted by total score (highest first).
 
 | Title | Teaser | Evidence | Score | Go to |
 |-------|--------|----------|-------|-------|
-| **Title: The Watergate-Web: How Assassination Investigators Traced Paths That Led Straight to the Lincoln Memorial** | An overlooked connection | mixed | 26 | [[Findings/finding-017-260]] |
-| **Title: The Forgotten Threads: How a Supreme Court Justice, a Texas Governor, and RFK Became Linked Through Labor's Shadow Network** | An overlooked connection | mixed | 26 | [[Findings/finding-034-260]] |
-| **Title: The Pacific Committee Connection: How Imperial Japan's 1940 Visit Linked Three American Political Giants** | An overlooked connection | mixed | 26 | [[Findings/finding-049-260]] |
-| **The Hurston-Du Bois-Parker Connection: When Harlem Met the Highway** | An overlooked connection | mixed | 25 | [[Findings/finding-001-250]] |
-| **The Cartographer's Chain: How a Civil War-Era Mission Connected to Satellite Mapping** | An overlooked connection | mixed | 25 | [[Findings/finding-033-250]] |
-| **Title: The Forgotten Threads Connecting Ford's Empire to California's Labor Movement** | An overlooked connection | mixed | 25 | [[Findings/finding-051-250]] |
-| **Title: The Hidden Thread: From Lincoln's Labor Policies to Pinochet's Rise** | An overlooked connection | mixed | 25 | [[Findings/finding-052-250]] |
-| **Title: The Bedford Connection: How a Supreme Court Nominee Links to Pennsylvania's Historic Farms** | An overlooked connection | mixed | 24 | [[Findings/finding-002-240]] |
-| **The Forgotten Thread: How a Historian's Rail Tour Connects to a Confederate Fortress Commander** | An overlooked connection | mixed | 24 | [[Findings/finding-006-240]] |
-| The Seward-to-MKUltra Pipeline: A Historical Thread Too Convenient to Ignore? | What connects a Civil War-era secretary of state to CIA mind control experiments through a single North Dakota town? | mixed | 24 | [[Findings/finding-022-240]] |
-| The Spy Who Came in from the Cold War | An overlooked connection | mixed | 24 | [[Findings/finding-025-240]] |
-| **The Forgotten Thread: How a Texas Senator’s 1950s Labor Program Connects to Modern Political Drama** | An overlooked connection | mixed | 24 | [[Findings/finding-032-240]] |
-| **The Phantom Chain: How a Soviet Spy Ring Connects to Dillinger Through America's Most Divisive Monuments** | An overlooked connection | mixed | 23 | [[Findings/finding-004-230]] |
-| **"The Ford-Bush Connection: Tracing a Chain Through America's Power Elite"** | An overlooked connection | mixed | 23 | [[Findings/finding-012-230]] |
-| **Title: The Strange Loops: How Sicilian Blood Ties Connect to JFK's Investigation** | An overlooked connection | mixed | 23 | [[Findings/finding-029-230]] |
-| **Title: The Hidden Thread: How a 1930s Asylum Connects to Watergate's Deep Throat** | An overlooked connection | mixed | 23 | [[Findings/finding-031-230]] |
-| **The Forgotten Thread: How a Little-Known War Connects Congress to the Senate Floor** | An overlooked connection | mixed | 23 | [[Findings/finding-036-230]] |
-| **Title: The Longshoremen's Shadow Network: How a Dockworkers' Union Became the FBI's Training Ground** | An overlooked connection | mixed | 23 | [[Findings/finding-050-230]] |
-| **The Sicilian Connection: When New York's Underworld Met Castro's Revolution** | An overlooked connection | mixed | 22 | [[Findings/finding-003-220]] |
-| **The Ghost Chain: How a Drunken VP Speech Links Three Presidents to the Senate** | An overlooked connection | mixed | 22 | [[Findings/finding-005-220]] |
-| **The Silent Web: How a Former FBI Associate Became Linked to Hughes, Bremer, and COINTELPRO**   | An overlooked connection | mixed | 22 | [[Findings/finding-027-220]] |
-| **The Forgotten Threads: How Nixon's Labor Battles Connect to Lincoln's Final Resting Place** | An overlooked connection | mixed | 22 | [[Findings/finding-037-220]] |
-| The Hidden Thread: How a CIA Mind-Control Program Connects to America's Business Elite | What starts as a Cold War experiment ends at the doorstep of corporate power — but why? | mixed | 22 | [[Findings/finding-041-220]] |
-| **Title: The Helms Connection: How One CIA Chief Linked Bush, Ellsberg, and Clifford** | An overlooked connection | mixed | 22 | [[Findings/finding-042-220]] |
-| **The Forgotten Thread: How a Senate Office Connects to Confederate Memory** | An overlooked connection | mixed | 22 | [[Findings/finding-045-220]] |
-| **The Manchild's Mentor: How CIA Mind Control Research May Have Shaped America's Most Notorious Cult Leader** | An overlooked connection | mixed | 22 | [[Findings/finding-053-220]] |
-| **The Hidden Thread: How a Civil War Spy Master’s Legacy Wired the McCarthy Hearings** | An overlooked connection | mixed | 21 | [[Findings/finding-010-210]] |
-| **Title: The Forgotten Thread: How a Texas Senator Bridged Civil War and Civil Rights Eras** | A direct paper trail connects a 1960s Senate leader to the architect of Reconstruction—and it's hiding in plain sight on Wikipedia. | mixed | 21 | [[Findings/finding-018-210]] |
-| **The Hidden Thread: How One Congressional Record Entry Tied Tehran to Thatcher's War** | An overlooked connection | mixed | 21 | [[Findings/finding-026-210]] |
-| **The War, The Tycoon, and the CIA's Mind Control Program** | An overlooked connection | mixed | 21 | [[Findings/finding-028-210]] |
-| **The Forgotten Thread: How a Senate Subcommittee Connects to the Revolutionary War** | An overlooked connection | mixed | 21 | [[Findings/finding-030-210]] |
-| **The Stanton-Polizzi Paradox: How a Civil War Committee Connects to Lincoln's Killer** | An overlooked connection | mixed | 21 | [[Findings/finding-039-210]] |
-| **The Oberlin Connection: How a Small College Tied Three Major 20th Century Political Scandals** | An overlooked connection | mixed | 21 | [[Findings/finding-044-210]] |
-| **The Forgotten Network: How FBI Academy Ties Connect to McCarthy's Inner Circle** | An overlooked connection | mixed | 21 | [[Findings/finding-046-210]] |
-| **Title: The Forgotten Thread: How a Texas Congressman Connected Ford, Stanley, and the Korean War** | Buried in Cold War documents is a three-degree connection linking President Ford's inner circle to a controversial CIA program through a Texas political dynasty. | mixed | 21 | [[Findings/finding-048-210]] |
-| **The Forgotten Intellectual Pipeline: How Depression-Era Black Scholars Shaped Congressional Labor Policy** | An overlooked connection | mixed | 20 | [[Findings/finding-013-200]] |
-| **Title: The Prohibition Connection: How a Gangster's Prison Linked to Confederate Monuments   | An overlooked connection | mixed | 20 | [[Findings/finding-014-200]] |
-| **The Seward-Reagan Connection: How a 19th Century Politician Links to the Gipper Through a Forgotten Legal Legacy** | An overlooked connection | mixed | 20 | [[Findings/finding-021-200]] |
-| Stanford's Shadow Network: How a University Ties to the Mob Through Intelligence Layers | An overlooked connection | mixed | 20 | [[Findings/finding-023-200]] |
-| **Title:** The Forgotten Thread: How Kansas City's Spy Network Shaped American Intelligence History   | An overlooked connection | mixed | 20 | [[Findings/finding-035-200]] |
-| **Title: The Hidden Thread: How a Cold War Crisis Connects to a Diplomat's Assassination** | An overlooked connection | mixed | 20 | [[Findings/finding-038-200]] |
-| **The Clay-Du Bois Pipeline: How One Kentucky Senator's Legacy Traveled Through Literary Fire to Civil Rights Theory** | An overlooked connection | mixed | 20 | [[Findings/finding-047-200]] |
-| **Title: The Phantom Thread: How a CIA Director, a President, and a Migrant Mother Connect Across Century** | An overlooked connection | mixed | 19 | [[Findings/finding-007-190]] |
-| The Strange Case of Watergate's Rural Pennsylvania Thread | An overlooked connection | mixed | 19 | [[Findings/finding-008-190]] |
-| **"The Spider's Web: How Pentagon Intelligence Ties Connect to KGB Defection Secrets"** | An overlooked connection | mixed | 19 | [[Findings/finding-011-190]] |
-| **Title: The Forgotten Thread: How a UC Press Connection Links Steinbeck to the Revolutionary War** | An overlooked connection | mixed | 19 | [[Findings/finding-016-190]] |
-| The Mafia-Olympics Connection: How Organized Crime Tied Reagan to Cold War Sports Diplomacy | An overlooked connection | mixed | 19 | [[Findings/finding-043-190]] |
-| **The Forgotten Pipeline: How a Congressional Commission Shaped Elite Networks Behind WWII** | An overlooked connection | mixed | 18 | [[Findings/finding-024-180]] |
-| The Labor-Mind Connection: How Dockworkers, a Union Boss, and CIA Experiments Converge in Obscure History | What connects International Longshoremen to mind control experiments through just three degrees of separation? | mixed | 18 | [[Findings/finding-040-180]] |
-| **The Ghost Chain: How a Civil War Radical's Tour Connects to Vietnam** | An overlooked connection | mixed | 17 | [[Findings/finding-015-170]] |
-| **The Forgotten Thread: How a Depression-Era Outlaw Connects to Britain's Elite Economics Institute** | An overlooked connection | mixed | 17 | [[Findings/finding-019-170]] |
-| **The Forgotten Thread: How a Civil War General Connects to Modern Congressional Politics** | An overlooked connection | mixed | 16 | [[Findings/finding-009-160]] |
-| **Title: From Valley Forge to Valley Forge: How the Revolutionary War Echoed Through Steinbeck's Dust Bowl** | An overlooked connection | mixed | 16 | [[Findings/finding-020-160]] |
+| Secret Loom: Irving Berlin → the Cleveland Mob (5-Degree Link) | A 5-step chain linking Irving Berlin to the Cleveland Mob | mixed | 26 | [[Findings/finding-015-260]] |
+| Shadow Chain: Communist Party → George Herbert Walker Bush (4-Degree Link) | A 4-step chain linking Communist Party to George Herbert Walker Bush | mixed | 26 | [[Findings/finding-028-260]] |
+| Hidden Nexus: Jesse Jackson → Frank Sinatra (3-Degree Link) | A 3-step chain linking Jesse Jackson to Frank Sinatra | mixed | 26 | [[Findings/finding-035-260]] |
+| Hidden Nexus: Eric Foner → James Ford Rhodes (3-Degree Link) | A 3-step chain linking Eric Foner to James Ford Rhodes | mixed | 26 | [[Findings/finding-056-260]] |
+| Hidden Nexus: The House of Representatives → Benjamin Wade (3-Degree Link) | A 3-step chain linking The House of Representatives to Benjamin Wade | mixed | 25 | [[Findings/finding-004-250]] |
+| Hidden Nexus: the American Communist Party → Wade Hampton III (3-Degree Link) | A 3-step chain linking the American Communist Party to Wade Hampton III | mixed | 25 | [[Findings/finding-025-250]] |
+| Hidden Nexus: William McKinley → Ronald Reagan's (3-Degree Link) | A 3-step chain linking William McKinley to Ronald Reagan's | mixed | 25 | [[Findings/finding-032-250]] |
+| Hidden Nexus: Texas A&M University Press → the Office of Special Operations (3-Degree Link) | A 3-step chain linking Texas A&M University Press to the Office of Special Operations | mixed | 25 | [[Findings/finding-038-250]] |
+| Hidden Nexus: the American Psychiatric Association → the House Select Committee on Assassinations (3-Degree Link) | A 3-step chain linking the American Psychiatric Association to the House Select Committee on Assassinations | mixed | 24 | [[Findings/finding-020-240]] |
+| Hidden Nexus: James Ford Rhodes → U of Chicago Press (3-Degree Link) | A 3-step chain linking James Ford Rhodes to U of Chicago Press | mixed | 24 | [[Findings/finding-027-240]] |
+| Hidden Nexus: Stanford University Press → Confederate (3-Degree Link) | A 3-step chain linking Stanford University Press to Confederate | mixed | 23 | [[Findings/finding-006-230]] |
+| Shadow Chain: Bonnie Parker → The House of Representatives (4-Degree Link) | A 4-step chain linking Bonnie Parker to The House of Representatives | mixed | 23 | [[Findings/finding-021-230]] |
+| Hidden Nexus: the Continental Congress → the Watergate scandal and (3-Degree Link) | A 3-step chain linking the Continental Congress to the Watergate scandal and | mixed | 23 | [[Findings/finding-022-230]] |
+| Hidden Nexus: John Dillinger → Sam Giancana (3-Degree Link) | A 3-step chain linking John Dillinger to Sam Giancana | mixed | 23 | [[Findings/finding-039-230]] |
+| Shadow Chain: Gulf War → the Trump Organization (4-Degree Link) | A 4-step chain linking Gulf War to the Trump Organization | mixed | 23 | [[Findings/finding-046-230]] |
+| Hidden Nexus: the Chicago Police Department → Fordham University Press (3-Degree Link) | A 3-step chain linking the Chicago Police Department to Fordham University Press | mixed | 23 | [[Findings/finding-053-230]] |
+| Shadow Chain: The Wall Street Journal → the Senate Foreign Relations Committee (4-Degree Link) | A 4-step chain linking The Wall Street Journal to the Senate Foreign Relations Committee | mixed | 22 | [[Findings/finding-002-220]] |
+| Secret Loom: Lincoln → the Soviet Union (5-Degree Link) | A 5-step chain linking Lincoln to the Soviet Union | mixed | 22 | [[Findings/finding-008-220]] |
+| Hidden Nexus: the Korean War → Lucky Luciano (3-Degree Link) | A 3-step chain linking the Korean War to Lucky Luciano | mixed | 22 | [[Findings/finding-011-220]] |
+| Hidden Nexus: U.S. House of Representatives → Dillinger (3-Degree Link) | A 3-step chain linking U.S. House of Representatives to Dillinger | mixed | 22 | [[Findings/finding-012-220]] |
+| Hidden Nexus: Henry Ford → CIA Activities (3-Degree Link) | A 3-step chain linking Henry Ford to CIA Activities | mixed | 22 | [[Findings/finding-018-220]] |
+| Hidden Nexus: MK-ULTRA → FBI Records (3-Degree Link) | A 3-step chain linking MK-ULTRA to FBI Records | mixed | 22 | [[Findings/finding-034-220]] |
+| Hidden Nexus: Secret Service → the North Vietnamese Army (3-Degree Link) | A 3-step chain linking Secret Service to the North Vietnamese Army | mixed | 22 | [[Findings/finding-037-220]] |
+| Hidden Nexus: senate → the Civil Rights Movement (3-Degree Link) | A 3-step chain linking senate to the Civil Rights Movement | mixed | 22 | [[Findings/finding-055-220]] |
+| Hidden Nexus: Fordham University Press → Napoleon III (3-Degree Link) | A 3-step chain linking Fordham University Press to Napoleon III | mixed | 22 | [[Findings/finding-057-220]] |
+| Hidden Nexus: George Bush → Richard M. Nixon (3-Degree Link) | A 3-step chain linking George Bush to Richard M. Nixon | mixed | 21 | [[Findings/finding-005-210]] |
+| Shadow Chain: The Wall Street Journal → the Senate Judiciary Committee (4-Degree Link) | A 4-step chain linking The Wall Street Journal to the Senate Judiciary Committee | mixed | 21 | [[Findings/finding-007-210]] |
+| Hidden Nexus: Chicago Tribune → the War of 1812 (3-Degree Link) | A 3-step chain linking Chicago Tribune to the War of 1812 | mixed | 21 | [[Findings/finding-009-210]] |
+| Hidden Nexus: Bugsy Siegel → George McGovern (3-Degree Link) | A 3-step chain linking Bugsy Siegel to George McGovern | mixed | 21 | [[Findings/finding-026-210]] |
+| Hidden Nexus: T. Harry → The Great Depression (3-Degree Link) | A 3-step chain linking T. Harry to The Great Depression | mixed | 21 | [[Findings/finding-031-210]] |
+| Hidden Nexus: Revolutionary War → Cuba Committee (3-Degree Link) | A 3-step chain linking Revolutionary War to Cuba Committee | mixed | 21 | [[Findings/finding-036-210]] |
+| Hidden Nexus: the National Rifle Association → the Cleveland Mob (3-Degree Link) | A 3-step chain linking the National Rifle Association to the Cleveland Mob | mixed | 21 | [[Findings/finding-040-210]] |
+| Hidden Nexus: the American Political Science Association's → the Office of Special Operations (3-Degree Link) | A 3-step chain linking the American Political Science Association's to the Office of Special Operations | mixed | 21 | [[Findings/finding-041-210]] |
+| Shadow Chain: the Department of Justice → Fordham University Press (4-Degree Link) | A 4-step chain linking the Department of Justice to Fordham University Press | mixed | 21 | [[Findings/finding-049-210]] |
+| Hidden Nexus: University of North Texas Press → the Communist Party's (3-Degree Link) | A 3-step chain linking University of North Texas Press to the Communist Party's | mixed | 21 | [[Findings/finding-054-210]] |
+| Shadow Chain: The Chicago Tribune → Eric Foner (4-Degree Link) | A 4-step chain linking The Chicago Tribune to Eric Foner | mixed | 20 | [[Findings/finding-003-200]] |
+| Hidden Nexus: Irving Berlin → the Grant Administration (3-Degree Link) | A 3-step chain linking Irving Berlin to the Grant Administration | mixed | 20 | [[Findings/finding-010-200]] |
+| Hidden Nexus: Iran-Contra → the Cuban Missile Crisis (3-Degree Link) | A 3-step chain linking Iran-Contra to the Cuban Missile Crisis | mixed | 20 | [[Findings/finding-013-200]] |
+| Hidden Nexus: the Watergate scandal. → the Mayfield Road Mob (3-Degree Link) | A 3-step chain linking the Watergate scandal. to the Mayfield Road Mob | mixed | 20 | [[Findings/finding-017-200]] |
+| Hidden Nexus: George Herbert Walker Bush → the First World War (3-Degree Link) | A 3-step chain linking George Herbert Walker Bush to the First World War | mixed | 20 | [[Findings/finding-023-200]] |
+| Shadow Chain: the George Bush Center for Intelligence → Great Depression (4-Degree Link) | A 4-step chain linking the George Bush Center for Intelligence to Great Depression | mixed | 20 | [[Findings/finding-029-200]] |
+| Secret Loom: the Watergate Hotel → Stanford University's (5-Degree Link) | A 5-step chain linking the Watergate Hotel to Stanford University's | mixed | 20 | [[Findings/finding-043-200]] |
+| Secret Loom: the Non-Proliferation of Nuclear Weapons → the Mayfield Road Mob (5-Degree Link) | A 5-step chain linking the Non-Proliferation of Nuclear Weapons to the Mayfield Road Mob | mixed | 20 | [[Findings/finding-045-200]] |
+| Hidden Nexus: Ladies Memorial Associations → Black Grassroots Political Mobilization (3-Degree Link) | A 3-step chain linking Ladies Memorial Associations to Black Grassroots Political Mobilization | mixed | 20 | [[Findings/finding-050-200]] |
+| Hidden Nexus: Washington National Cathedral → Clyde Barrow (3-Degree Link) | A 3-step chain linking Washington National Cathedral to Clyde Barrow | mixed | 19 | [[Findings/finding-019-190]] |
+| Secret Loom: Watergate → Richard M. Nixon (5-Degree Link) | A 5-step chain linking Watergate to Richard M. Nixon | mixed | 19 | [[Findings/finding-030-190]] |
+| Shadow Chain: George Herbert Walker Bush → the Secret Service (4-Degree Link) | A 4-step chain linking George Herbert Walker Bush to the Secret Service | mixed | 19 | [[Findings/finding-042-190]] |
+| Secret Loom: the Paris Peace Accords → the Mayfield Road Mob (5-Degree Link) | A 5-step chain linking the Paris Peace Accords to the Mayfield Road Mob | mixed | 19 | [[Findings/finding-044-190]] |
+| Shadow Chain: the Grant Administration → Black Grassroots Political Mobilization (4-Degree Link) | A 4-step chain linking the Grant Administration to Black Grassroots Political Mobilization | mixed | 19 | [[Findings/finding-047-190]] |
+| Shadow Chain: Clyde Tolson → the American Revolutionary War (4-Degree Link) | A 4-step chain linking Clyde Tolson to the American Revolutionary War | mixed | 19 | [[Findings/finding-048-190]] |
+| Hidden Nexus: Elvis Presley → Pol Pot (3-Degree Link) | A 3-step chain linking Elvis Presley to Pol Pot | mixed | 19 | [[Findings/finding-051-190]] |
+| Hidden Nexus: the Mayfield Road Mob → Episcopal (3-Degree Link) | A 3-step chain linking the Mayfield Road Mob to Episcopal | mixed | 19 | [[Findings/finding-052-190]] |
+| Shadow Chain: The Chicago Tribune → James Ford Rhodes (4-Degree Link) | A 4-step chain linking The Chicago Tribune to James Ford Rhodes | mixed | 18 | [[Findings/finding-001-180]] |
+| Hidden Nexus: Chicago Tribune → the Watergate Office Building (3-Degree Link) | A 3-step chain linking Chicago Tribune to the Watergate Office Building | mixed | 18 | [[Findings/finding-014-180]] |
+| Hidden Nexus: Secret Intelligence → Gerald Ford's (3-Degree Link) | A 3-step chain linking Secret Intelligence to Gerald Ford's | mixed | 18 | [[Findings/finding-016-180]] |
+| Hidden Nexus: Apollo → Bugsy Siegel (3-Degree Link) | A 3-step chain linking Apollo to Bugsy Siegel | mixed | 18 | [[Findings/finding-024-180]] |
+| Hidden Nexus: PDF → Carl Bernstein (3-Degree Link) | A 3-step chain linking PDF to Carl Bernstein | mixed | 17 | [[Findings/finding-033-170]] |
