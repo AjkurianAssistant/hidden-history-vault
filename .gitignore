@@ -8,3 +8,6 @@
 Entities/
 findings_export.txt
 findings_summary.txt
+
+# GitHub Pages — allow index.html
+!index.html

@@ -1,0 +1,1701 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hidden History Engine — Conspiracy Archive</title>
+    <meta name="description" content="Discover hidden historical connections buried in Wikipedia. Daily updated conspiracy chains linking recognizable people, places, and events through obscure pathways.">
+    <meta name="theme-color" content="#0a0a1a">
+    <meta property="og:title" content="Hidden History Engine — Conspiracy Archive">
+    <meta property="og:description" content="Daily conspiracy chains linking recognizable historical figures through obscure pathways">
+    <meta property="og:type" content="website">
+    <style>
+        :root {
+            --bg: #0a0a1a;
+            --bg-card: #1a1a2e;
+            --bg-card-hover: #252545;
+            --border: #333366;
+            --text-primary: #e8e8ff;
+            --text-secondary: #a8a8c8;
+            --text-muted: #6a6a8a;
+            --accent: #ffaa00;
+            --accent2: #ff6b47;
+            --glow: rgba(255, 170, 0, 0.3);
+            --glow2: rgba(255, 107, 71, 0.3);
+            --tier-s: #d4af37;
+            --tier-a: #ffd700;
+            --tier-b: #c0c0c0;
+            --tier-c: #888888;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: radial-gradient(ellipse at top, #1a1a2e 0%, #0a0a1a 100%);
+            color: var(--text-primary);
+            font-family: 'SF Mono', 'Monaco', 'Courier New', monospace;
+            min-height: 100vh;
+            overflow-x: hidden;
+            padding-bottom: 80px;
+        }
+
+        /* Parallax stars */
+        #stars {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            pointer-events: none;
+        }
+
+        .star {
+            position: absolute;
+            background-color: rgba(255, 255, 255, 0.8);
+            border-radius: 50%;
+            animation: pulse-glow 4s infinite;
+        }
+
+        @keyframes pulse-glow {
+            0%, 100% { opacity: 0.3; transform: scale(1); }
+            50% { opacity: 0.8; transform: scale(1.3); }
+        }
+
+        /* Hero section */
+        .hero {
+            text-align: center;
+            padding: 60px 20px 40px;
+            position: relative;
+        }
+
+        .hero h1 {
+            font-size: 3.5rem;
+            font-weight: 700;
+            background: linear-gradient(135deg, var(--accent) 0%, var(--accent2) 100%);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+            letter-spacing: -1px;
+            animation: text-glow 3s ease-in-out infinite alternate;
+            margin-bottom: 10px;
+        }
+
+        @keyframes text-glow {
+            0% { text-shadow: 0 0 20px rgba(255,170,0,0.3); }
+            50% { text-shadow: 0 0 40px rgba(255,170,0,0.6), 0 0 60px rgba(255,107,71,0.4); }
+            100% { text-shadow: 0 0 20px rgba(255,170,0,0.5), 0 0 40px rgba(255,107,71,0.3); }
+        }
+
+        .hero .subtitle {
+            color: var(--text-secondary);
+            font-size: 1.1rem;
+            max-width: 700px;
+            margin: 0 auto 30px;
+            line-height: 1.6;
+        }
+
+        .hero .meta {
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            margin-top: 30px;
+            flex-wrap: wrap;
+        }
+
+        .stat-box {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 16px 28px;
+            text-align: center;
+            min-width: 140px;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+        }
+
+        .stat-box:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 30px rgba(255,170,0,0.2);
+            border-color: var(--accent);
+        }
+
+        .stat-box .value {
+            font-size: 2rem;
+            font-weight: 700;
+            color: var(--accent);
+        }
+
+        .stat-box .label {
+            font-size: 0.8rem;
+            color: var(--text-muted);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        /* Tabs */
+        .tabs {
+            display: flex;
+            justify-content: center;
+            gap: 4px;
+            margin: 30px auto 0;
+            max-width: 600px;
+            padding: 4px;
+            background: var(--bg-card);
+            border-radius: 12px;
+            border: 1px solid var(--border);
+        }
+
+        .tab-btn {
+            flex: 1;
+            padding: 14px 20px;
+            background: transparent;
+            color: var(--text-secondary);
+            border: none;
+            cursor: pointer;
+            font-family: inherit;
+            font-size: 0.95rem;
+            font-weight: 600;
+            border-radius: 8px;
+            transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .tab-btn:hover {
+            color: var(--text-primary);
+        }
+
+        .tab-btn.active {
+            background: linear-gradient(135deg, var(--accent) 0%, var(--accent2) 100%);
+            color: #0a0a1a;
+            font-weight: 700;
+        }
+
+        .tab-btn.active::before {
+            content: '';
+            position: absolute;
+            inset: -2px;
+            background: linear-gradient(135deg, var(--accent) 0%, var(--accent2) 100%);
+            z-index: -1;
+            filter: blur(8px);
+            opacity: 0.5;
+        }
+
+        .tab-content {
+            display: none;
+            animation: fadeIn 0.5s ease;
+        }
+
+        .tab-content.active {
+            display: block;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        /* Finding cards */
+        .cards-container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px 16px;
+        }
+
+        .finding-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: 16px;
+            padding: 24px;
+            margin-bottom: 16px;
+            transition: all 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+            position: relative;
+            overflow: hidden;
+            opacity: 0;
+            transform: translateY(20px);
+            animation: slideIn 0.6s ease forwards;
+        }
+
+        @keyframes slideIn {
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .finding-card:hover {
+            transform: translateY(-4px);
+            border-color: var(--accent);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+        }
+
+        .finding-card:hover::before {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(135deg, rgba(255,170,0,0.03) 0%, rgba(255,107,71,0.03) 100%);
+            pointer-events: none;
+        }
+
+        /* Tier-specific glows */
+        .tier-s { border-left: 4px solid var(--tier-s); }
+        .tier-s:hover { box-shadow: 0 20px 40px rgba(212, 175, 55, 0.2); }
+        .tier-a { border-left: 4px solid var(--tier-a); }
+        .tier-a:hover { box-shadow: 0 20px 40px rgba(255, 215, 0, 0.15); }
+        .tier-b { border-left: 4px solid var(--tier-b); }
+        .tier-c { border-left: 4px solid var(--tier-c); }
+
+        .card-header {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 16px;
+            flex-wrap: wrap;
+        }
+
+        .rank-badge {
+            width: 36px;
+            height: 36px;
+            border-radius: 50%;
+            background: var(--bg);
+            border: 2px solid var(--border);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 700;
+            color: var(--accent);
+            font-size: 0.9rem;
+            flex-shrink: 0;
+        }
+
+        .score-pill {
+            background: var(--bg);
+            border: 1px solid var(--border);
+            border-radius: 20px;
+            padding: 4px 14px;
+            font-size: 0.8rem;
+            font-weight: 600;
+        }
+
+        .tier-s .score-pill { background: rgba(212, 175, 55, 0.2); border-color: var(--tier-s); color: var(--tier-s); }
+        .tier-a .score-pill { background: rgba(255, 215, 0, 0.2); border-color: var(--tier-a); color: var(--tier-a); }
+        .tier-b .score-pill { background: rgba(192, 192, 192, 0.2); border-color: var(--tier-b); color: var(--tier-b); }
+        .tier-c .score-pill { background: rgba(136, 136, 136, 0.2); border-color: var(--tier-c); color: var(--tier-c); }
+
+        .degree-badge {
+            margin-left: auto;
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+        }
+
+        .finding-title {
+            font-size: 1.3rem;
+            font-weight: 600;
+            margin-bottom: 10px;
+            color: var(--text-primary);
+            line-height: 1.3;
+        }
+
+        .finding-teaser {
+            color: var(--text-secondary);
+            font-size: 0.95rem;
+            line-height: 1.5;
+            margin-bottom: 16px;
+        }
+
+        .path-chain {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            gap: 6px;
+            margin-bottom: 14px;
+            padding: 12px;
+            background: var(--bg);
+            border-radius: 10px;
+            border: 1px solid var(--border);
+        }
+
+        .path-chain .entity {
+            background: rgba(255, 170, 0, 0.1);
+            border: 1px solid rgba(255, 170, 0, 0.3);
+            border-radius: 6px;
+            padding: 4px 10px;
+            font-size: 0.85rem;
+            color: var(--accent);
+        }
+
+        .path-chain .arrow {
+            color: var(--text-muted);
+            font-size: 1rem;
+        }
+
+        .source-link {
+            display: inline-block;
+            background: rgba(255, 255, 255, 0.05);
+            color: var(--text-secondary);
+            padding: 4px 10px;
+            border-radius: 4px;
+            font-size: 0.8rem;
+            margin: 2px 4px 2px 0;
+            text-decoration: none;
+            transition: all 0.2s ease;
+            border: 1px solid transparent;
+        }
+
+        .source-link:hover {
+            background: var(--bg-card-hover);
+            color: var(--accent);
+            border-color: var(--accent);
+        }
+
+        .questions-section {
+            margin-top: 14px;
+        }
+
+        .questions-toggle {
+            color: var(--accent);
+            cursor: pointer;
+            font-size: 0.9rem;
+            font-weight: 600;
+            list-style: none;
+        }
+
+        .question-list {
+            list-style: none;
+            margin-top: 8px;
+        }
+
+        .question-list li {
+            color: var(--text-secondary);
+            font-size: 0.85rem;
+            padding: 4px 0;
+            border-bottom: 1px solid rgba(255,255,255,0.03);
+        }
+
+        /* Entity cloud */
+        .entity-cloud {
+            max-width: 1000px;
+            margin: 40px auto;
+            padding: 24px;
+            background: var(--bg-card);
+            border-radius: 16px;
+            border: 1px solid var(--border);
+            text-align: center;
+        }
+
+        .entity-cloud h3 {
+            color: var(--text-secondary);
+            font-size: 0.9rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 16px;
+        }
+
+        .entity-tags {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 8px;
+        }
+
+        .entity-tag {
+            background: rgba(255, 170, 0, 0.1);
+            border: 1px solid rgba(255, 170, 0, 0.3);
+            border-radius: 20px;
+            padding: 6px 16px;
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+            transition: all 0.3s ease;
+            cursor: pointer;
+        }
+
+        .entity-tag:hover {
+            background: rgba(255, 170, 0, 0.3);
+            color: var(--accent);
+            transform: translateY(-2px);
+        }
+
+        /* Footer */
+        .footer {
+            text-align: center;
+            padding: 40px 20px;
+            color: var(--text-muted);
+            font-size: 0.8rem;
+        }
+
+        .footer a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+
+        /* Mobile styles */
+        @media (max-width: 640px) {
+            .hero h1 { font-size: 2.2rem; }
+            .cards-container { padding: 10px 12px; }
+            .finding-card { padding: 18px; }
+            .finding-title { font-size: 1.1rem; }
+            .path-chain { padding: 10px; }
+            .stat-box { min-width: 100px; padding: 12px 16px; }
+            .tabs { max-width: 400px; }
+        }
+
+        /* Lazy loading animation */
+        .lazy-skeleton {
+            background: linear-gradient(90deg, var(--bg-card) 25%, var(--bg) 50%, var(--bg-card) 75%);
+            background-size: 200% 100%;
+            animation: loading 1.5s infinite;
+            border-radius: 8px;
+            height: 16px;
+            width: 80%;
+            margin: 8px auto;
+        }
+
+        @keyframes loading {
+            0% { background-position: 200% 0; }
+            100% { background-position: -200% 0; }
+        }
+    </style>
+</head>
+<body>
+    <canvas id="stars"></canvas>
+
+    <div class="hero">
+        <h1>Hidden History Engine</h1>
+        <p class="subtitle">
+            Daily conspiracy chains linking recognizable people, places, and events
+            through obscure historical pathways buried in Wikipedia footnotes.
+        </p>
+
+        <div class="meta">
+            <div class="stat-box">
+                <div class="value">57</div>
+                <div class="label">Findings</div>
+            </div>
+            <div class="stat-box">
+                <div class="value">26</div>
+                <div class="label">Top Score</div>
+            </div>
+            <div class="stat-box">
+                <div class="value">21.4</div>
+                <div class="label">Avg Score</div>
+            </div>
+            <div class="stat-box">
+                <div class="value">August 08, 2026</div>
+                <div class="label">Updated</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="tabs">
+        <button class="tab-btn active" onclick="showTab('top10')">Top 10</button>
+        <button class="tab-btn" onclick="showTab('top20')">Top 20</button>
+        <button class="tab-btn" onclick="showTab('top50')">Top 50</button>
+    </div>
+
+    <div class="cards-container">
+        <div id="top10" class="tab-content active">
+            
+    <article class="finding-card tier-s" data-score="26">
+        <div class="card-header">
+            <div class="rank-badge">1</div>
+            <div class="score-pill tier-s">26/30 🔥 LEGENDARY</div>
+            <div class="degree-badge"><span class='glyph'>🔴</span> 4°</div>
+        </div>
+        <h2 class="finding-title">Shadow Chain: Communist Party → George Herbert Walker Bush (4-Degree Link)</h2>
+        <p class="finding-teaser">A 4-step chain linking Communist Party to George Herbert Walker Bush</p>
+
+        <div class="path-chain">
+            <span class="entity">Communist Party</span><span class="arrow">→</span><span class="entity">Alexander Vassiliev&#x27;s</span><span class="arrow">→</span><span class="entity">Elizabeth Bentley</span><span class="arrow">→</span><span class="entity">the Great Depression</span><span class="arrow">→</span><span class="entity">George Herbert Walker Bush</span>
+        </div>
+
+        <a href="https://en.wikipedia.org/wiki/Frederick_Vanderbilt_Field" class="source-link" target="_blank" rel="noopener">🔗 Link</a><a href="https://en.wikipedia.org/wiki/Frederick_Vanderbilt_Field" class="source-link" target="_blank" rel="noopener">🔗 Link</a><a href="https://en.wikipedia.org/wiki/Roy_Cohn" class="source-link" target="_blank" rel="noopener">🔗 Link</a>
+
+        
+        <details class="questions-section">
+            <summary class="questions-toggle">Open Questions</summary>
+            <ul class="question-list"><li>What historical role has Alexander Vassiliev&#x27;s, Elizabeth Bentley played that mainstream accounts minimize or omit?</li><li>How do the financial or patronage networks connecting these figures compare to better-documented historical networks?</li><li>Are there contemporaneous newspaper accounts or private letters that mention Communist Party and George Herbert Walker Bush in the same context?</li></ul>
+        </details>
+    </article>
+
+    <article class="finding-card tier-s" data-score="26">
+        <div class="card-header">
+            <div class="rank-badge">2</div>
+            <div class="score-pill tier-s">26/30 🔥 LEGENDARY</div>
+            <div class="degree-badge"><span class='glyph'>🔴</span> 3°</div>
+        </div>
+        <h2 class="finding-title">Hidden Nexus: Eric Foner → James Ford Rhodes (3-Degree Link)</h2>
+        <p class="finding-teaser">A 3-step chain linking Eric Foner to James Ford Rhodes</p>
+
+        <div class="path-chain">
+            <span class="entity">Eric Foner</span><span class="arrow">→</span><span class="entity">Schuyler Colfax</span><span class="arrow">→</span><span class="entity">Confederate</span><span class="arrow">→</span><span class="entity">James Ford Rhodes</span>
+        </div>
+
+        <a href="https://en.wikipedia.org/wiki/Historical_reputation_of_Ulysses_S._Grant" class="source-link" target="_blank" rel="noopener">🔗 Link</a><a href="https://en.wikipedia.org/wiki/United_States_Senate_Select_Committee_to_Consider_and_Report_on_the_Message_of_the_House_in_Relation_to_the_Impeachment_of_the_President" class="source-link" target="_blank" rel="noopener">🔗 Link</a><a href="https://en.wikipedia.org/wiki/Dunning_School" class="source-link" target="_blank" rel="noopener">🔗 Link</a>
+
+        
+        <details class="questions-section">
+            <summary class="questions-toggle">Open Questions</summary>
+            <ul class="question-list"><li>Why is the connection between Eric Foner and James Ford Rhodes absent from standard historical narratives?</li><li>Could the institutional positions held by Eric Foner and James Ford Rhodes have created indirect contact never officially recorded?</li><li>How do the financial or patronage networks connecting these figures compare to better-documented historical networks?</li></ul>
+        </details>
+    </article>
+
+    <article class="finding-card tier-s" data-score="26">
+        <div class="card-header">
+            <div class="rank-badge">3</div>
+            <div class="score-pill tier-s">26/30 🔥 LEGENDARY</div>
+            <div class="degree-badge"><span class='glyph'>🔴</span> 3°</div>
+        </div>
+        <h2 class="finding-title">Hidden Nexus: Jesse Jackson → Frank Sinatra (3-Degree Link)</h2>
+        <p class="finding-teaser">A 3-step chain linking Jesse Jackson to Frank Sinatra</p>
+
+        <div class="path-chain">
+            <span class="entity">Jesse Jackson</span><span class="arrow">→</span><span class="entity">George Bush</span><span class="arrow">→</span><span class="entity">the Vietnam War</span><span class="arrow">→</span><span class="entity">Frank Sinatra</span>
+        </div>
+
+        <a href="https://en.wikipedia.org/wiki/John_Conyers" class="source-link" target="_blank" rel="noopener">🔗 Link</a><a href="https://en.wikipedia.org/wiki/George_H._W._Bush" class="source-link" target="_blank" rel="noopener">🔗 Link</a><a href="https://en.wikipedia.org/wiki/Nelson_Algren" class="source-link" target="_blank" rel="noopener">🔗 Link</a>
+
+        
+        <details class="questions-section">
+            <summary class="questions-toggle">Open Questions</summary>
+            <ul class="question-list"><li>What historical role has George Bush, the Vietnam War played that mainstream accounts minimize or omit?</li><li>Are there contemporaneous newspaper accounts or private letters that mention Jesse Jackson and Frank Sinatra in the same context?</li><li>What documents or correspondence between these figures remain classified, lost, or uncatalogued?</li></ul>
+        </details>
+    </article>
+
+    <article class="finding-card tier-s" data-score="26">
+        <div class="card-header">
+            <div class="rank-badge">4</div>
+            <div class="score-pill tier-s">26/30 🔥 LEGENDARY</div>
+            <div class="degree-badge"><span class='glyph'>🔴</span> 5°</div>
+        </div>
+        <h2 class="finding-title">Secret Loom: Irving Berlin → the Cleveland Mob (5-Degree Link)</h2>
+        <p class="finding-teaser">A 5-step chain linking Irving Berlin to the Cleveland Mob</p>
+
+        <div class="path-chain">
+            <span class="entity">Irving Berlin</span><span class="arrow">→</span><span class="entity">Wilson</span><span class="arrow">→</span><span class="entity">Schuyler Colfax</span><span class="arrow">→</span><span class="entity">Confederate</span><span class="arrow">→</span><span class="entity">Paul A.</span><span class="arrow">→</span><span class="entity">the Cleveland Mob</span>
+        </div>
+
+        <a href="https://en.wikipedia.org/wiki/Glossary_of_early_twentieth_century_slang_in_the_United_States" class="source-link" target="_blank" rel="noopener">🔗 Link</a><a href="https://en.wikipedia.org/wiki/United_States_Senate_Select_Committee_to_Consider_and_Report_on_the_Message_of_the_House_in_Relation_to_the_Impeachment_of_the_President" class="source-link" target="_blank" rel="noopener">🔗 Link</a><a href="https://en.wikipedia.org/wiki/United_States_Senate_Select_Committee_to_Consider_and_Report_on_the_Message_of_the_House_in_Relation_to_the_Impeachment_of_the_President" class="source-link" target="_blank" rel="noopener">🔗 Link</a>
+
+        
+        <details class="questions-section">
+            <summary class="questions-toggle">Open Questions</summary>
+            <ul class="question-list"><li>Are there other undiscovered chains linking Irving Berlin to the Cleveland Mob through different intermediary figures?</li><li>Do the 5 intermediaries in this chain share a common institutional background explaining their collective role?</li><li>Are there contemporaneous newspaper accounts or private letters that mention Irving Berlin and the Cleveland Mob in the same context?</li></ul>
+        </details>
+    </article>
+
+    <article class="finding-card tier-s" data-score="25">
+        <div class="card-header">
+            <div class="rank-badge">5</div>
+            <div class="score-pill tier-s">25/30 🔥 LEGENDARY</div>
+            <div class="degree-badge"><span class='glyph'>🔴</span> 3°</div>
+        </div>
+        <h2 class="finding-title">Hidden Nexus: Texas A&amp;M University Press → the Office of Special Operations (3-Degree Link)</h2>
+        <p class="finding-teaser">A 3-step chain linking Texas A&amp;M University Press to the Office of Special Operations</p>
+
+        <div class="path-chain">
+            <span class="entity">Texas A&amp;M University Press</span><span class="arrow">→</span><span class="entity">Chiang Kai-shek</span><span class="arrow">→</span><span class="entity">Mao Zedong</span><span class="arrow">→</span><span class="entity">the Office of Special Operations</span>
+        </div>
+
+        <a href="https://en.wikipedia.org/wiki/Cold_War_(1947–1948" class="source-link" target="_blank" rel="noopener">🔗 Link</a><a href="https://en.wikipedia.org/wiki/Loss_of_China" class="source-link" target="_blank" rel="noopener">🔗 Link</a><a href="https://en.wikipedia.org/wiki/Richard_Helms" class="source-link" target="_blank" rel="noopener">🔗 Link</a>
+
+        
+        <details class="questions-section">
+            <summary class="questions-toggle">Open Questions</summary>
+            <ul class="question-list"><li>What historical role has Chiang Kai-shek, Mao Zedong played that mainstream accounts minimize or omit?</li><li>How do the financial or patronage networks connecting these figures compare to better-documented historical networks?</li><li>What documents or correspondence between these figures remain classified, lost, or uncatalogued?</li></ul>
+        </details>
+    </article>
+
+    <article class="finding-card tier-s" data-score="25">
+        <div class="card-header">
+            <div class="rank-badge">6</div>
+            <div class="score-pill tier-s">25/30 🔥 LEGENDARY</div>
+            <div class="degree-badge"><span class='glyph'>🔴</span> 3°</div>
+        </div>
+        <h2 class="finding-title">Hidden Nexus: William McKinley → Ronald Reagan&#x27;s (3-Degree Link)</h2>
+        <p class="finding-teaser">A 3-step chain linking William McKinley to Ronald Reagan&#x27;s</p>
+
+        <div class="path-chain">
+            <span class="entity">William McKinley</span><span class="arrow">→</span><span class="entity">Schuyler Colfax</span><span class="arrow">→</span><span class="entity">the Vietnam War</span><span class="arrow">→</span><span class="entity">Ronald Reagan&#x27;s</span>
+        </div>
+
+        <a href="https://en.wikipedia.org/wiki/Historical_reputation_of_Ulysses_S._Grant" class="source-link" target="_blank" rel="noopener">🔗 Link</a><a href="https://en.wikipedia.org/wiki/Historical_reputation_of_Ulysses_S._Grant" class="source-link" target="_blank" rel="noopener">🔗 Link</a><a href="https://en.wikipedia.org/wiki/Détente" class="source-link" target="_blank" rel="noopener">🔗 Link</a>
+
+        
+        <details class="questions-section">
+            <summary class="questions-toggle">Open Questions</summary>
+            <ul class="question-list"><li>How do the financial or patronage networks connecting these figures compare to better-documented historical networks?</li><li>Are there other undiscovered chains linking William McKinley to Ronald Reagan&#x27;s through different intermediary figures?</li><li>Could the institutional positions held by William McKinley and Ronald Reagan&#x27;s have created indirect contact never officially recorded?</li></ul>
+        </details>
+    </article>
+
+    <article class="finding-card tier-s" data-score="25">
+        <div class="card-header">
+            <div class="rank-badge">7</div>
+            <div class="score-pill tier-s">25/30 🔥 LEGENDARY</div>
+            <div class="degree-badge"><span class='glyph'>🔴</span> 3°</div>
+        </div>
+        <h2 class="finding-title">Hidden Nexus: The House of Representatives → Benjamin Wade (3-Degree Link)</h2>
+        <p class="finding-teaser">A 3-step chain linking The House of Representatives to Benjamin Wade</p>
+
+        <div class="path-chain">
+            <span class="entity">The House of Representatives</span><span class="arrow">→</span><span class="entity">Schuyler Colfax</span><span class="arrow">→</span><span class="entity">Confederate</span><span class="arrow">→</span><span class="entity">Benjamin Wade</span>
+        </div>
+
+        <a href="https://en.wikipedia.org/wiki/United_States_Senate_Select_Committee_to_Consider_and_Report_on_the_Message_of_the_House_in_Relation_to_the_Impeachment_of_the_President" class="source-link" target="_blank" rel="noopener">🔗 Link</a><a href="https://en.wikipedia.org/wiki/United_States_Senate_Select_Committee_to_Consider_and_Report_on_the_Message_of_the_House_in_Relation_to_the_Impeachment_of_the_President" class="source-link" target="_blank" rel="noopener">🔗 Link</a><a href="https://en.wikipedia.org/wiki/United_States_Senate_Select_Committee_to_Consider_and_Report_on_the_Message_of_the_House_in_Relation_to_the_Impeachment_of_the_President" class="source-link" target="_blank" rel="noopener">🔗 Link</a>
+
+        
+        <details class="questions-section">
+            <summary class="questions-toggle">Open Questions</summary>
+            <ul class="question-list"><li>What historical role has Schuyler Colfax, Confederate played that mainstream accounts minimize or omit?</li><li>Why is the connection between The House of Representatives and Benjamin Wade absent from standard historical narratives?</li><li>Could the institutional positions held by The House of Representatives and Benjamin Wade have created indirect contact never officially recorded?</li></ul>
+        </details>
+    </article>
+
+    <article class="finding-card tier-s" data-score="25">
+        <div class="card-header">
+            <div class="rank-badge">8</div>
+            <div class="score-pill tier-s">25/30 🔥 LEGENDARY</div>
+            <div class="degree-badge"><span class='glyph'>🔴</span> 3°</div>
+        </div>
+        <h2 class="finding-title">Hidden Nexus: the American Communist Party → Wade Hampton III (3-Degree Link)</h2>
+        <p class="finding-teaser">A 3-step chain linking the American Communist Party to Wade Hampton III</p>
+
+        <div class="path-chain">
+            <span class="entity">the American Communist Party</span><span class="arrow">→</span><span class="entity">Eric Foner</span><span class="arrow">→</span><span class="entity">Confederate</span><span class="arrow">→</span><span class="entity">Wade Hampton III</span>
+        </div>
+
+        <a href="https://en.wikipedia.org/wiki/Fellow_traveller" class="source-link" target="_blank" rel="noopener">🔗 Link</a><a href="https://en.wikipedia.org/wiki/Redeemers" class="source-link" target="_blank" rel="noopener">🔗 Link</a><a href="https://en.wikipedia.org/wiki/Confederate_monuments_and_memorials" class="source-link" target="_blank" rel="noopener">🔗 Link</a>
+
+        
+        <details class="questions-section">
+            <summary class="questions-toggle">Open Questions</summary>
+            <ul class="question-list"><li>Are there other undiscovered chains linking the American Communist Party to Wade Hampton III through different intermediary figures?</li><li>Could any of the intermediary figures have served as unwitting conduits for broader historical forces?</li><li>Why is the connection between the American Communist Party and Wade Hampton III absent from standard historical narratives?</li></ul>
+        </details>
+    </article>
+
+    <article class="finding-card tier-a" data-score="24">
+        <div class="card-header">
+            <div class="rank-badge">9</div>
+            <div class="score-pill tier-a">24/30 ⭐ ELITE</div>
+            <div class="degree-badge"><span class='glyph'>🔴</span> 3°</div>
+        </div>
+        <h2 class="finding-title">Hidden Nexus: the American Psychiatric Association → the House Select Committee on Assassinations (3-Degree Link)</h2>
+        <p class="finding-teaser">A 3-step chain linking the American Psychiatric Association to the House Select Committee on Assassinations</p>
+
+        <div class="path-chain">
+            <span class="entity">the American Psychiatric Association</span><span class="arrow">→</span><span class="entity">Sidney Gottlieb</span><span class="arrow">→</span><span class="entity">William Harvey</span><span class="arrow">→</span><span class="entity">the House Select Committee on Assassinations</span>
+        </div>
+
+        <a href="https://en.wikipedia.org/wiki/MK-Ultra" class="source-link" target="_blank" rel="noopener">🔗 Link</a><a href="https://en.wikipedia.org/wiki/Human_rights_violations_by_the_CIA" class="source-link" target="_blank" rel="noopener">🔗 Link</a><a href="https://en.wikipedia.org/wiki/E._Howard_Hunt" class="source-link" target="_blank" rel="noopener">🔗 Link</a>
+
+        
+        <details class="questions-section">
+            <summary class="questions-toggle">Open Questions</summary>
+            <ul class="question-list"><li>How do the financial or patronage networks connecting these figures compare to better-documented historical networks?</li><li>Could any of the intermediary figures have served as unwitting conduits for broader historical forces?</li><li>Are there other undiscovered chains linking the American Psychiatric Association to the House Select Committee on Assassinations through different intermediary figures?</li></ul>
+        </details>
+    </article>
+
+    <article class="finding-card tier-a" data-score="24">
+        <div class="card-header">
+            <div class="rank-badge">10</div>
+            <div class="score-pill tier-a">24/30 ⭐ ELITE</div>
+            <div class="degree-badge"><span class='glyph'>🔴</span> 3°</div>
+        </div>
+        <h2 class="finding-title">Hidden Nexus: James Ford Rhodes → U of Chicago Press (3-Degree Link)</h2>
+        <p class="finding-teaser">A 3-step chain linking James Ford Rhodes to U of Chicago Press</p>
+
+        <div class="path-chain">
+            <span class="entity">James Ford Rhodes</span><span class="arrow">→</span><span class="entity">The South During Reconstruction</span><span class="arrow">→</span><span class="entity">James Wilford</span><span class="arrow">→</span><span class="entity">U of Chicago Press</span>
+        </div>
+
+        <a href="https://en.wikipedia.org/wiki/Dunning_School" class="source-link" target="_blank" rel="noopener">🔗 Link</a><a href="https://en.wikipedia.org/wiki/Bibliography_of_the_Reconstruction_era" class="source-link" target="_blank" rel="noopener">🔗 Link</a><a href="https://en.wikipedia.org/wiki/Bibliography_of_the_Reconstruction_era" class="source-link" target="_blank" rel="noopener">🔗 Link</a>
+
+        
+        <details class="questions-section">
+            <summary class="questions-toggle">Open Questions</summary>
+            <ul class="question-list"><li>Why is the connection between James Ford Rhodes and U of Chicago Press absent from standard historical narratives?</li><li>What documents or correspondence between these figures remain classified, lost, or uncatalogued?</li><li>What historical role has The South During Reconstruction, James Wilford played that mainstream accounts minimize or omit?</li></ul>
+        </details>
+    </article>
+        </div>
+        <div id="top20" class="tab-content">
+            
+    <article class="finding-card tier-a" data-score="23">
+        <div class="card-header">
+            <div class="rank-badge">11</div>
+            <div class="score-pill tier-a">23/30 ⭐ ELITE</div>
+            <div class="degree-badge"><span class='glyph'>🔴</span> 3°</div>
+        </div>
+        <h2 class="finding-title">Hidden Nexus: the Chicago Police Department → Fordham University Press (3-Degree Link)</h2>
+        <p class="finding-teaser">A 3-step chain linking the Chicago Police Department to Fordham University Press</p>
+
+        <div class="path-chain">
+            <span class="entity">the Chicago Police Department</span><span class="arrow">→</span><span class="entity">Homer Van Meter</span><span class="arrow">→</span><span class="entity">Howard Simons</span><span class="arrow">→</span><span class="entity">Fordham University Press</span>
+        </div>
+
+        <a href="https://en.wikipedia.org/wiki/John_Hamilton_(gangster" class="source-link" target="_blank" rel="noopener">🔗 Link</a><a href="https://en.wikipedia.org/wiki/Harry_Pierpont" class="source-link" target="_blank" rel="noopener">🔗 Link</a><a href="https://en.wikipedia.org/wiki/Special_Field_Orders_No._15" class="source-link" target="_blank" rel="noopener">🔗 Link</a>
+
+        
+        <details class="questions-section">
+            <summary class="questions-toggle">Open Questions</summary>
+            <ul class="question-list"><li>Are there other undiscovered chains linking the Chicago Police Department to Fordham University Press through different intermediary figures?</li><li>How do the financial or patronage networks connecting these figures compare to better-documented historical networks?</li><li>Why is the connection between the Chicago Police Department and Fordham University Press absent from standard historical narratives?</li></ul>
+        </details>
+    </article>
+
+    <article class="finding-card tier-a" data-score="23">
+        <div class="card-header">
+            <div class="rank-badge">12</div>
+            <div class="score-pill tier-a">23/30 ⭐ ELITE</div>
+            <div class="degree-badge"><span class='glyph'>🔴</span> 3°</div>
+        </div>
+        <h2 class="finding-title">Hidden Nexus: the Continental Congress → the Watergate scandal and (3-Degree Link)</h2>
+        <p class="finding-teaser">A 3-step chain linking the Continental Congress to the Watergate scandal and</p>
+
+        <div class="path-chain">
+            <span class="entity">the Continental Congress</span><span class="arrow">→</span><span class="entity">Thomas Jefferson</span><span class="arrow">→</span><span class="entity">Newt Gingrich</span><span class="arrow">→</span><span class="entity">the Watergate scandal and</span>
+        </div>
+
+        <a href="https://en.wikipedia.org/wiki/History_of_poverty_in_the_United_States" class="source-link" target="_blank" rel="noopener">🔗 Link</a><a href="https://en.wikipedia.org/wiki/History_of_poverty_in_the_United_States" class="source-link" target="_blank" rel="noopener">🔗 Link</a><a href="https://en.wikipedia.org/wiki/George_H._W._Bush" class="source-link" target="_blank" rel="noopener">🔗 Link</a>
+
+        
+        <details class="questions-section">
+            <summary class="questions-toggle">Open Questions</summary>
+            <ul class="question-list"><li>Are there other undiscovered chains linking the Continental Congress to the Watergate scandal and through different intermediary figures?</li><li>What documents or correspondence between these figures remain classified, lost, or uncatalogued?</li><li>Could the institutional positions held by the Continental Congress and the Watergate scandal and have created indirect contact never officially recorded?</li></ul>
+        </details>
+    </article>
+
+    <article class="finding-card tier-a" data-score="23">
+        <div class="card-header">
+            <div class="rank-badge">13</div>
+            <div class="score-pill tier-a">23/30 ⭐ ELITE</div>
+            <div class="degree-badge"><span class='glyph'>🔴</span> 3°</div>
+        </div>
+        <h2 class="finding-title">Hidden Nexus: Stanford University Press → Confederate (3-Degree Link)</h2>
+        <p class="finding-teaser">A 3-step chain linking Stanford University Press to Confederate</p>
+
+        <div class="path-chain">
+            <span class="entity">Stanford University Press</span><span class="arrow">→</span><span class="entity">William T. Sherman</span><span class="arrow">→</span><span class="entity">George B. McClellan</span><span class="arrow">→</span><span class="entity">Confederate</span>
+        </div>
+
+        <a href="https://en.wikipedia.org/wiki/Washington,_D.C.,_in_the_American_Civil_War" class="source-link" target="_blank" rel="noopener">🔗 Link</a><a href="https://en.wikipedia.org/wiki/List_of_Union_Civil_War_monuments_and_memorials" class="source-link" target="_blank" rel="noopener">🔗 Link</a><a href="https://en.wikipedia.org/wiki/List_of_Union_Civil_War_monuments_and_memorials" class="source-link" target="_blank" rel="noopener">🔗 Link</a>
+
+        
+        <details class="questions-section">
+            <summary class="questions-toggle">Open Questions</summary>
+            <ul class="question-list"><li>Are there other undiscovered chains linking Stanford University Press to Confederate through different intermediary figures?</li><li>Are there contemporaneous newspaper accounts or private letters that mention Stanford University Press and Confederate in the same context?</li><li>Could the institutional positions held by Stanford University Press and Confederate have created indirect contact never officially recorded?</li></ul>
+        </details>
+    </article>
+
+    <article class="finding-card tier-a" data-score="23">
+        <div class="card-header">
+            <div class="rank-badge">14</div>
+            <div class="score-pill tier-a">23/30 ⭐ ELITE</div>
+            <div class="degree-badge"><span class='glyph'>🔴</span> 3°</div>
+        </div>
+        <h2 class="finding-title">Hidden Nexus: John Dillinger → Sam Giancana (3-Degree Link)</h2>
+        <p class="finding-teaser">A 3-step chain linking John Dillinger to Sam Giancana</p>
+
+        <div class="path-chain">
+            <span class="entity">John Dillinger</span><span class="arrow">→</span><span class="entity">Homer Van Meter</span><span class="arrow">→</span><span class="entity">Random House</span><span class="arrow">→</span><span class="entity">Sam Giancana</span>
+        </div>
+
+        <a href="https://en.wikipedia.org/wiki/Harry_Pierpont" class="source-link" target="_blank" rel="noopener">🔗 Link</a><a href="https://en.wikipedia.org/wiki/Harry_Pierpont" class="source-link" target="_blank" rel="noopener">🔗 Link</a><a href="https://en.wikipedia.org/wiki/United_States_Senate_Select_Committee_on_Improper_Activities_in_Labor_and_Management" class="source-link" target="_blank" rel="noopener">🔗 Link</a>
+
+        
+        <details class="questions-section">
+            <summary class="questions-toggle">Open Questions</summary>
+            <ul class="question-list"><li>What documents or correspondence between these figures remain classified, lost, or uncatalogued?</li><li>Are there other undiscovered chains linking John Dillinger to Sam Giancana through different intermediary figures?</li><li>What historical role has Homer Van Meter, Random House played that mainstream accounts minimize or omit?</li></ul>
+        </details>
+    </article>
+
+    <article class="finding-card tier-a" data-score="23">
+        <div class="card-header">
+            <div class="rank-badge">15</div>
+            <div class="score-pill tier-a">23/30 ⭐ ELITE</div>
+            <div class="degree-badge"><span class='glyph'>🔴</span> 4°</div>
+        </div>
+        <h2 class="finding-title">Shadow Chain: Gulf War → the Trump Organization (4-Degree Link)</h2>
+        <p class="finding-teaser">A 4-step chain linking Gulf War to the Trump Organization</p>
+
+        <div class="path-chain">
+            <span class="entity">Gulf War</span><span class="arrow">→</span><span class="entity">George Bush</span><span class="arrow">→</span><span class="entity">Iranian Revolution</span><span class="arrow">→</span><span class="entity">William Casey</span><span class="arrow">→</span><span class="entity">the Trump Organization</span>
+        </div>
+
+        <a href="https://en.wikipedia.org/wiki/George_H._W._Bush" class="source-link" target="_blank" rel="noopener">🔗 Link</a><a href="https://en.wikipedia.org/wiki/Safari_Club" class="source-link" target="_blank" rel="noopener">🔗 Link</a><a href="https://en.wikipedia.org/wiki/Safari_Club" class="source-link" target="_blank" rel="noopener">🔗 Link</a>
+
+        
+        <details class="questions-section">
+            <summary class="questions-toggle">Open Questions</summary>
+            <ul class="question-list"><li>What historical role has George Bush, Iranian Revolution played that mainstream accounts minimize or omit?</li><li>How do the financial or patronage networks connecting these figures compare to better-documented historical networks?</li><li>Do the 4 intermediaries in this chain share a common institutional background explaining their collective role?</li></ul>
+        </details>
+    </article>
+
+    <article class="finding-card tier-a" data-score="23">
+        <div class="card-header">
+            <div class="rank-badge">16</div>
+            <div class="score-pill tier-a">23/30 ⭐ ELITE</div>
+            <div class="degree-badge"><span class='glyph'>🔴</span> 4°</div>
+        </div>
+        <h2 class="finding-title">Shadow Chain: Bonnie Parker → The House of Representatives (4-Degree Link)</h2>
+        <p class="finding-teaser">A 4-step chain linking Bonnie Parker to The House of Representatives</p>
+
+        <div class="path-chain">
+            <span class="entity">Bonnie Parker</span><span class="arrow">→</span><span class="entity">Moncada Barracks</span><span class="arrow">→</span><span class="entity">Schuyler Colfax</span><span class="arrow">→</span><span class="entity">Benjamin Wade</span><span class="arrow">→</span><span class="entity">The House of Representatives</span>
+        </div>
+
+        <a href="https://en.wikipedia.org/wiki/Bonnie_and_Clyde" class="source-link" target="_blank" rel="noopener">🔗 Link</a><a href="https://en.wikipedia.org/wiki/United_States_Senate_Select_Committee_to_Consider_and_Report_on_the_Message_of_the_House_in_Relation_to_the_Impeachment_of_the_President" class="source-link" target="_blank" rel="noopener">🔗 Link</a><a href="https://en.wikipedia.org/wiki/United_States_Senate_Select_Committee_to_Consider_and_Report_on_the_Message_of_the_House_in_Relation_to_the_Impeachment_of_the_President" class="source-link" target="_blank" rel="noopener">🔗 Link</a>
+
+        
+        <details class="questions-section">
+            <summary class="questions-toggle">Open Questions</summary>
+            <ul class="question-list"><li>Are there other undiscovered chains linking Bonnie Parker to The House of Representatives through different intermediary figures?</li><li>What historical role has Moncada Barracks, Schuyler Colfax played that mainstream accounts minimize or omit?</li><li>Do the 4 intermediaries in this chain share a common institutional background explaining their collective role?</li></ul>
+        </details>
+    </article>
+
+    <article class="finding-card tier-a" data-score="22">
+        <div class="card-header">
+            <div class="rank-badge">17</div>
+            <div class="score-pill tier-a">22/30 ⭐ ELITE</div>
+            <div class="degree-badge"><span class='glyph'>🔴</span> 3°</div>
+        </div>
+        <h2 class="finding-title">Hidden Nexus: Fordham University Press → Napoleon III (3-Degree Link)</h2>
+        <p class="finding-teaser">A 3-step chain linking Fordham University Press to Napoleon III</p>
+
+        <div class="path-chain">
+            <span class="entity">Fordham University Press</span><span class="arrow">→</span><span class="entity">Montgomery C. Meigs</span><span class="arrow">→</span><span class="entity">the Emancipation Proclamation</span><span class="arrow">→</span><span class="entity">Napoleon III</span>
+        </div>
+
+        <a href="https://en.wikipedia.org/wiki/Special_Field_Orders_No._15" class="source-link" target="_blank" rel="noopener">🔗 Link</a><a href="https://en.wikipedia.org/wiki/Commemoration_of_the_American_Civil_War" class="source-link" target="_blank" rel="noopener">🔗 Link</a><a href="https://en.wikipedia.org/wiki/History_of_U.S._foreign_policy,_1861–1897" class="source-link" target="_blank" rel="noopener">🔗 Link</a>
+
+        
+        <details class="questions-section">
+            <summary class="questions-toggle">Open Questions</summary>
+            <ul class="question-list"><li>How do the financial or patronage networks connecting these figures compare to better-documented historical networks?</li><li>What documents or correspondence between these figures remain classified, lost, or uncatalogued?</li><li>What historical role has Montgomery C. Meigs, the Emancipation Proclamation played that mainstream accounts minimize or omit?</li></ul>
+        </details>
+    </article>
+
+    <article class="finding-card tier-a" data-score="22">
+        <div class="card-header">
+            <div class="rank-badge">18</div>
+            <div class="score-pill tier-a">22/30 ⭐ ELITE</div>
+            <div class="degree-badge"><span class='glyph'>🔴</span> 3°</div>
+        </div>
+        <h2 class="finding-title">Hidden Nexus: MK-ULTRA → FBI Records (3-Degree Link)</h2>
+        <p class="finding-teaser">A 3-step chain linking MK-ULTRA to FBI Records</p>
+
+        <div class="path-chain">
+            <span class="entity">MK-ULTRA</span><span class="arrow">→</span><span class="entity">John D. Marks</span><span class="arrow">→</span><span class="entity">Tim Weiner</span><span class="arrow">→</span><span class="entity">FBI Records</span>
+        </div>
+
+        <a href="https://en.wikipedia.org/wiki/MK-Ultra" class="source-link" target="_blank" rel="noopener">🔗 Link</a><a href="https://en.wikipedia.org/wiki/Richard_Helms" class="source-link" target="_blank" rel="noopener">🔗 Link</a><a href="https://en.wikipedia.org/wiki/E._Howard_Hunt" class="source-link" target="_blank" rel="noopener">🔗 Link</a>
+
+        
+        <details class="questions-section">
+            <summary class="questions-toggle">Open Questions</summary>
+            <ul class="question-list"><li>Could any of the intermediary figures have served as unwitting conduits for broader historical forces?</li><li>What historical role has John D. Marks, Tim Weiner played that mainstream accounts minimize or omit?</li><li>Why is the connection between MK-ULTRA and FBI Records absent from standard historical narratives?</li></ul>
+        </details>
+    </article>
+
+    <article class="finding-card tier-a" data-score="22">
+        <div class="card-header">
+            <div class="rank-badge">19</div>
+            <div class="score-pill tier-a">22/30 ⭐ ELITE</div>
+            <div class="degree-badge"><span class='glyph'>🔴</span> 4°</div>
+        </div>
+        <h2 class="finding-title">Shadow Chain: The Wall Street Journal → the Senate Foreign Relations Committee (4-Degree Link)</h2>
+        <p class="finding-teaser">A 4-step chain linking The Wall Street Journal to the Senate Foreign Relations Committee</p>
+
+        <div class="path-chain">
+            <span class="entity">The Wall Street Journal</span><span class="arrow">→</span><span class="entity">William T. Sherman</span><span class="arrow">→</span><span class="entity">Confederate</span><span class="arrow">→</span><span class="entity">Horace Greeley</span><span class="arrow">→</span><span class="entity">the Senate Foreign Relations Committee</span>
+        </div>
+
+        <a href="https://en.wikipedia.org/wiki/Thomas_Nast" class="source-link" target="_blank" rel="noopener">🔗 Link</a><a href="https://en.wikipedia.org/wiki/List_of_Union_Civil_War_monuments_and_memorials" class="source-link" target="_blank" rel="noopener">🔗 Link</a><a href="https://en.wikipedia.org/wiki/History_of_U.S._foreign_policy,_1861–1897" class="source-link" target="_blank" rel="noopener">🔗 Link</a>
+
+        
+        <details class="questions-section">
+            <summary class="questions-toggle">Open Questions</summary>
+            <ul class="question-list"><li>How do the financial or patronage networks connecting these figures compare to better-documented historical networks?</li><li>Are there contemporaneous newspaper accounts or private letters that mention The Wall Street Journal and the Senate Foreign Relations Committee in the same context?</li><li>Could any of the intermediary figures have served as unwitting conduits for broader historical forces?</li></ul>
+        </details>
+    </article>
+
+    <article class="finding-card tier-a" data-score="22">
+        <div class="card-header">
+            <div class="rank-badge">20</div>
+            <div class="score-pill tier-a">22/30 ⭐ ELITE</div>
+            <div class="degree-badge"><span class='glyph'>🔴</span> 3°</div>
+        </div>
+        <h2 class="finding-title">Hidden Nexus: senate → the Civil Rights Movement (3-Degree Link)</h2>
+        <p class="finding-teaser">A 3-step chain linking senate to the Civil Rights Movement</p>
+
+        <div class="path-chain">
+            <span class="entity">senate</span><span class="arrow">→</span><span class="entity">Schuyler Colfax</span><span class="arrow">→</span><span class="entity">William H.</span><span class="arrow">→</span><span class="entity">the Civil Rights Movement</span>
+        </div>
+
+        <a href="https://en.wikipedia.org/wiki/United_States_Senate_Select_Committee_to_Consider_and_Report_on_the_Message_of_the_House_in_Relation_to_the_Impeachment_of_the_President" class="source-link" target="_blank" rel="noopener">🔗 Link</a><a href="https://en.wikipedia.org/wiki/United_States_Senate_Select_Committee_to_Consider_and_Report_on_the_Message_of_the_House_in_Relation_to_the_Impeachment_of_the_President" class="source-link" target="_blank" rel="noopener">🔗 Link</a><a href="https://en.wikipedia.org/wiki/Allard_K._Lowenstein" class="source-link" target="_blank" rel="noopener">🔗 Link</a>
+
+        
+        <details class="questions-section">
+            <summary class="questions-toggle">Open Questions</summary>
+            <ul class="question-list"><li>What historical role has Schuyler Colfax, William H. played that mainstream accounts minimize or omit?</li><li>How do the financial or patronage networks connecting these figures compare to better-documented historical networks?</li><li>Why is the connection between senate and the Civil Rights Movement absent from standard historical narratives?</li></ul>
+        </details>
+    </article>
+        </div>
+        <div id="top50" class="tab-content">
+            
+    <article class="finding-card tier-a" data-score="22">
+        <div class="card-header">
+            <div class="rank-badge">21</div>
+            <div class="score-pill tier-a">22/30 ⭐ ELITE</div>
+            <div class="degree-badge"><span class='glyph'>🔴</span> 3°</div>
+        </div>
+        <h2 class="finding-title">Hidden Nexus: U.S. House of Representatives → Dillinger (3-Degree Link)</h2>
+        <p class="finding-teaser">A 3-step chain linking U.S. House of Representatives to Dillinger</p>
+
+        <div class="path-chain">
+            <span class="entity">U.S. House of Representatives</span><span class="arrow">→</span><span class="entity">Coke Stevenson</span><span class="arrow">→</span><span class="entity">John Dillinger</span><span class="arrow">→</span><span class="entity">Dillinger</span>
+        </div>
+
+        <a href="https://en.wikipedia.org/wiki/Lyndon_B._Johnson" class="source-link" target="_blank" rel="noopener">🔗 Link</a><a href="https://en.wikipedia.org/wiki/Bonnie_and_Clyde" class="source-link" target="_blank" rel="noopener">🔗 Link</a><a href="https://en.wikipedia.org/wiki/Harry_Pierpont" class="source-link" target="_blank" rel="noopener">🔗 Link</a>
+
+        
+        <details class="questions-section">
+            <summary class="questions-toggle">Open Questions</summary>
+            <ul class="question-list"><li>Are there other undiscovered chains linking U.S. House of Representatives to Dillinger through different intermediary figures?</li><li>Could any of the intermediary figures have served as unwitting conduits for broader historical forces?</li><li>Are there contemporaneous newspaper accounts or private letters that mention U.S. House of Representatives and Dillinger in the same context?</li></ul>
+        </details>
+    </article>
+
+    <article class="finding-card tier-a" data-score="22">
+        <div class="card-header">
+            <div class="rank-badge">22</div>
+            <div class="score-pill tier-a">22/30 ⭐ ELITE</div>
+            <div class="degree-badge"><span class='glyph'>🔴</span> 5°</div>
+        </div>
+        <h2 class="finding-title">Secret Loom: Lincoln → the Soviet Union (5-Degree Link)</h2>
+        <p class="finding-teaser">A 5-step chain linking Lincoln to the Soviet Union</p>
+
+        <div class="path-chain">
+            <span class="entity">Lincoln</span><span class="arrow">→</span><span class="entity">Schuyler Colfax</span><span class="arrow">→</span><span class="entity">The Baltimore Sun&#x27;s</span><span class="arrow">→</span><span class="entity">Edward McPherson</span><span class="arrow">→</span><span class="entity">Horace Greeley</span><span class="arrow">→</span><span class="entity">the Soviet Union</span>
+        </div>
+
+        <a href="https://en.wikipedia.org/wiki/United_States_Senate_Select_Committee_to_Consider_and_Report_on_the_Message_of_the_House_in_Relation_to_the_Impeachment_of_the_President" class="source-link" target="_blank" rel="noopener">🔗 Link</a><a href="https://en.wikipedia.org/wiki/United_States_Senate_Select_Committee_to_Consider_and_Report_on_the_Message_of_the_House_in_Relation_to_the_Impeachment_of_the_President" class="source-link" target="_blank" rel="noopener">🔗 Link</a><a href="https://en.wikipedia.org/wiki/United_States_Senate_Select_Committee_to_Consider_and_Report_on_the_Message_of_the_House_in_Relation_to_the_Impeachment_of_the_President" class="source-link" target="_blank" rel="noopener">🔗 Link</a>
+
+        
+        <details class="questions-section">
+            <summary class="questions-toggle">Open Questions</summary>
+            <ul class="question-list"><li>Could any of the intermediary figures have served as unwitting conduits for broader historical forces?</li><li>What documents or correspondence between these figures remain classified, lost, or uncatalogued?</li><li>How do the financial or patronage networks connecting these figures compare to better-documented historical networks?</li></ul>
+        </details>
+    </article>
+
+    <article class="finding-card tier-a" data-score="22">
+        <div class="card-header">
+            <div class="rank-badge">23</div>
+            <div class="score-pill tier-a">22/30 ⭐ ELITE</div>
+            <div class="degree-badge"><span class='glyph'>🔴</span> 3°</div>
+        </div>
+        <h2 class="finding-title">Hidden Nexus: Henry Ford → CIA Activities (3-Degree Link)</h2>
+        <p class="finding-teaser">A 3-step chain linking Henry Ford to CIA Activities</p>
+
+        <div class="path-chain">
+            <span class="entity">Henry Ford</span><span class="arrow">→</span><span class="entity">The Barrow Gang</span><span class="arrow">→</span><span class="entity">Charles Manson</span><span class="arrow">→</span><span class="entity">CIA Activities</span>
+        </div>
+
+        <a href="https://en.wikipedia.org/wiki/Bonnie_and_Clyde" class="source-link" target="_blank" rel="noopener">🔗 Link</a><a href="https://en.wikipedia.org/wiki/Bonnie_and_Clyde" class="source-link" target="_blank" rel="noopener">🔗 Link</a><a href="https://en.wikipedia.org/wiki/MK-Ultra" class="source-link" target="_blank" rel="noopener">🔗 Link</a>
+
+        
+        <details class="questions-section">
+            <summary class="questions-toggle">Open Questions</summary>
+            <ul class="question-list"><li>What documents or correspondence between these figures remain classified, lost, or uncatalogued?</li><li>Are there other undiscovered chains linking Henry Ford to CIA Activities through different intermediary figures?</li><li>Why is the connection between Henry Ford and CIA Activities absent from standard historical narratives?</li></ul>
+        </details>
+    </article>
+
+    <article class="finding-card tier-a" data-score="22">
+        <div class="card-header">
+            <div class="rank-badge">24</div>
+            <div class="score-pill tier-a">22/30 ⭐ ELITE</div>
+            <div class="degree-badge"><span class='glyph'>🔴</span> 3°</div>
+        </div>
+        <h2 class="finding-title">Hidden Nexus: the Korean War → Lucky Luciano (3-Degree Link)</h2>
+        <p class="finding-teaser">A 3-step chain linking the Korean War to Lucky Luciano</p>
+
+        <div class="path-chain">
+            <span class="entity">the Korean War</span><span class="arrow">→</span><span class="entity">George Bush</span><span class="arrow">→</span><span class="entity">Simon &amp; Schuster</span><span class="arrow">→</span><span class="entity">Lucky Luciano</span>
+        </div>
+
+        <a href="https://en.wikipedia.org/wiki/John_Conyers" class="source-link" target="_blank" rel="noopener">🔗 Link</a><a href="https://en.wikipedia.org/wiki/Richard_Helms" class="source-link" target="_blank" rel="noopener">🔗 Link</a><a href="https://en.wikipedia.org/wiki/Ignazio_Lupo" class="source-link" target="_blank" rel="noopener">🔗 Link</a>
+
+        
+        <details class="questions-section">
+            <summary class="questions-toggle">Open Questions</summary>
+            <ul class="question-list"><li>What documents or correspondence between these figures remain classified, lost, or uncatalogued?</li><li>Could the institutional positions held by the Korean War and Lucky Luciano have created indirect contact never officially recorded?</li><li>How do the financial or patronage networks connecting these figures compare to better-documented historical networks?</li></ul>
+        </details>
+    </article>
+
+    <article class="finding-card tier-a" data-score="22">
+        <div class="card-header">
+            <div class="rank-badge">25</div>
+            <div class="score-pill tier-a">22/30 ⭐ ELITE</div>
+            <div class="degree-badge"><span class='glyph'>🔴</span> 3°</div>
+        </div>
+        <h2 class="finding-title">Hidden Nexus: Secret Service → the North Vietnamese Army (3-Degree Link)</h2>
+        <p class="finding-teaser">A 3-step chain linking Secret Service to the North Vietnamese Army</p>
+
+        <div class="path-chain">
+            <span class="entity">Secret Service</span><span class="arrow">→</span><span class="entity">Vasili Mitrokhin</span><span class="arrow">→</span><span class="entity">Viet Cong</span><span class="arrow">→</span><span class="entity">the North Vietnamese Army</span>
+        </div>
+
+        <a href="https://en.wikipedia.org/wiki/CIA_Kennedy_assassination_conspiracy_theory" class="source-link" target="_blank" rel="noopener">🔗 Link</a><a href="https://en.wikipedia.org/wiki/Richard_Helms" class="source-link" target="_blank" rel="noopener">🔗 Link</a><a href="https://en.wikipedia.org/wiki/Lyndon_B._Johnson" class="source-link" target="_blank" rel="noopener">🔗 Link</a>
+
+        
+        <details class="questions-section">
+            <summary class="questions-toggle">Open Questions</summary>
+            <ul class="question-list"><li>What documents or correspondence between these figures remain classified, lost, or uncatalogued?</li><li>Why is the connection between Secret Service and the North Vietnamese Army absent from standard historical narratives?</li><li>Could any of the intermediary figures have served as unwitting conduits for broader historical forces?</li></ul>
+        </details>
+    </article>
+
+    <article class="finding-card tier-a" data-score="21">
+        <div class="card-header">
+            <div class="rank-badge">26</div>
+            <div class="score-pill tier-a">21/30 ⭐ ELITE</div>
+            <div class="degree-badge"><span class='glyph'>🔴</span> 4°</div>
+        </div>
+        <h2 class="finding-title">Shadow Chain: the Department of Justice → Fordham University Press (4-Degree Link)</h2>
+        <p class="finding-teaser">A 4-step chain linking the Department of Justice to Fordham University Press</p>
+
+        <div class="path-chain">
+            <span class="entity">the Department of Justice</span><span class="arrow">→</span><span class="entity">Howard W. Smith</span><span class="arrow">→</span><span class="entity">Reconstruction</span><span class="arrow">→</span><span class="entity">Thaddeus Stevens</span><span class="arrow">→</span><span class="entity">Fordham University Press</span>
+        </div>
+
+        <a href="https://en.wikipedia.org/wiki/National_Labor_Relations_Board" class="source-link" target="_blank" rel="noopener">🔗 Link</a><a href="https://en.wikipedia.org/wiki/Lyndon_B._Johnson" class="source-link" target="_blank" rel="noopener">🔗 Link</a><a href="https://en.wikipedia.org/wiki/United_States_Senate_Select_Committee_to_Consider_and_Report_on_the_Message_of_the_House_in_Relation_to_the_Impeachment_of_the_President" class="source-link" target="_blank" rel="noopener">🔗 Link</a>
+
+        
+        <details class="questions-section">
+            <summary class="questions-toggle">Open Questions</summary>
+            <ul class="question-list"><li>What documents or correspondence between these figures remain classified, lost, or uncatalogued?</li><li>Are there contemporaneous newspaper accounts or private letters that mention the Department of Justice and Fordham University Press in the same context?</li><li>Could any of the intermediary figures have served as unwitting conduits for broader historical forces?</li></ul>
+        </details>
+    </article>
+
+    <article class="finding-card tier-a" data-score="21">
+        <div class="card-header">
+            <div class="rank-badge">27</div>
+            <div class="score-pill tier-a">21/30 ⭐ ELITE</div>
+            <div class="degree-badge"><span class='glyph'>🔴</span> 3°</div>
+        </div>
+        <h2 class="finding-title">Hidden Nexus: Bugsy Siegel → George McGovern (3-Degree Link)</h2>
+        <p class="finding-teaser">A 3-step chain linking Bugsy Siegel to George McGovern</p>
+
+        <div class="path-chain">
+            <span class="entity">Bugsy Siegel</span><span class="arrow">→</span><span class="entity">Salvatore Maranzano</span><span class="arrow">→</span><span class="entity">Mafia</span><span class="arrow">→</span><span class="entity">George McGovern</span>
+        </div>
+
+        <a href="https://en.wikipedia.org/wiki/Joe_Masseria" class="source-link" target="_blank" rel="noopener">🔗 Link</a><a href="https://en.wikipedia.org/wiki/Giuseppe_Morello" class="source-link" target="_blank" rel="noopener">🔗 Link</a><a href="https://en.wikipedia.org/wiki/Daniel_Ellsberg" class="source-link" target="_blank" rel="noopener">🔗 Link</a>
+
+        
+        <details class="questions-section">
+            <summary class="questions-toggle">Open Questions</summary>
+            <ul class="question-list"><li>How do the financial or patronage networks connecting these figures compare to better-documented historical networks?</li><li>Are there other undiscovered chains linking Bugsy Siegel to George McGovern through different intermediary figures?</li><li>Could any of the intermediary figures have served as unwitting conduits for broader historical forces?</li></ul>
+        </details>
+    </article>
+
+    <article class="finding-card tier-a" data-score="21">
+        <div class="card-header">
+            <div class="rank-badge">28</div>
+            <div class="score-pill tier-a">21/30 ⭐ ELITE</div>
+            <div class="degree-badge"><span class='glyph'>🔴</span> 3°</div>
+        </div>
+        <h2 class="finding-title">Hidden Nexus: Revolutionary War → Cuba Committee (3-Degree Link)</h2>
+        <p class="finding-teaser">A 3-step chain linking Revolutionary War to Cuba Committee</p>
+
+        <div class="path-chain">
+            <span class="entity">Revolutionary War</span><span class="arrow">→</span><span class="entity">Carl Bernstein</span><span class="arrow">→</span><span class="entity">G. Gordon Liddy</span><span class="arrow">→</span><span class="entity">Cuba Committee</span>
+        </div>
+
+        <a href="https://en.wikipedia.org/wiki/Mark_Felt" class="source-link" target="_blank" rel="noopener">🔗 Link</a><a href="https://en.wikipedia.org/wiki/Deep_Throat_(Watergate" class="source-link" target="_blank" rel="noopener">🔗 Link</a><a href="https://en.wikipedia.org/wiki/CIA_Kennedy_assassination_conspiracy_theory" class="source-link" target="_blank" rel="noopener">🔗 Link</a>
+
+        
+        <details class="questions-section">
+            <summary class="questions-toggle">Open Questions</summary>
+            <ul class="question-list"><li>Are there contemporaneous newspaper accounts or private letters that mention Revolutionary War and Cuba Committee in the same context?</li><li>What documents or correspondence between these figures remain classified, lost, or uncatalogued?</li><li>Are there other undiscovered chains linking Revolutionary War to Cuba Committee through different intermediary figures?</li></ul>
+        </details>
+    </article>
+
+    <article class="finding-card tier-a" data-score="21">
+        <div class="card-header">
+            <div class="rank-badge">29</div>
+            <div class="score-pill tier-a">21/30 ⭐ ELITE</div>
+            <div class="degree-badge"><span class='glyph'>🔴</span> 3°</div>
+        </div>
+        <h2 class="finding-title">Hidden Nexus: the American Political Science Association&#x27;s → the Office of Special Operations (3-Degree Link)</h2>
+        <p class="finding-teaser">A 3-step chain linking the American Political Science Association&#x27;s to the Office of Special Operations</p>
+
+        <div class="path-chain">
+            <span class="entity">the American Political Science Association&#x27;s</span><span class="arrow">→</span><span class="entity">George Bush</span><span class="arrow">→</span><span class="entity">William Casey</span><span class="arrow">→</span><span class="entity">the Office of Special Operations</span>
+        </div>
+
+        <a href="https://en.wikipedia.org/wiki/George_H._W._Bush" class="source-link" target="_blank" rel="noopener">🔗 Link</a><a href="https://en.wikipedia.org/wiki/Safari_Club" class="source-link" target="_blank" rel="noopener">🔗 Link</a><a href="https://en.wikipedia.org/wiki/Richard_Helms" class="source-link" target="_blank" rel="noopener">🔗 Link</a>
+
+        
+        <details class="questions-section">
+            <summary class="questions-toggle">Open Questions</summary>
+            <ul class="question-list"><li>Are there other undiscovered chains linking the American Political Science Association&#x27;s to the Office of Special Operations through different intermediary figures?</li><li>What historical role has George Bush, William Casey played that mainstream accounts minimize or omit?</li><li>Are there contemporaneous newspaper accounts or private letters that mention the American Political Science Association&#x27;s and the Office of Special Operations in the same context?</li></ul>
+        </details>
+    </article>
+
+    <article class="finding-card tier-a" data-score="21">
+        <div class="card-header">
+            <div class="rank-badge">30</div>
+            <div class="score-pill tier-a">21/30 ⭐ ELITE</div>
+            <div class="degree-badge"><span class='glyph'>🔴</span> 3°</div>
+        </div>
+        <h2 class="finding-title">Hidden Nexus: University of North Texas Press → the Communist Party&#x27;s (3-Degree Link)</h2>
+        <p class="finding-teaser">A 3-step chain linking University of North Texas Press to the Communist Party&#x27;s</p>
+
+        <div class="path-chain">
+            <span class="entity">University of North Texas Press</span><span class="arrow">→</span><span class="entity">Sidney Hillman</span><span class="arrow">→</span><span class="entity">James B. Carey</span><span class="arrow">→</span><span class="entity">the Communist Party&#x27;s</span>
+        </div>
+
+        <a href="https://en.wikipedia.org/wiki/United_States_home_front_during_World_War_II" class="source-link" target="_blank" rel="noopener">🔗 Link</a><a href="https://en.wikipedia.org/wiki/Congress_of_Industrial_Organizations" class="source-link" target="_blank" rel="noopener">🔗 Link</a><a href="https://en.wikipedia.org/wiki/Labor_history_of_the_United_States" class="source-link" target="_blank" rel="noopener">🔗 Link</a>
+
+        
+        <details class="questions-section">
+            <summary class="questions-toggle">Open Questions</summary>
+            <ul class="question-list"><li>Could the institutional positions held by University of North Texas Press and the Communist Party&#x27;s have created indirect contact never officially recorded?</li><li>What documents or correspondence between these figures remain classified, lost, or uncatalogued?</li><li>Are there contemporaneous newspaper accounts or private letters that mention University of North Texas Press and the Communist Party&#x27;s in the same context?</li></ul>
+        </details>
+    </article>
+
+    <article class="finding-card tier-a" data-score="21">
+        <div class="card-header">
+            <div class="rank-badge">31</div>
+            <div class="score-pill tier-a">21/30 ⭐ ELITE</div>
+            <div class="degree-badge"><span class='glyph'>🔴</span> 3°</div>
+        </div>
+        <h2 class="finding-title">Hidden Nexus: Chicago Tribune → the War of 1812 (3-Degree Link)</h2>
+        <p class="finding-teaser">A 3-step chain linking Chicago Tribune to the War of 1812</p>
+
+        <div class="path-chain">
+            <span class="entity">Chicago Tribune</span><span class="arrow">→</span><span class="entity">LibriVox</span><span class="arrow">→</span><span class="entity">Uncle Tom&#x27;s Cabin</span><span class="arrow">→</span><span class="entity">the War of 1812</span>
+        </div>
+
+        <a href="https://en.wikipedia.org/wiki/J._Howard_Moore" class="source-link" target="_blank" rel="noopener">🔗 Link</a><a href="https://en.wikipedia.org/wiki/W._E._B._Du_Bois" class="source-link" target="_blank" rel="noopener">🔗 Link</a><a href="https://en.wikipedia.org/wiki/Slavery_in_the_United_States" class="source-link" target="_blank" rel="noopener">🔗 Link</a>
+
+        
+        <details class="questions-section">
+            <summary class="questions-toggle">Open Questions</summary>
+            <ul class="question-list"><li>Are there other undiscovered chains linking Chicago Tribune to the War of 1812 through different intermediary figures?</li><li>Could any of the intermediary figures have served as unwitting conduits for broader historical forces?</li><li>Are there contemporaneous newspaper accounts or private letters that mention Chicago Tribune and the War of 1812 in the same context?</li></ul>
+        </details>
+    </article>
+
+    <article class="finding-card tier-a" data-score="21">
+        <div class="card-header">
+            <div class="rank-badge">32</div>
+            <div class="score-pill tier-a">21/30 ⭐ ELITE</div>
+            <div class="degree-badge"><span class='glyph'>🔴</span> 3°</div>
+        </div>
+        <h2 class="finding-title">Hidden Nexus: George Bush → Richard M. Nixon (3-Degree Link)</h2>
+        <p class="finding-teaser">A 3-step chain linking George Bush to Richard M. Nixon</p>
+
+        <div class="path-chain">
+            <span class="entity">George Bush</span><span class="arrow">→</span><span class="entity">Watergate</span><span class="arrow">→</span><span class="entity">Robert Bork</span><span class="arrow">→</span><span class="entity">Richard M. Nixon</span>
+        </div>
+
+        <a href="https://en.wikipedia.org/wiki/Safari_Club" class="source-link" target="_blank" rel="noopener">🔗 Link</a><a href="https://en.wikipedia.org/wiki/Robert_Bork" class="source-link" target="_blank" rel="noopener">🔗 Link</a><a href="https://en.wikipedia.org/wiki/Impeachment_process_against_Richard_Nixon" class="source-link" target="_blank" rel="noopener">🔗 Link</a>
+
+        
+        <details class="questions-section">
+            <summary class="questions-toggle">Open Questions</summary>
+            <ul class="question-list"><li>Could any of the intermediary figures have served as unwitting conduits for broader historical forces?</li><li>Are there other undiscovered chains linking George Bush to Richard M. Nixon through different intermediary figures?</li><li>What documents or correspondence between these figures remain classified, lost, or uncatalogued?</li></ul>
+        </details>
+    </article>
+
+    <article class="finding-card tier-a" data-score="21">
+        <div class="card-header">
+            <div class="rank-badge">33</div>
+            <div class="score-pill tier-a">21/30 ⭐ ELITE</div>
+            <div class="degree-badge"><span class='glyph'>🔴</span> 3°</div>
+        </div>
+        <h2 class="finding-title">Hidden Nexus: the National Rifle Association → the Cleveland Mob (3-Degree Link)</h2>
+        <p class="finding-teaser">A 3-step chain linking the National Rifle Association to the Cleveland Mob</p>
+
+        <div class="path-chain">
+            <span class="entity">the National Rifle Association</span><span class="arrow">→</span><span class="entity">Gerhard Gesell</span><span class="arrow">→</span><span class="entity">Howard Hughes</span><span class="arrow">→</span><span class="entity">the Cleveland Mob</span>
+        </div>
+
+        <a href="https://en.wikipedia.org/wiki/Oliver_North" class="source-link" target="_blank" rel="noopener">🔗 Link</a><a href="https://en.wikipedia.org/wiki/Charles_Colson" class="source-link" target="_blank" rel="noopener">🔗 Link</a><a href="https://en.wikipedia.org/wiki/Alfred_Polizzi" class="source-link" target="_blank" rel="noopener">🔗 Link</a>
+
+        
+        <details class="questions-section">
+            <summary class="questions-toggle">Open Questions</summary>
+            <ul class="question-list"><li>Are there other undiscovered chains linking the National Rifle Association to the Cleveland Mob through different intermediary figures?</li><li>How do the financial or patronage networks connecting these figures compare to better-documented historical networks?</li><li>What documents or correspondence between these figures remain classified, lost, or uncatalogued?</li></ul>
+        </details>
+    </article>
+
+    <article class="finding-card tier-a" data-score="21">
+        <div class="card-header">
+            <div class="rank-badge">34</div>
+            <div class="score-pill tier-a">21/30 ⭐ ELITE</div>
+            <div class="degree-badge"><span class='glyph'>🔴</span> 3°</div>
+        </div>
+        <h2 class="finding-title">Hidden Nexus: T. Harry → The Great Depression (3-Degree Link)</h2>
+        <p class="finding-teaser">A 3-step chain linking T. Harry to The Great Depression</p>
+
+        <div class="path-chain">
+            <span class="entity">T. Harry</span><span class="arrow">→</span><span class="entity">Negro</span><span class="arrow">→</span><span class="entity">Zora Neale Hurston</span><span class="arrow">→</span><span class="entity">The Great Depression</span>
+        </div>
+
+        <a href="https://en.wikipedia.org/wiki/End_of_Reconstruction" class="source-link" target="_blank" rel="noopener">🔗 Link</a><a href="https://en.wikipedia.org/wiki/W._E._B._Du_Bois" class="source-link" target="_blank" rel="noopener">🔗 Link</a><a href="https://en.wikipedia.org/wiki/History_of_the_Sharecroppers&#x27;_Union" class="source-link" target="_blank" rel="noopener">🔗 Link</a>
+
+        
+        <details class="questions-section">
+            <summary class="questions-toggle">Open Questions</summary>
+            <ul class="question-list"><li>Why is the connection between T. Harry and The Great Depression absent from standard historical narratives?</li><li>What historical role has Negro, Zora Neale Hurston played that mainstream accounts minimize or omit?</li><li>Are there other undiscovered chains linking T. Harry to The Great Depression through different intermediary figures?</li></ul>
+        </details>
+    </article>
+
+    <article class="finding-card tier-a" data-score="21">
+        <div class="card-header">
+            <div class="rank-badge">35</div>
+            <div class="score-pill tier-a">21/30 ⭐ ELITE</div>
+            <div class="degree-badge"><span class='glyph'>🔴</span> 4°</div>
+        </div>
+        <h2 class="finding-title">Shadow Chain: The Wall Street Journal → the Senate Judiciary Committee (4-Degree Link)</h2>
+        <p class="finding-teaser">A 4-step chain linking The Wall Street Journal to the Senate Judiciary Committee</p>
+
+        <div class="path-chain">
+            <span class="entity">The Wall Street Journal</span><span class="arrow">→</span><span class="entity">William T. Sherman</span><span class="arrow">→</span><span class="entity">Confederate</span><span class="arrow">→</span><span class="entity">John R.</span><span class="arrow">→</span><span class="entity">the Senate Judiciary Committee</span>
+        </div>
+
+        <a href="https://en.wikipedia.org/wiki/Thomas_Nast" class="source-link" target="_blank" rel="noopener">🔗 Link</a><a href="https://en.wikipedia.org/wiki/List_of_Union_Civil_War_monuments_and_memorials" class="source-link" target="_blank" rel="noopener">🔗 Link</a><a href="https://en.wikipedia.org/wiki/Redeemers" class="source-link" target="_blank" rel="noopener">🔗 Link</a>
+
+        
+        <details class="questions-section">
+            <summary class="questions-toggle">Open Questions</summary>
+            <ul class="question-list"><li>How do the financial or patronage networks connecting these figures compare to better-documented historical networks?</li><li>Why is the connection between The Wall Street Journal and the Senate Judiciary Committee absent from standard historical narratives?</li><li>What documents or correspondence between these figures remain classified, lost, or uncatalogued?</li></ul>
+        </details>
+    </article>
+
+    <article class="finding-card tier-b" data-score="20">
+        <div class="card-header">
+            <div class="rank-badge">36</div>
+            <div class="score-pill tier-b">20/30 🔍 NOTABLE</div>
+            <div class="degree-badge"><span class='glyph'>🔴</span> 3°</div>
+        </div>
+        <h2 class="finding-title">Hidden Nexus: Irving Berlin → the Grant Administration (3-Degree Link)</h2>
+        <p class="finding-teaser">A 3-step chain linking Irving Berlin to the Grant Administration</p>
+
+        <div class="path-chain">
+            <span class="entity">Irving Berlin</span><span class="arrow">→</span><span class="entity">Wilson</span><span class="arrow">→</span><span class="entity">Charles Scribner&#x27;s</span><span class="arrow">→</span><span class="entity">the Grant Administration</span>
+        </div>
+
+        <a href="https://en.wikipedia.org/wiki/Glossary_of_early_twentieth_century_slang_in_the_United_States" class="source-link" target="_blank" rel="noopener">🔗 Link</a><a href="https://en.wikipedia.org/wiki/Vice_presidency_of_Schuyler_Colfax" class="source-link" target="_blank" rel="noopener">🔗 Link</a><a href="https://en.wikipedia.org/wiki/Reforms_of_the_Grant_administration" class="source-link" target="_blank" rel="noopener">🔗 Link</a>
+
+        
+        <details class="questions-section">
+            <summary class="questions-toggle">Open Questions</summary>
+            <ul class="question-list"><li>Why is the connection between Irving Berlin and the Grant Administration absent from standard historical narratives?</li><li>Could any of the intermediary figures have served as unwitting conduits for broader historical forces?</li><li>How do the financial or patronage networks connecting these figures compare to better-documented historical networks?</li></ul>
+        </details>
+    </article>
+
+    <article class="finding-card tier-b" data-score="20">
+        <div class="card-header">
+            <div class="rank-badge">37</div>
+            <div class="score-pill tier-b">20/30 🔍 NOTABLE</div>
+            <div class="degree-badge"><span class='glyph'>🔴</span> 5°</div>
+        </div>
+        <h2 class="finding-title">Secret Loom: the Non-Proliferation of Nuclear Weapons → the Mayfield Road Mob (5-Degree Link)</h2>
+        <p class="finding-teaser">A 5-step chain linking the Non-Proliferation of Nuclear Weapons to the Mayfield Road Mob</p>
+
+        <div class="path-chain">
+            <span class="entity">the Non-Proliferation of Nuclear Weapons</span><span class="arrow">→</span><span class="entity">Howard W. Smith</span><span class="arrow">→</span><span class="entity">the U.S. Senate</span><span class="arrow">→</span><span class="entity">Vincent Mangano</span><span class="arrow">→</span><span class="entity">S. HRG.</span><span class="arrow">→</span><span class="entity">the Mayfield Road Mob</span>
+        </div>
+
+        <a href="https://en.wikipedia.org/wiki/Lyndon_B._Johnson" class="source-link" target="_blank" rel="noopener">🔗 Link</a><a href="https://en.wikipedia.org/wiki/Lyndon_B._Johnson" class="source-link" target="_blank" rel="noopener">🔗 Link</a><a href="https://en.wikipedia.org/wiki/Albert_Anastasia" class="source-link" target="_blank" rel="noopener">🔗 Link</a>
+
+        
+        <details class="questions-section">
+            <summary class="questions-toggle">Open Questions</summary>
+            <ul class="question-list"><li>What documents or correspondence between these figures remain classified, lost, or uncatalogued?</li><li>Why is the connection between the Non-Proliferation of Nuclear Weapons and the Mayfield Road Mob absent from standard historical narratives?</li><li>Do the 5 intermediaries in this chain share a common institutional background explaining their collective role?</li></ul>
+        </details>
+    </article>
+
+    <article class="finding-card tier-b" data-score="20">
+        <div class="card-header">
+            <div class="rank-badge">38</div>
+            <div class="score-pill tier-b">20/30 🔍 NOTABLE</div>
+            <div class="degree-badge"><span class='glyph'>🔴</span> 5°</div>
+        </div>
+        <h2 class="finding-title">Secret Loom: the Watergate Hotel → Stanford University&#x27;s (5-Degree Link)</h2>
+        <p class="finding-teaser">A 5-step chain linking the Watergate Hotel to Stanford University&#x27;s</p>
+
+        <div class="path-chain">
+            <span class="entity">the Watergate Hotel</span><span class="arrow">→</span><span class="entity">Robert Bork</span><span class="arrow">→</span><span class="entity">Edward Bennett Williams</span><span class="arrow">→</span><span class="entity">the Six Day War</span><span class="arrow">→</span><span class="entity">Walter Bedell Smith</span><span class="arrow">→</span><span class="entity">Stanford University&#x27;s</span>
+        </div>
+
+        <a href="https://en.wikipedia.org/wiki/Saturday_Night_Massacre" class="source-link" target="_blank" rel="noopener">🔗 Link</a><a href="https://en.wikipedia.org/wiki/Robert_Bork" class="source-link" target="_blank" rel="noopener">🔗 Link</a><a href="https://en.wikipedia.org/wiki/Richard_Helms" class="source-link" target="_blank" rel="noopener">🔗 Link</a>
+
+        
+        <details class="questions-section">
+            <summary class="questions-toggle">Open Questions</summary>
+            <ul class="question-list"><li>Are there other undiscovered chains linking the Watergate Hotel to Stanford University&#x27;s through different intermediary figures?</li><li>How do the financial or patronage networks connecting these figures compare to better-documented historical networks?</li><li>Could any of the intermediary figures have served as unwitting conduits for broader historical forces?</li></ul>
+        </details>
+    </article>
+
+    <article class="finding-card tier-b" data-score="20">
+        <div class="card-header">
+            <div class="rank-badge">39</div>
+            <div class="score-pill tier-b">20/30 🔍 NOTABLE</div>
+            <div class="degree-badge"><span class='glyph'>🔴</span> 4°</div>
+        </div>
+        <h2 class="finding-title">Shadow Chain: The Chicago Tribune → Eric Foner (4-Degree Link)</h2>
+        <p class="finding-teaser">A 4-step chain linking The Chicago Tribune to Eric Foner</p>
+
+        <div class="path-chain">
+            <span class="entity">The Chicago Tribune</span><span class="arrow">→</span><span class="entity">Schuyler Colfax</span><span class="arrow">→</span><span class="entity">Confederate</span><span class="arrow">→</span><span class="entity">Horace Greeley</span><span class="arrow">→</span><span class="entity">Eric Foner</span>
+        </div>
+
+        <a href="https://en.wikipedia.org/wiki/United_States_Senate_Select_Committee_to_Consider_and_Report_on_the_Message_of_the_House_in_Relation_to_the_Impeachment_of_the_President" class="source-link" target="_blank" rel="noopener">🔗 Link</a><a href="https://en.wikipedia.org/wiki/United_States_Senate_Select_Committee_to_Consider_and_Report_on_the_Message_of_the_House_in_Relation_to_the_Impeachment_of_the_President" class="source-link" target="_blank" rel="noopener">🔗 Link</a><a href="https://en.wikipedia.org/wiki/History_of_U.S._foreign_policy,_1861–1897" class="source-link" target="_blank" rel="noopener">🔗 Link</a>
+
+        
+        <details class="questions-section">
+            <summary class="questions-toggle">Open Questions</summary>
+            <ul class="question-list"><li>Could any of the intermediary figures have served as unwitting conduits for broader historical forces?</li><li>What documents or correspondence between these figures remain classified, lost, or uncatalogued?</li><li>What historical role has Schuyler Colfax, Confederate played that mainstream accounts minimize or omit?</li></ul>
+        </details>
+    </article>
+
+    <article class="finding-card tier-b" data-score="20">
+        <div class="card-header">
+            <div class="rank-badge">40</div>
+            <div class="score-pill tier-b">20/30 🔍 NOTABLE</div>
+            <div class="degree-badge"><span class='glyph'>🔴</span> 4°</div>
+        </div>
+        <h2 class="finding-title">Shadow Chain: the George Bush Center for Intelligence → Great Depression (4-Degree Link)</h2>
+        <p class="finding-teaser">A 4-step chain linking the George Bush Center for Intelligence to Great Depression</p>
+
+        <div class="path-chain">
+            <span class="entity">the George Bush Center for Intelligence</span><span class="arrow">→</span><span class="entity">George Bush</span><span class="arrow">→</span><span class="entity">Watergate</span><span class="arrow">→</span><span class="entity">Gertrude Stein</span><span class="arrow">→</span><span class="entity">Great Depression</span>
+        </div>
+
+        <a href="https://en.wikipedia.org/wiki/George_H._W._Bush" class="source-link" target="_blank" rel="noopener">🔗 Link</a><a href="https://en.wikipedia.org/wiki/Safari_Club" class="source-link" target="_blank" rel="noopener">🔗 Link</a><a href="https://en.wikipedia.org/wiki/MK-Ultra" class="source-link" target="_blank" rel="noopener">🔗 Link</a>
+
+        
+        <details class="questions-section">
+            <summary class="questions-toggle">Open Questions</summary>
+            <ul class="question-list"><li>Could any of the intermediary figures have served as unwitting conduits for broader historical forces?</li><li>What documents or correspondence between these figures remain classified, lost, or uncatalogued?</li><li>Do the 4 intermediaries in this chain share a common institutional background explaining their collective role?</li></ul>
+        </details>
+    </article>
+
+    <article class="finding-card tier-b" data-score="20">
+        <div class="card-header">
+            <div class="rank-badge">41</div>
+            <div class="score-pill tier-b">20/30 🔍 NOTABLE</div>
+            <div class="degree-badge"><span class='glyph'>🔴</span> 3°</div>
+        </div>
+        <h2 class="finding-title">Hidden Nexus: Iran-Contra → the Cuban Missile Crisis (3-Degree Link)</h2>
+        <p class="finding-teaser">A 3-step chain linking Iran-Contra to the Cuban Missile Crisis</p>
+
+        <div class="path-chain">
+            <span class="entity">Iran-Contra</span><span class="arrow">→</span><span class="entity">George Bush</span><span class="arrow">→</span><span class="entity">William Casey</span><span class="arrow">→</span><span class="entity">the Cuban Missile Crisis</span>
+        </div>
+
+        <a href="https://en.wikipedia.org/wiki/George_H._W._Bush" class="source-link" target="_blank" rel="noopener">🔗 Link</a><a href="https://en.wikipedia.org/wiki/Safari_Club" class="source-link" target="_blank" rel="noopener">🔗 Link</a><a href="https://en.wikipedia.org/wiki/Richard_Helms" class="source-link" target="_blank" rel="noopener">🔗 Link</a>
+
+        
+        <details class="questions-section">
+            <summary class="questions-toggle">Open Questions</summary>
+            <ul class="question-list"><li>How do the financial or patronage networks connecting these figures compare to better-documented historical networks?</li><li>What historical role has George Bush, William Casey played that mainstream accounts minimize or omit?</li><li>Are there contemporaneous newspaper accounts or private letters that mention Iran-Contra and the Cuban Missile Crisis in the same context?</li></ul>
+        </details>
+    </article>
+
+    <article class="finding-card tier-b" data-score="20">
+        <div class="card-header">
+            <div class="rank-badge">42</div>
+            <div class="score-pill tier-b">20/30 🔍 NOTABLE</div>
+            <div class="degree-badge"><span class='glyph'>🔴</span> 3°</div>
+        </div>
+        <h2 class="finding-title">Hidden Nexus: the Watergate scandal. → the Mayfield Road Mob (3-Degree Link)</h2>
+        <p class="finding-teaser">A 3-step chain linking the Watergate scandal. to the Mayfield Road Mob</p>
+
+        <div class="path-chain">
+            <span class="entity">the Watergate scandal.</span><span class="arrow">→</span><span class="entity">Carl Bernstein</span><span class="arrow">→</span><span class="entity">Howard Hughes</span><span class="arrow">→</span><span class="entity">the Mayfield Road Mob</span>
+        </div>
+
+        <a href="https://en.wikipedia.org/wiki/Mark_Felt" class="source-link" target="_blank" rel="noopener">🔗 Link</a><a href="https://en.wikipedia.org/wiki/Watergate_scandal" class="source-link" target="_blank" rel="noopener">🔗 Link</a><a href="https://en.wikipedia.org/wiki/Alfred_Polizzi" class="source-link" target="_blank" rel="noopener">🔗 Link</a>
+
+        
+        <details class="questions-section">
+            <summary class="questions-toggle">Open Questions</summary>
+            <ul class="question-list"><li>Could any of the intermediary figures have served as unwitting conduits for broader historical forces?</li><li>What documents or correspondence between these figures remain classified, lost, or uncatalogued?</li><li>What historical role has Carl Bernstein, Howard Hughes played that mainstream accounts minimize or omit?</li></ul>
+        </details>
+    </article>
+
+    <article class="finding-card tier-b" data-score="20">
+        <div class="card-header">
+            <div class="rank-badge">43</div>
+            <div class="score-pill tier-b">20/30 🔍 NOTABLE</div>
+            <div class="degree-badge"><span class='glyph'>🔴</span> 3°</div>
+        </div>
+        <h2 class="finding-title">Hidden Nexus: Ladies Memorial Associations → Black Grassroots Political Mobilization (3-Degree Link)</h2>
+        <p class="finding-teaser">A 3-step chain linking Ladies Memorial Associations to Black Grassroots Political Mobilization</p>
+
+        <div class="path-chain">
+            <span class="entity">Ladies Memorial Associations</span><span class="arrow">→</span><span class="entity">John McEnery</span><span class="arrow">→</span><span class="entity">C. Vann</span><span class="arrow">→</span><span class="entity">Black Grassroots Political Mobilization</span>
+        </div>
+
+        <a href="https://en.wikipedia.org/wiki/Confederate_monuments_and_memorials" class="source-link" target="_blank" rel="noopener">🔗 Link</a><a href="https://en.wikipedia.org/wiki/Redeemers" class="source-link" target="_blank" rel="noopener">🔗 Link</a><a href="https://en.wikipedia.org/wiki/Bibliography_of_the_Reconstruction_era" class="source-link" target="_blank" rel="noopener">🔗 Link</a>
+
+        
+        <details class="questions-section">
+            <summary class="questions-toggle">Open Questions</summary>
+            <ul class="question-list"><li>Are there other undiscovered chains linking Ladies Memorial Associations to Black Grassroots Political Mobilization through different intermediary figures?</li><li>Are there contemporaneous newspaper accounts or private letters that mention Ladies Memorial Associations and Black Grassroots Political Mobilization in the same context?</li><li>Could the institutional positions held by Ladies Memorial Associations and Black Grassroots Political Mobilization have created indirect contact never officially recorded?</li></ul>
+        </details>
+    </article>
+
+    <article class="finding-card tier-b" data-score="20">
+        <div class="card-header">
+            <div class="rank-badge">44</div>
+            <div class="score-pill tier-b">20/30 🔍 NOTABLE</div>
+            <div class="degree-badge"><span class='glyph'>🔴</span> 3°</div>
+        </div>
+        <h2 class="finding-title">Hidden Nexus: George Herbert Walker Bush → the First World War (3-Degree Link)</h2>
+        <p class="finding-teaser">A 3-step chain linking George Herbert Walker Bush to the First World War</p>
+
+        <div class="path-chain">
+            <span class="entity">George Herbert Walker Bush</span><span class="arrow">→</span><span class="entity">Phillips Academy</span><span class="arrow">→</span><span class="entity">Evergreen Cemetery (Boston, Massachusetts)</span><span class="arrow">→</span><span class="entity">the First World War</span>
+        </div>
+
+        <a href="https://en.wikipedia.org/wiki/George_H._W._Bush" class="source-link" target="_blank" rel="noopener">🔗 Link</a><a href="https://en.wikipedia.org/wiki/Beriah_Green" class="source-link" target="_blank" rel="noopener">🔗 Link</a><a href="https://en.wikipedia.org/wiki/W._E._B._Du_Bois" class="source-link" target="_blank" rel="noopener">🔗 Link</a>
+
+        
+        <details class="questions-section">
+            <summary class="questions-toggle">Open Questions</summary>
+            <ul class="question-list"><li>Are there other undiscovered chains linking George Herbert Walker Bush to the First World War through different intermediary figures?</li><li>What historical role has Phillips Academy, Evergreen Cemetery (Boston, Massachusetts) played that mainstream accounts minimize or omit?</li><li>Why is the connection between George Herbert Walker Bush and the First World War absent from standard historical narratives?</li></ul>
+        </details>
+    </article>
+
+    <article class="finding-card tier-b" data-score="19">
+        <div class="card-header">
+            <div class="rank-badge">45</div>
+            <div class="score-pill tier-b">19/30 🔍 NOTABLE</div>
+            <div class="degree-badge"><span class='glyph'>🔴</span> 4°</div>
+        </div>
+        <h2 class="finding-title">Shadow Chain: the Grant Administration → Black Grassroots Political Mobilization (4-Degree Link)</h2>
+        <p class="finding-teaser">A 4-step chain linking the Grant Administration to Black Grassroots Political Mobilization</p>
+
+        <div class="path-chain">
+            <span class="entity">the Grant Administration</span><span class="arrow">→</span><span class="entity">Jay Gould</span><span class="arrow">→</span><span class="entity">Wilson</span><span class="arrow">→</span><span class="entity">Oliver Otis Howard</span><span class="arrow">→</span><span class="entity">Black Grassroots Political Mobilization</span>
+        </div>
+
+        <a href="https://en.wikipedia.org/wiki/Reforms_of_the_Grant_administration" class="source-link" target="_blank" rel="noopener">🔗 Link</a><a href="https://en.wikipedia.org/wiki/Labor_history_of_the_United_States" class="source-link" target="_blank" rel="noopener">🔗 Link</a><a href="https://en.wikipedia.org/wiki/Bibliography_of_the_Reconstruction_era" class="source-link" target="_blank" rel="noopener">🔗 Link</a>
+
+        
+        <details class="questions-section">
+            <summary class="questions-toggle">Open Questions</summary>
+            <ul class="question-list"><li>Why is the connection between the Grant Administration and Black Grassroots Political Mobilization absent from standard historical narratives?</li><li>Could any of the intermediary figures have served as unwitting conduits for broader historical forces?</li><li>What historical role has Jay Gould, Wilson played that mainstream accounts minimize or omit?</li></ul>
+        </details>
+    </article>
+
+    <article class="finding-card tier-b" data-score="19">
+        <div class="card-header">
+            <div class="rank-badge">46</div>
+            <div class="score-pill tier-b">19/30 🔍 NOTABLE</div>
+            <div class="degree-badge"><span class='glyph'>🔴</span> 5°</div>
+        </div>
+        <h2 class="finding-title">Secret Loom: Watergate → Richard M. Nixon (5-Degree Link)</h2>
+        <p class="finding-teaser">A 5-step chain linking Watergate to Richard M. Nixon</p>
+
+        <div class="path-chain">
+            <span class="entity">Watergate</span><span class="arrow">→</span><span class="entity">William Sargant</span><span class="arrow">→</span><span class="entity">U.S. General Accounting Office</span><span class="arrow">→</span><span class="entity">John Ranelagh</span><span class="arrow">→</span><span class="entity">The Watergate</span><span class="arrow">→</span><span class="entity">Richard M. Nixon</span>
+        </div>
+
+        <a href="https://en.wikipedia.org/wiki/MK-Ultra" class="source-link" target="_blank" rel="noopener">🔗 Link</a><a href="https://en.wikipedia.org/wiki/MK-Ultra" class="source-link" target="_blank" rel="noopener">🔗 Link</a><a href="https://en.wikipedia.org/wiki/MK-Ultra" class="source-link" target="_blank" rel="noopener">🔗 Link</a>
+
+        
+        <details class="questions-section">
+            <summary class="questions-toggle">Open Questions</summary>
+            <ul class="question-list"><li>What historical role has William Sargant, U.S. General Accounting Office played that mainstream accounts minimize or omit?</li><li>What documents or correspondence between these figures remain classified, lost, or uncatalogued?</li><li>Why is the connection between Watergate and Richard M. Nixon absent from standard historical narratives?</li></ul>
+        </details>
+    </article>
+
+    <article class="finding-card tier-b" data-score="19">
+        <div class="card-header">
+            <div class="rank-badge">47</div>
+            <div class="score-pill tier-b">19/30 🔍 NOTABLE</div>
+            <div class="degree-badge"><span class='glyph'>🔴</span> 3°</div>
+        </div>
+        <h2 class="finding-title">Hidden Nexus: Elvis Presley → Pol Pot (3-Degree Link)</h2>
+        <p class="finding-teaser">A 3-step chain linking Elvis Presley to Pol Pot</p>
+
+        <div class="path-chain">
+            <span class="entity">Elvis Presley</span><span class="arrow">→</span><span class="entity">FIFA World Cup</span><span class="arrow">→</span><span class="entity">Zhou Enlai</span><span class="arrow">→</span><span class="entity">Pol Pot</span>
+        </div>
+
+        <a href="https://en.wikipedia.org/wiki/We_Didn&#x27;t_Start_the_Fire" class="source-link" target="_blank" rel="noopener">🔗 Link</a><a href="https://en.wikipedia.org/wiki/We_Didn&#x27;t_Start_the_Fire" class="source-link" target="_blank" rel="noopener">🔗 Link</a><a href="https://en.wikipedia.org/wiki/Indonesian_mass_killings_of_1965–66" class="source-link" target="_blank" rel="noopener">🔗 Link</a>
+
+        
+        <details class="questions-section">
+            <summary class="questions-toggle">Open Questions</summary>
+            <ul class="question-list"><li>Are there other undiscovered chains linking Elvis Presley to Pol Pot through different intermediary figures?</li><li>Could any of the intermediary figures have served as unwitting conduits for broader historical forces?</li><li>What documents or correspondence between these figures remain classified, lost, or uncatalogued?</li></ul>
+        </details>
+    </article>
+
+    <article class="finding-card tier-b" data-score="19">
+        <div class="card-header">
+            <div class="rank-badge">48</div>
+            <div class="score-pill tier-b">19/30 🔍 NOTABLE</div>
+            <div class="degree-badge"><span class='glyph'>🔴</span> 5°</div>
+        </div>
+        <h2 class="finding-title">Secret Loom: the Paris Peace Accords → the Mayfield Road Mob (5-Degree Link)</h2>
+        <p class="finding-teaser">A 5-step chain linking the Paris Peace Accords to the Mayfield Road Mob</p>
+
+        <div class="path-chain">
+            <span class="entity">the Paris Peace Accords</span><span class="arrow">→</span><span class="entity">Robert Bork</span><span class="arrow">→</span><span class="entity">Edward Bennett Williams</span><span class="arrow">→</span><span class="entity">Greenwood Press</span><span class="arrow">→</span><span class="entity">S. HRG.</span><span class="arrow">→</span><span class="entity">the Mayfield Road Mob</span>
+        </div>
+
+        <a href="https://en.wikipedia.org/wiki/Impeachment_process_against_Richard_Nixon" class="source-link" target="_blank" rel="noopener">🔗 Link</a><a href="https://en.wikipedia.org/wiki/Robert_Bork" class="source-link" target="_blank" rel="noopener">🔗 Link</a><a href="https://en.wikipedia.org/wiki/Richard_Helms" class="source-link" target="_blank" rel="noopener">🔗 Link</a>
+
+        
+        <details class="questions-section">
+            <summary class="questions-toggle">Open Questions</summary>
+            <ul class="question-list"><li>What historical role has Robert Bork, Edward Bennett Williams played that mainstream accounts minimize or omit?</li><li>How do the financial or patronage networks connecting these figures compare to better-documented historical networks?</li><li>Are there other undiscovered chains linking the Paris Peace Accords to the Mayfield Road Mob through different intermediary figures?</li></ul>
+        </details>
+    </article>
+
+    <article class="finding-card tier-b" data-score="19">
+        <div class="card-header">
+            <div class="rank-badge">49</div>
+            <div class="score-pill tier-b">19/30 🔍 NOTABLE</div>
+            <div class="degree-badge"><span class='glyph'>🔴</span> 4°</div>
+        </div>
+        <h2 class="finding-title">Shadow Chain: Clyde Tolson → the American Revolutionary War (4-Degree Link)</h2>
+        <p class="finding-teaser">A 4-step chain linking Clyde Tolson to the American Revolutionary War</p>
+
+        <div class="path-chain">
+            <span class="entity">Clyde Tolson</span><span class="arrow">→</span><span class="entity">the Training Division</span><span class="arrow">→</span><span class="entity">William Rehnquist</span><span class="arrow">→</span><span class="entity">Lewis Powell</span><span class="arrow">→</span><span class="entity">the American Revolutionary War</span>
+        </div>
+
+        <a href="https://en.wikipedia.org/wiki/Mark_Felt" class="source-link" target="_blank" rel="noopener">🔗 Link</a><a href="https://en.wikipedia.org/wiki/Mark_Felt" class="source-link" target="_blank" rel="noopener">🔗 Link</a><a href="https://en.wikipedia.org/wiki/Robert_Bork" class="source-link" target="_blank" rel="noopener">🔗 Link</a>
+
+        
+        <details class="questions-section">
+            <summary class="questions-toggle">Open Questions</summary>
+            <ul class="question-list"><li>Could any of the intermediary figures have served as unwitting conduits for broader historical forces?</li><li>What historical role has the Training Division, William Rehnquist played that mainstream accounts minimize or omit?</li><li>How do the financial or patronage networks connecting these figures compare to better-documented historical networks?</li></ul>
+        </details>
+    </article>
+
+    <article class="finding-card tier-b" data-score="19">
+        <div class="card-header">
+            <div class="rank-badge">50</div>
+            <div class="score-pill tier-b">19/30 🔍 NOTABLE</div>
+            <div class="degree-badge"><span class='glyph'>🔴</span> 3°</div>
+        </div>
+        <h2 class="finding-title">Hidden Nexus: Washington National Cathedral → Clyde Barrow (3-Degree Link)</h2>
+        <p class="finding-teaser">A 3-step chain linking Washington National Cathedral to Clyde Barrow</p>
+
+        <div class="path-chain">
+            <span class="entity">Washington National Cathedral</span><span class="arrow">→</span><span class="entity">George Bush</span><span class="arrow">→</span><span class="entity">Barrow</span><span class="arrow">→</span><span class="entity">Clyde Barrow</span>
+        </div>
+
+        <a href="https://en.wikipedia.org/wiki/George_H._W._Bush" class="source-link" target="_blank" rel="noopener">🔗 Link</a><a href="https://en.wikipedia.org/wiki/John_Conyers" class="source-link" target="_blank" rel="noopener">🔗 Link</a><a href="https://en.wikipedia.org/wiki/Bonnie_and_Clyde" class="source-link" target="_blank" rel="noopener">🔗 Link</a>
+
+        
+        <details class="questions-section">
+            <summary class="questions-toggle">Open Questions</summary>
+            <ul class="question-list"><li>What documents or correspondence between these figures remain classified, lost, or uncatalogued?</li><li>Are there contemporaneous newspaper accounts or private letters that mention Washington National Cathedral and Clyde Barrow in the same context?</li><li>Could any of the intermediary figures have served as unwitting conduits for broader historical forces?</li></ul>
+        </details>
+    </article>
+        </div>
+    </div>
+
+    <div class="entity-cloud">
+        <h3>Most Connected Entities</h3>
+        <div class="entity-tags" id="entity-cloud">
+            <span class="entity-tag">Schuyler Colfax (9)</span><span class="entity-tag">Confederate (9)</span><span class="entity-tag">George Bush (9)</span><span class="entity-tag">Watergate (5)</span><span class="entity-tag">the Mayfield Road Mob (4)</span><span class="entity-tag">George Herbert Walker Bush (3)</span><span class="entity-tag">Eric Foner (3)</span><span class="entity-tag">James Ford Rhodes (3)</span><span class="entity-tag">Wilson (3)</span><span class="entity-tag">Fordham University Press (3)</span><span class="entity-tag">William T. Sherman (3)</span><span class="entity-tag">William Casey (3)</span><span class="entity-tag">Horace Greeley (3)</span><span class="entity-tag">Carl Bernstein (3)</span><span class="entity-tag">Robert Bork (3)</span><span class="entity-tag">the Vietnam War (2)</span><span class="entity-tag">Irving Berlin (2)</span><span class="entity-tag">the Cleveland Mob (2)</span><span class="entity-tag">the Office of Special Operations (2)</span><span class="entity-tag">The House of Representatives (2)</span><span class="entity-tag">Benjamin Wade (2)</span><span class="entity-tag">Homer Van Meter (2)</span><span class="entity-tag">John Dillinger (2)</span><span class="entity-tag">The Wall Street Journal (2)</span><span class="entity-tag">Howard W. Smith (2)</span><span class="entity-tag">Bugsy Siegel (2)</span><span class="entity-tag">Chicago Tribune (2)</span><span class="entity-tag">Richard M. Nixon (2)</span><span class="entity-tag">Howard Hughes (2)</span><span class="entity-tag">the Grant Administration (2)</span>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>Hidden History Engine • <a href="https://github.com/AjkurianAssistant/hidden-history-vault">GitHub</a> • Updated daily at 6AM EST</p>
+        <p>Generated with poolside/laguna-s-2.1 via OpenRouter • Free tier</p>
+    </div>
+
+    <script>
+        // Starfield parallax
+        (function() {
+            const canvas = document.getElementById('stars');
+            const ctx = canvas.getContext('2d');
+            let stars = [];
+            const numStars = 200;
+            let mouseX = 0, mouseY = 0;
+
+            function resize() {
+                canvas.width = window.innerWidth;
+                canvas.height = window.innerHeight;
+            }
+
+            function init() {
+                resize();
+                stars = [];
+                for (let i = 0; i < numStars; i++) {
+                    stars.push({
+                        x: Math.random() * canvas.width,
+                        y: Math.random() * canvas.height,
+                        z: Math.random() * 3,
+                        size: Math.random() * 2 + 0.5,
+                        opacity: Math.random() * 0.5 + 0.3
+                    });
+                }
+            }
+
+            function animate() {
+                ctx.clearRect(0, 0, canvas.width, canvas.height);
+                stars.forEach(s => {
+                    const parallaxX = (mouseX - canvas.width / 2) / canvas.width * s.z * 2;
+                    const parallaxY = (mouseY - canvas.height / 2) / canvas.height * s.z * 2;
+                    ctx.fillStyle = `rgba(255, 255, 255, ${s.opacity})`;
+                    ctx.beginPath();
+                    ctx.arc(s.x + parallaxX, s.y + parallaxY, s.size, 0, Math.PI * 2);
+                    ctx.fill();
+                });
+                requestAnimationFrame(animate);
+            }
+
+            window.addEventListener('mousemove', e => {
+                mouseX = e.clientX;
+                mouseY = e.clientY;
+            });
+            window.addEventListener('resize', init);
+
+            init();
+            animate();
+        })();
+
+        // Tab switching
+        function showTab(tabId) {
+            document.querySelectorAll('.tab-content').forEach(tc => tc.classList.remove('active'));
+            document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+            document.getElementById(tabId).classList.add('active');
+            event.target.classList.add('active');
+        }
+
+        // Staggered card animation on load
+        document.addEventListener('DOMContentLoaded', () => {
+            document.querySelectorAll('.finding-card').forEach((card, i) => {
+                card.style.animationDelay = (i * 0.05) + 's';
+            });
+
+            // Entity cloud tags
+            const entities = ["Schuyler Colfax", "Confederate", "George Bush", "Watergate", "the Mayfield Road Mob", "George Herbert Walker Bush", "Eric Foner", "James Ford Rhodes", "Wilson", "Fordham University Press", "William T. Sherman", "William Casey", "Horace Greeley", "Carl Bernstein", "Robert Bork", "the Vietnam War", "Irving Berlin", "the Cleveland Mob", "the Office of Special Operations", "The House of Representatives", "Benjamin Wade", "Homer Van Meter", "John Dillinger", "The Wall Street Journal", "Howard W. Smith", "Bugsy Siegel", "Chicago Tribune", "Richard M. Nixon", "Howard Hughes", "the Grant Administration"];
+            const cloud = document.getElementById('entity-cloud');
+            entities.forEach(e => {
+                const tag = document.createElement('span');
+                tag.className = 'entity-tag';
+                tag.textContent = e;
+                tag.onclick = () => {
+                    // Highlight finding containing this entity
+                    document.querySelectorAll('.finding-card').forEach(c => {
+                        c.style.display = c.textContent.includes(e) ? '' : 'none';
+                    });
+                };
+                cloud.appendChild(tag);
+            });
+        });
+    </script>
+</body>
+</html>
