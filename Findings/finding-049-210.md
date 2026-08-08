@@ -1,57 +1,57 @@
 ---
-title: "Shadow Chain: the Department of Justice → Fordham University Press (4-Degree Link)"
-teaser: "A 4-step chain linking the Department of Justice to Fordham University Press"
-scores: {"novelty": 6, "evidence_strength": 6, "narrative_potential": 9}
+title: "Shadow Chain: House of Representatives → Chicago Tribune (4-Degree Link)"
+teaser: "A 4-step chain linking House of Representatives to Chicago Tribune"
+scores: {"novelty": 7, "evidence_strength": 5, "narrative_potential": 9}
 total_score: 21
 degrees_of_separation: 4
-entities: ["the Department of Justice", "Howard W. Smith", "Reconstruction", "Thaddeus Stevens", "Fordham University Press"]
+entities: ["House of Representatives", "Frances Perkins", "the Patient Protection", "Labor History", "Chicago Tribune"]
 evidence_type: "mixed"
-date_generated: 2026-08-07
+date_generated: 2026-08-08
 ---
 
-# Shadow Chain: the Department of Justice → Fordham University Press (4-Degree Link)
+# Shadow Chain: House of Representatives → Chicago Tribune (4-Degree Link)
 
-**Teaser:** A 4-step chain linking the Department of Justice to Fordham University Press
+**Teaser:** A 4-step chain linking House of Representatives to Chicago Tribune
 
 ## Hidden Chain
 
-1. [[the Department of Justice]] —[**cooccurrence**]→ [[Howard W. Smith]]
-   > Co-occurrence in article: National Labor Relations Board
-   [Link](https://en.wikipedia.org/wiki/National_Labor_Relations_Board)
+1. [[House of Representatives]] —[**cooccurrence**]→ [[Frances Perkins]]
+   > Co-occurrence in article: 2011 United States public employee protests
+   [Link](https://en.wikipedia.org/wiki/2011_United_States_public_employee_protests)
 
-2. [[Howard W. Smith]] —[**cooccurrence**]→ [[Reconstruction]]
-   > Co-occurrence in article: Lyndon B. Johnson
-   [Link](https://en.wikipedia.org/wiki/Lyndon_B._Johnson)
+2. [[Frances Perkins]] —[**cooccurrence**]→ [[the Patient Protection]]
+   > Co-occurrence in article: Fair Labor Standards Act of 1938
+   [Link](https://en.wikipedia.org/wiki/Fair_Labor_Standards_Act_of_1938)
 
-3. [[Reconstruction]] —[**cooccurrence**]→ [[Thaddeus Stevens]]
-   > Co-occurrence in article: United States Senate Select Committee to Consider and Report on the Message of the House in Relation to the Impeachment of the President
-   [Link](https://en.wikipedia.org/wiki/United_States_Senate_Select_Committee_to_Consider_and_Report_on_the_Message_of_the_House_in_Relation_to_the_Impeachment_of_the_President)
+3. [[the Patient Protection]] —[**cooccurrence**]→ [[Labor History]]
+   > Co-occurrence in article: Alliance for Retired Americans
+   [Link](https://en.wikipedia.org/wiki/Alliance_for_Retired_Americans)
 
-4. [[Thaddeus Stevens]] —[**cooccurrence**]→ [[Fordham University Press]]
-   > Co-occurrence in article: Special Field Orders No. 15
-   [Link](https://en.wikipedia.org/wiki/Special_Field_Orders_No._15)
+4. [[Labor History]] —[**cooccurrence**]→ [[Chicago Tribune]]
+   > Co-occurrence in article: Farm Labor Organizing Committee
+   [Link](https://en.wikipedia.org/wiki/Farm_Labor_Organizing_Committee)
 
 ## Source Trail
 
-Hop 1: the Department of Justice → Howard W. Smith
+Hop 1: House of Representatives → Frances Perkins
   - Edge type: cooccurrence
-  - Source: Co-occurrence in article: National Labor Relations Board
-  - URL: https://en.wikipedia.org/wiki/National_Labor_Relations_Board
+  - Source: Co-occurrence in article: 2011 United States public employee protests
+  - URL: https://en.wikipedia.org/wiki/2011_United_States_public_employee_protests
 
-Hop 2: Howard W. Smith → Reconstruction
+Hop 2: Frances Perkins → the Patient Protection
   - Edge type: cooccurrence
-  - Source: Co-occurrence in article: Lyndon B. Johnson
-  - URL: https://en.wikipedia.org/wiki/Lyndon_B._Johnson
+  - Source: Co-occurrence in article: Fair Labor Standards Act of 1938
+  - URL: https://en.wikipedia.org/wiki/Fair_Labor_Standards_Act_of_1938
 
-Hop 3: Reconstruction → Thaddeus Stevens
+Hop 3: the Patient Protection → Labor History
   - Edge type: cooccurrence
-  - Source: Co-occurrence in article: United States Senate Select Committee to Consider and Report on the Message of the House in Relation to the Impeachment of the President
-  - URL: https://en.wikipedia.org/wiki/United_States_Senate_Select_Committee_to_Consider_and_Report_on_the_Message_of_the_House_in_Relation_to_the_Impeachment_of_the_President
+  - Source: Co-occurrence in article: Alliance for Retired Americans
+  - URL: https://en.wikipedia.org/wiki/Alliance_for_Retired_Americans
 
-Hop 4: Thaddeus Stevens → Fordham University Press
+Hop 4: Labor History → Chicago Tribune
   - Edge type: cooccurrence
-  - Source: Co-occurrence in article: Special Field Orders No. 15
-  - URL: https://en.wikipedia.org/wiki/Special_Field_Orders_No._15
+  - Source: Co-occurrence in article: Farm Labor Organizing Committee
+  - URL: https://en.wikipedia.org/wiki/Farm_Labor_Organizing_Committee
 
 
 ## Inference Layer
@@ -62,8 +62,8 @@ This longer chain requires a careful reading of intermediary relationships. The 
 
 ## Open Questions
 
-- What documents or correspondence between these figures remain classified, lost, or uncatalogued?
-- Are there contemporaneous newspaper accounts or private letters that mention the Department of Justice and Fordham University Press in the same context?
+- What historical role has Frances Perkins, the Patient Protection played that mainstream accounts minimize or omit?
+- How do the financial or patronage networks connecting these figures compare to better-documented historical networks?
+- Are there other undiscovered chains linking House of Representatives to Chicago Tribune through different intermediary figures?
+- Why is the connection between House of Representatives and Chicago Tribune absent from standard historical narratives?
 - Could any of the intermediary figures have served as unwitting conduits for broader historical forces?
-- Why is the connection between the Department of Justice and Fordham University Press absent from standard historical narratives?
-- Are there other undiscovered chains linking the Department of Justice to Fordham University Press through different intermediary figures?

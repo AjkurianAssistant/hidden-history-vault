@@ -1,48 +1,48 @@
 ---
-title: "Hidden Nexus: The House of Representatives → Benjamin Wade (3-Degree Link)"
-teaser: "A 3-step chain linking The House of Representatives to Benjamin Wade"
-scores: {"novelty": 9, "evidence_strength": 8, "narrative_potential": 8}
+title: "Hidden Nexus: the American Mafia → Stanford White (3-Degree Link)"
+teaser: "A 3-step chain linking the American Mafia to Stanford White"
+scores: {"novelty": 7, "evidence_strength": 8, "narrative_potential": 10}
 total_score: 25
 degrees_of_separation: 3
-entities: ["The House of Representatives", "Schuyler Colfax", "Confederate", "Benjamin Wade"]
+entities: ["the American Mafia", "Lucky Luciano", "NBC", "Stanford White"]
 evidence_type: "mixed"
-date_generated: 2026-08-07
+date_generated: 2026-08-08
 ---
 
-# Hidden Nexus: The House of Representatives → Benjamin Wade (3-Degree Link)
+# Hidden Nexus: the American Mafia → Stanford White (3-Degree Link)
 
-**Teaser:** A 3-step chain linking The House of Representatives to Benjamin Wade
+**Teaser:** A 3-step chain linking the American Mafia to Stanford White
 
 ## Hidden Chain
 
-1. [[The House of Representatives]] —[**cooccurrence**]→ [[Schuyler Colfax]]
-   > Co-occurrence in article: United States Senate Select Committee to Consider and Report on the Message of the House in Relation to the Impeachment of the President
-   [Link](https://en.wikipedia.org/wiki/United_States_Senate_Select_Committee_to_Consider_and_Report_on_the_Message_of_the_House_in_Relation_to_the_Impeachment_of_the_President)
+1. [[the American Mafia]] —[**cooccurrence**]→ [[Lucky Luciano]]
+   > Co-occurrence in article: Frank Milano (mobster)
+   [Link](https://en.wikipedia.org/wiki/Frank_Milano_(mobster))
 
-2. [[Schuyler Colfax]] —[**cooccurrence**]→ [[Confederate]]
-   > Co-occurrence in article: United States Senate Select Committee to Consider and Report on the Message of the House in Relation to the Impeachment of the President
-   [Link](https://en.wikipedia.org/wiki/United_States_Senate_Select_Committee_to_Consider_and_Report_on_the_Message_of_the_House_in_Relation_to_the_Impeachment_of_the_President)
+2. [[Lucky Luciano]] —[**cooccurrence**]→ [[NBC]]
+   > Co-occurrence in article: Rod Steiger
+   [Link](https://en.wikipedia.org/wiki/Rod_Steiger)
 
-3. [[Confederate]] —[**cooccurrence**]→ [[Benjamin Wade]]
-   > Co-occurrence in article: United States Senate Select Committee to Consider and Report on the Message of the House in Relation to the Impeachment of the President
-   [Link](https://en.wikipedia.org/wiki/United_States_Senate_Select_Committee_to_Consider_and_Report_on_the_Message_of_the_House_in_Relation_to_the_Impeachment_of_the_President)
+3. [[NBC]] —[**cooccurrence**]→ [[Stanford White]]
+   > Co-occurrence in article: The Gilded Age (TV series)
+   [Link](https://en.wikipedia.org/wiki/The_Gilded_Age_(TV_series))
 
 ## Source Trail
 
-Hop 1: The House of Representatives → Schuyler Colfax
+Hop 1: the American Mafia → Lucky Luciano
   - Edge type: cooccurrence
-  - Source: Co-occurrence in article: United States Senate Select Committee to Consider and Report on the Message of the House in Relation to the Impeachment of the President
-  - URL: https://en.wikipedia.org/wiki/United_States_Senate_Select_Committee_to_Consider_and_Report_on_the_Message_of_the_House_in_Relation_to_the_Impeachment_of_the_President
+  - Source: Co-occurrence in article: Frank Milano (mobster)
+  - URL: https://en.wikipedia.org/wiki/Frank_Milano_(mobster)
 
-Hop 2: Schuyler Colfax → Confederate
+Hop 2: Lucky Luciano → NBC
   - Edge type: cooccurrence
-  - Source: Co-occurrence in article: United States Senate Select Committee to Consider and Report on the Message of the House in Relation to the Impeachment of the President
-  - URL: https://en.wikipedia.org/wiki/United_States_Senate_Select_Committee_to_Consider_and_Report_on_the_Message_of_the_House_in_Relation_to_the_Impeachment_of_the_President
+  - Source: Co-occurrence in article: Rod Steiger
+  - URL: https://en.wikipedia.org/wiki/Rod_Steiger
 
-Hop 3: Confederate → Benjamin Wade
+Hop 3: NBC → Stanford White
   - Edge type: cooccurrence
-  - Source: Co-occurrence in article: United States Senate Select Committee to Consider and Report on the Message of the House in Relation to the Impeachment of the President
-  - URL: https://en.wikipedia.org/wiki/United_States_Senate_Select_Committee_to_Consider_and_Report_on_the_Message_of_the_House_in_Relation_to_the_Impeachment_of_the_President
+  - Source: Co-occurrence in article: The Gilded Age (TV series)
+  - URL: https://en.wikipedia.org/wiki/The_Gilded_Age_(TV_series)
 
 
 ## Inference Layer
@@ -51,7 +51,7 @@ This direct chain suggests a documented historical overlap between the two figur
 
 ## Open Questions
 
-- What historical role has Schuyler Colfax, Confederate played that mainstream accounts minimize or omit?
-- Why is the connection between The House of Representatives and Benjamin Wade absent from standard historical narratives?
-- Could the institutional positions held by The House of Representatives and Benjamin Wade have created indirect contact never officially recorded?
+- Are there other undiscovered chains linking the American Mafia to Stanford White through different intermediary figures?
+- What documents or correspondence between these figures remain classified, lost, or uncatalogued?
 - How do the financial or patronage networks connecting these figures compare to better-documented historical networks?
+- Could the institutional positions held by the American Mafia and Stanford White have created indirect contact never officially recorded?

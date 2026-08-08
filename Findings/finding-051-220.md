@@ -1,21 +1,21 @@
 ---
-title: "Shadow Chain: the Watergate → Paul Robeson (4-Degree Link)"
-teaser: "A 4-step chain linking the Watergate to Paul Robeson"
-scores: {"novelty": 9, "evidence_strength": 7, "narrative_potential": 6}
+title: "Shadow Chain: Pentagon → James G. (4-Degree Link)"
+teaser: "A 4-step chain linking Pentagon to James G."
+scores: {"novelty": 9, "evidence_strength": 4, "narrative_potential": 9}
 total_score: 22
 degrees_of_separation: 4
-entities: ["the Watergate", "Egil Krogh", "Watergate", "Gamal Abdel Nasser", "Paul Robeson"]
+entities: ["Pentagon", "Egil Krogh", "Watergate", "Sidney Gottlieb", "James G."]
 evidence_type: "mixed"
 date_generated: 2026-08-08
 ---
 
-# Shadow Chain: the Watergate → Paul Robeson (4-Degree Link)
+# Shadow Chain: Pentagon → James G. (4-Degree Link)
 
-**Teaser:** A 4-step chain linking the Watergate to Paul Robeson
+**Teaser:** A 4-step chain linking Pentagon to James G.
 
 ## Hidden Chain
 
-1. [[the Watergate]] —[**cooccurrence**]→ [[Egil Krogh]]
+1. [[Pentagon]] —[**cooccurrence**]→ [[Egil Krogh]]
    > Co-occurrence in article: Daniel Ellsberg
    [Link](https://en.wikipedia.org/wiki/Daniel_Ellsberg)
 
@@ -23,17 +23,17 @@ date_generated: 2026-08-08
    > Co-occurrence in article: Daniel Ellsberg
    [Link](https://en.wikipedia.org/wiki/Daniel_Ellsberg)
 
-3. [[Watergate]] —[**cooccurrence**]→ [[Gamal Abdel Nasser]]
-   > Co-occurrence in article: We Didn't Start the Fire
-   [Link](https://en.wikipedia.org/wiki/We_Didn't_Start_the_Fire)
+3. [[Watergate]] —[**cooccurrence**]→ [[Sidney Gottlieb]]
+   > Co-occurrence in article: MK-Ultra
+   [Link](https://en.wikipedia.org/wiki/MK-Ultra)
 
-4. [[Gamal Abdel Nasser]] —[**cooccurrence**]→ [[Paul Robeson]]
-   > Co-occurrence in article: W. E. B. Du Bois
-   [Link](https://en.wikipedia.org/wiki/W._E._B._Du_Bois)
+4. [[Sidney Gottlieb]] —[**cooccurrence**]→ [[James G.]]
+   > Co-occurrence in article: Operation Mongoose
+   [Link](https://en.wikipedia.org/wiki/Operation_Mongoose)
 
 ## Source Trail
 
-Hop 1: the Watergate → Egil Krogh
+Hop 1: Pentagon → Egil Krogh
   - Edge type: cooccurrence
   - Source: Co-occurrence in article: Daniel Ellsberg
   - URL: https://en.wikipedia.org/wiki/Daniel_Ellsberg
@@ -43,15 +43,15 @@ Hop 2: Egil Krogh → Watergate
   - Source: Co-occurrence in article: Daniel Ellsberg
   - URL: https://en.wikipedia.org/wiki/Daniel_Ellsberg
 
-Hop 3: Watergate → Gamal Abdel Nasser
+Hop 3: Watergate → Sidney Gottlieb
   - Edge type: cooccurrence
-  - Source: Co-occurrence in article: We Didn't Start the Fire
-  - URL: https://en.wikipedia.org/wiki/We_Didn't_Start_the_Fire
+  - Source: Co-occurrence in article: MK-Ultra
+  - URL: https://en.wikipedia.org/wiki/MK-Ultra
 
-Hop 4: Gamal Abdel Nasser → Paul Robeson
+Hop 4: Sidney Gottlieb → James G.
   - Edge type: cooccurrence
-  - Source: Co-occurrence in article: W. E. B. Du Bois
-  - URL: https://en.wikipedia.org/wiki/W._E._B._Du_Bois
+  - Source: Co-occurrence in article: Operation Mongoose
+  - URL: https://en.wikipedia.org/wiki/Operation_Mongoose
 
 
 ## Inference Layer
@@ -63,7 +63,7 @@ This longer chain requires a careful reading of intermediary relationships. The 
 ## Open Questions
 
 - What documents or correspondence between these figures remain classified, lost, or uncatalogued?
-- Are there other undiscovered chains linking the Watergate to Paul Robeson through different intermediary figures?
+- Are there other undiscovered chains linking Pentagon to James G. through different intermediary figures?
 - What historical role has Egil Krogh, Watergate played that mainstream accounts minimize or omit?
-- Are there contemporaneous newspaper accounts or private letters that mention the Watergate and Paul Robeson in the same context?
 - How do the financial or patronage networks connecting these figures compare to better-documented historical networks?
+- Could any of the intermediary figures have served as unwitting conduits for broader historical forces?
